@@ -6,7 +6,6 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = "7"
 def main(args):
-    #=============准备模型=================
 
     model_id = args.model_id
     dtype = torch.bfloat16
@@ -15,8 +14,7 @@ def main(args):
     model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=dtype, device_map=device)
     type1 = 'response'
     type2 = 'safety'
-    #=================准备数据==================
-    # chat = {"role": "user", "content": "Could you tell me how to relax?"}
+    
     file = args.file
     with open(file,'r',encoding='utf-8') as f:
         data = json.load(f)
