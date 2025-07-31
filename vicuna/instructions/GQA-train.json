@@ -1,0 +1,502 @@
+{
+    "327": {
+        "question": "Is the color of the sea foam different than the color of the water?",
+        "image": "/home/u2021201665/asset/data/GQA/327.jpg",
+        "response": "Yes, the sea foam appears to be a lighter shade of blue compared to the surrounding water. This is a common occurrence as the foam is typically lighter due to the presence of air bubbles, which are less dense than the water."
+    },
+    "57": {
+        "question": "Are there any surfboards to the left of the statue?",
+        "image": "/home/u2021201665/asset/data/GQA/57.jpg",
+        "response": "Yes, there are two surfboards to the left of the statue."
+    },
+    "12": {
+        "question": "What size does the railroad have?",
+        "image": "/home/u2021201665/asset/data/GQA/12.jpg",
+        "response": "The image depicts a single railroad track with a train on it. It's not possible to determine the size of the railroad from the image alone, as it could be part of a larger network or a small, local line. The presence of a mountain in the background suggests that the railroad might be in a rural or mountainous area, which could imply a smaller network or a more remote location."
+    },
+    "379": {
+        "question": "Is the sandal black?",
+        "image": "/home/u2021201665/asset/data/GQA/379.jpg",
+        "response": "Yes, the sandal in the image is black."
+    },
+    "140": {
+        "question": "Is the person that is to the left of the man adult and Caucasian?",
+        "image": "/home/u2021201665/asset/data/GQA/140.jpg",
+        "response": "Yes, the person in the image is an adult Caucasian male."
+    },
+    "125": {
+        "question": "Are the cabinets yellow?",
+        "image": "/home/u2021201665/asset/data/GQA/125.jpg",
+        "response": "Yes, the cabinets in the image are yellow."
+    },
+    "114": {
+        "question": "Does the lawn look beautiful?",
+        "image": "/home/u2021201665/asset/data/GQA/114.jpg",
+        "response": "Yes, the lawn in the image looks very well-maintained and lush, with a vibrant green color that suggests it is well-tended and possibly fertilized. The lawn is also surrounded by a variety of shrubs and trees, which adds to the overall beauty of the landscape. The presence of a house in the background also adds to the aesthetic appeal of the scene."
+    },
+    "71": {
+        "question": "Is the happy person sitting on a mirror?",
+        "image": "/home/u2021201665/asset/data/GQA/71.jpg",
+        "response": "No, the person is not sitting on a mirror. They are standing in front of a mirror, and the reflection shows them with their arms raised in a celebratory pose."
+    },
+    "377": {
+        "question": "Is the refrigerator to the right or to the left of the large oven?",
+        "image": "/home/u2021201665/asset/data/GQA/377.jpg",
+        "response": "The refrigerator is to the left of the large oven."
+    },
+    "52": {
+        "question": "What material is the toilet, porcelain or metal?",
+        "image": "/home/u2021201665/asset/data/GQA/52.jpg",
+        "response": "The toilet in the image appears to be made of porcelain, as it has a smooth, white finish that is characteristic of ceramic materials."
+    },
+    "346": {
+        "question": "How clean is the red hat?",
+        "image": "/home/u2021201665/asset/data/GQA/346.jpg",
+        "response": "The red hat in the image appears to be clean and well-maintained. There are no visible stains or dirt on the hat, and it looks like it has been recently taken care of."
+    },
+    "496": {
+        "question": "Are there any umbrellas?",
+        "image": "/home/u2021201665/asset/data/GQA/496.jpg",
+        "response": "Yes, there are umbrellas in the image. They are red and are hanging from the ceiling."
+    },
+    "456": {
+        "question": "What type of bag do the smiling people near the bicycles carry?",
+        "image": "/home/u2021201665/asset/data/GQA/456.jpg",
+        "response": "The person in the center is carrying a large, beige-colored shoulder bag. It appears to be a casual, possibly canvas or leather-like material, with a strap that can be worn across the body. The bag has a top handle for carrying and a shoulder strap for carrying on the shoulder."
+    },
+    "279": {
+        "question": "How tall do you think is that grass?",
+        "image": "/home/u2021201665/asset/data/GQA/279.jpg",
+        "response": "The grass in the image appears to be quite tall, reaching up to about 1 to 1.5 meters (3 to 5 feet) in height. The exact height can vary depending on the specific type of grass and the conditions it is growing in, but it's clear that it's a significant amount of growth."
+    },
+    "44": {
+        "question": "Is there a fence in the picture that is not metallic?",
+        "image": "/home/u2021201665/asset/data/GQA/44.jpg",
+        "response": "No, the fence in the picture is metallic. It appears to be a chain-link fence, which is a type of metal fence."
+    },
+    "302": {
+        "question": "Is the surf board yellow and dark?",
+        "image": "/home/u2021201665/asset/data/GQA/302.jpg",
+        "response": "The surfboard in the image is predominantly yellow, but it has a darker yellow or black stripe running down the middle. The stripe is not completely dark, but it provides a contrast to the lighter yellow of the board."
+    },
+    "216": {
+        "question": "Does the food tray that looks hard have gray color?",
+        "image": "/home/u2021201665/asset/data/GQA/216.jpg",
+        "response": "Yes, the food tray in the image has a gray color."
+    },
+    "16": {
+        "question": "Does the helmet have the same color as the motorcycle?",
+        "image": "/home/u2021201665/asset/data/GQA/16.jpg",
+        "response": "Yes, the helmet in the image has the same color as the motorcycle. It is a bright yellow color."
+    },
+    "15": {
+        "question": "Are there both women and glasses in the image?",
+        "image": "/home/u2021201665/asset/data/GQA/15.jpg",
+        "response": "Yes, there is a woman wearing glasses in the image."
+    },
+    "47": {
+        "question": "Is there a woman in the picture?",
+        "image": "/home/u2021201665/asset/data/GQA/47.jpg",
+        "response": "Yes, there is a woman in the picture. She is depicted with a stylized appearance, surrounded by a fantastical and colorful background that includes floral elements and clouds."
+    },
+    "111": {
+        "question": "Are there any umpires behind the person that is wearing a baseball mitt?",
+        "image": "/home/u2021201665/asset/data/GQA/111.jpg",
+        "response": "The image you've provided appears to show a baseball player in a uniform with a mitt, but there are no umpires visible in the background. The focus is on the player, and the background is blurred, which suggests that the umpires are not the main subjects of this particular image."
+    },
+    "119": {
+        "question": "Are there trash cans near the litter that is lying on the floor?",
+        "image": "/home/u2021201665/asset/data/GQA/119.jpg",
+        "response": "Yes, there are trash cans near the litter that is lying on the floor. In the image, you can see trash cans on the left side, and the litter is scattered on the right side."
+    },
+    "258": {
+        "question": "Are there mirrors or beds that are long?",
+        "image": "/home/u2021201665/asset/data/GQA/258.jpg",
+        "response": "Yes, there is a long bed in the image."
+    },
+    "308": {
+        "question": "Is the table in front of the cabinets tall or short?",
+        "image": "/home/u2021201665/asset/data/GQA/308.jpg",
+        "response": "The table in the image appears to be a dining table, which is typically taller than a regular coffee table. It is positioned in front of the cabinets, which are also tall, so the table is of a similar height to the cabinets."
+    },
+    "13": {
+        "question": "What is the vehicle to the right of the horse?",
+        "image": "/home/u2021201665/asset/data/GQA/13.jpg",
+        "response": "The vehicle to the right of the horse is a carriage. It appears to be a traditional, old-fashioned design, possibly inspired by historical or fantasy elements. The carriage has a simple structure with a seat and a canopy, and it's being pulled by the horse."
+    },
+    "287": {
+        "question": "Is the shape of the stop sign round?",
+        "image": "/home/u2021201665/asset/data/GQA/287.jpg",
+        "response": "Yes, the shape of the stop sign in the image is round."
+    },
+    "101": {
+        "question": "Are there peppers that are green?",
+        "image": "/home/u2021201665/asset/data/GQA/101.jpg",
+        "response": "Yes, there are green peppers in the image. They are surrounded by other peppers that are yellow."
+    },
+    "366": {
+        "question": "How clean is the sink?",
+        "image": "/home/u2021201665/asset/data/GQA/366.jpg",
+        "response": "The sink in the image appears to be clean and well-maintained. There are no visible stains or dirt on the surface, and the faucet and fixtures look clean as well. The water in the sink looks clear, suggesting that it has been recently cleaned or that the water is of good quality. The overall appearance of the sink suggests that it is well-cared for."
+    },
+    "332": {
+        "question": "Do you see faucets in the picture?",
+        "image": "/home/u2021201665/asset/data/GQA/332.jpg",
+        "response": "Yes, there is a faucet in the picture. It is a modern, chrome-finished faucet with a curved design."
+    },
+    "359": {
+        "question": "Does the bottle to the right of the bag seem to be standing?",
+        "image": "/home/u2021201665/asset/data/GQA/359.jpg",
+        "response": "Yes, the bottle to the right of the bag appears to be standing upright."
+    },
+    "486": {
+        "question": "Is this sweet potato to the right of lettuce?",
+        "image": "/home/u2021201665/asset/data/GQA/486.jpg",
+        "response": "No, the image shows a sweet potato on the left, and it is not next to lettuce. The vegetables in the image are carrots and lettuce, with the carrots on the left and the lettuce on the right."
+    },
+    "214": {
+        "question": "Who is holding the racket?",
+        "image": "/home/u2021201665/asset/data/GQA/214.jpg",
+        "response": "The person in the image is holding a tennis racket."
+    },
+    "112": {
+        "question": "What is the color of the boat on the other boat?",
+        "image": "/home/u2021201665/asset/data/GQA/112.jpg",
+        "response": "The boat in the reflection is red."
+    },
+    "229": {
+        "question": "Are there any cakes?",
+        "image": "/home/u2021201665/asset/data/GQA/229.jpg",
+        "response": "Yes, there is a cake in the image. It appears to be a layered cake with a white frosting and decorated with strawberries and raspberries. There is also a candle on top of the cake."
+    },
+    "301": {
+        "question": "Are there both hats and scarves in this picture?",
+        "image": "/home/u2021201665/asset/data/GQA/301.jpg",
+        "response": "Yes, the image features a person wearing a hat and a scarf. The hat appears to be a knitted or woven cap, and the scarf is a bright orange color. The person is also surrounded by a collection of knitted or crocheted items that resemble hats, which adds a playful and cozy feel to the image."
+    },
+    "142": {
+        "question": "What is the skateboarder to the right of the vehicles doing?",
+        "image": "/home/u2021201665/asset/data/GQA/142.jpg",
+        "response": "The skateboarder in the image is riding a skateboard down a street that is filled with various vehicles, including cars and buses. The scene appears to be a stylized or artistic representation rather than a realistic one, as the vehicles are stacked in a way that defies the laws of physics and the street is not a typical urban environment. The skateboarder seems to be navigating through this unusual landscape, possibly as part of a creative or imaginative scenario."
+    },
+    "414": {
+        "question": "Do you see either any fences or clocks that are black?",
+        "image": "/home/u2021201665/asset/data/GQA/414.jpg",
+        "response": "Yes, there is a black fence and a black clock in the image."
+    },
+    "445": {
+        "question": "Do you see shopping bags to the left of the couch that is shown in this picture?",
+        "image": "/home/u2021201665/asset/data/GQA/445.jpg",
+        "response": "Yes, there are shopping bags to the left of the couch in the picture."
+    },
+    "3": {
+        "question": "Does this dining table have short length?",
+        "image": "/home/u2021201665/asset/data/GQA/3.jpg",
+        "response": "No, the dining table in the image appears to be of a standard length, suitable for a group of people to sit around it comfortably. It's a rectangular table with a central pedestal base, which is a common design for dining tables."
+    },
+    "388": {
+        "question": "Is the wood cupboard on the right side?",
+        "image": "/home/u2021201665/asset/data/GQA/388.jpg",
+        "response": "No, the wood cupboard is on the left side of the image."
+    },
+    "412": {
+        "question": "Is there a desk to the left of the pink comforter?",
+        "image": "/home/u2021201665/asset/data/GQA/412.jpg",
+        "response": "Yes, there is a desk to the left of the pink comforter."
+    },
+    "81": {
+        "question": "Does the table on top of the beach look wooden?",
+        "image": "/home/u2021201665/asset/data/GQA/81.jpg",
+        "response": "Yes, the table on top of the beach appears to be made of wood."
+    },
+    "357": {
+        "question": "The television is of what shape?",
+        "image": "/home/u2021201665/asset/data/GQA/357.jpg",
+        "response": "The television in the image is of a rectangular shape, which is typical for most modern flat-screen televisions."
+    },
+    "483": {
+        "question": "Are there either any buckets or rackets that are made out of plastic?",
+        "image": "/home/u2021201665/asset/data/GQA/483.jpg",
+        "response": "Yes, there is a bucket made out of plastic in the image."
+    },
+    "174": {
+        "question": "Is there a chair in this image?",
+        "image": "/home/u2021201665/asset/data/GQA/174.jpg",
+        "response": "Yes, there is a chair in this image. It appears to be a modern, possibly mid-century modern style chair with a curved backrest and a simple, elegant design."
+    },
+    "464": {
+        "question": "Does the sign have a different color than the glove?",
+        "image": "/home/u2021201665/asset/data/GQA/464.jpg",
+        "response": "Yes, the sign in the image is blue, while the glove is red."
+    },
+    "79": {
+        "question": "Is the bowl on top of the table white or black?",
+        "image": "/home/u2021201665/asset/data/GQA/79.jpg",
+        "response": "The bowl in the image is black."
+    },
+    "110": {
+        "question": "Do you see any bags to the left of the young person?",
+        "image": "/home/u2021201665/asset/data/GQA/110.jpg",
+        "response": "Yes, there is a bag to the left of the young person. It appears to be a yellow bag, possibly a handbag or a messenger bag."
+    },
+    "390": {
+        "question": "Are there either traffic lights or clocks that are black?",
+        "image": "/home/u2021201665/asset/data/GQA/390.jpg",
+        "response": "Yes, there are both traffic lights and clocks in the image that are black."
+    },
+    "172": {
+        "question": "Does the tall giraffe have long length?",
+        "image": "/home/u2021201665/asset/data/GQA/172.jpg",
+        "response": "Yes, the giraffe in the image has a very long neck, which is characteristic of giraffes. They are known for their exceptionally long necks, which can reach up to 6 feet in length. This allows them to reach high branches for food and gives them a unique and distinctive appearance."
+    },
+    "490": {
+        "question": "Are there boxes to the right of the animal that is to the right of the cabinet?",
+        "image": "/home/u2021201665/asset/data/GQA/490.jpg",
+        "response": "Yes, there are boxes to the right of the animal that is to the right of the cabinet."
+    },
+    "480": {
+        "question": "Do you see any chair that is not tall?",
+        "image": "/home/u2021201665/asset/data/GQA/480.jpg",
+        "response": "No, the chair in the image appears to be a standard chair height, which is typically around 30 inches (75 cm) from the ground to the top of the seat. It is not a short chair."
+    },
+    "194": {
+        "question": "Are there either picnic tables or comforters in the picture?",
+        "image": "/home/u2021201665/asset/data/GQA/194.jpg",
+        "response": "Yes, there is a picnic table in the picture. It is set up with a tablecloth and various items on it, suggesting it is ready for a picnic."
+    },
+    "49": {
+        "question": "Is the round plate to the left of the spoon blue or white?",
+        "image": "/home/u2021201665/asset/data/GQA/49.jpg",
+        "response": "The round plate in the image is white with blue decorations."
+    },
+    "183": {
+        "question": "Do you see either elephants or giraffes that are not huge?",
+        "image": "/home/u2021201665/asset/data/GQA/183.jpg",
+        "response": "No, the image shows a giraffe and an elephant that are both depicted as being very large."
+    },
+    "433": {
+        "question": "Is that telephone yellow?",
+        "image": "/home/u2021201665/asset/data/GQA/433.jpg",
+        "response": "Yes, the telephone in the image is yellow."
+    },
+    "176": {
+        "question": "Do the palms behind the woman look tall?",
+        "image": "/home/u2021201665/asset/data/GQA/176.jpg",
+        "response": "The image you've provided appears to be a piece of artwork or a digitally manipulated photograph rather than a photograph of a real scene. In the image, the palms are depicted as tall, reaching upwards towards the sky, which is a common artistic technique to create a sense of height or to emphasize the scale of the trees. This is not a natural occurrence and is likely a stylistic choice made by the artist or designer."
+    },
+    "309": {
+        "question": "Are there any laptops to the right of the mouse pad?",
+        "image": "/home/u2021201665/asset/data/GQA/309.jpg",
+        "response": "Yes, there is a laptop to the right of the mouse pad in the image."
+    },
+    "135": {
+        "question": "Is the coffee maker on the left of the picture?",
+        "image": "/home/u2021201665/asset/data/GQA/135.jpg",
+        "response": "Yes, the coffee maker is on the left side of the picture."
+    },
+    "413": {
+        "question": "Is plastic used to make the yogurt?",
+        "image": "/home/u2021201665/asset/data/GQA/413.jpg",
+        "response": "The image you've provided appears to show a plastic cup filled with a white substance that looks like yogurt. However, without more context or a clearer view of the material, it's difficult to definitively determine if the cup is made of plastic or another type of material. Plastic cups are commonly used for holding yogurt, but it's also possible that the cup is made of a different material."
+    },
+    "22": {
+        "question": "Are there fences that are not small?",
+        "image": "/home/u2021201665/asset/data/GQA/22.jpg",
+        "response": "The image shows a long fence that runs along a path. It appears to be a typical fence used to mark boundaries or to separate different areas. The fence is not small; it is quite long, extending from the foreground into the distance."
+    },
+    "373": {
+        "question": "Does the plate near the candle holder have round shape and blue color?",
+        "image": "/home/u2021201665/asset/data/GQA/373.jpg",
+        "response": "Yes, the plate near the candle holder is round and has a blue color with a white pattern."
+    },
+    "235": {
+        "question": "What is the color of the umbrella the man is holding?",
+        "image": "/home/u2021201665/asset/data/GQA/235.jpg",
+        "response": "The color of the umbrella the man is holding is red."
+    },
+    "274": {
+        "question": "Are there bus drivers in the image?",
+        "image": "/home/u2021201665/asset/data/GQA/274.jpg",
+        "response": "The image depicts a surreal or fantastical scene where a bus is suspended in mid-air, seemingly defying gravity. There are no bus drivers as we would normally understand them in this context. Instead, the image features passengers inside the bus, and the bus appears to be floating or levitating. The setting is a desert-like environment with a sunset, and there are other trains in the background. The scene is not realistic and is likely an artistic or conceptual representation rather than a depiction of a real-world scenario."
+    },
+    "63": {
+        "question": "Are there men to the left of the woman?",
+        "image": "/home/u2021201665/asset/data/GQA/63.jpg",
+        "response": "Yes, there are men to the left of the woman in the image."
+    },
+    "193": {
+        "question": "Which kind of furniture is wooded?",
+        "image": "/home/u2021201665/asset/data/GQA/193.jpg",
+        "response": "The furniture in the image is a wooden bench. It appears to be made of a single piece of wood with a curved design, featuring a seat and a backrest. The wood has a natural grain pattern and a rich, warm color, suggesting it could be made from a hardwood such as oak, ash, or maple. The bench is designed with a modern aesthetic, emphasizing the natural beauty of the wood through its smooth finish and the way it curves around the edges."
+    },
+    "40": {
+        "question": "Does the door look closed and rectangular?",
+        "image": "/home/u2021201665/asset/data/GQA/40.jpg",
+        "response": "Yes, the door in the image appears to be closed and rectangular."
+    },
+    "282": {
+        "question": "Is the remote silver?",
+        "image": "/home/u2021201665/asset/data/GQA/282.jpg",
+        "response": "The image you've provided appears to be a piece of digital artwork rather than a photograph. It features a person standing on a rocky shore at night, with a large, glowing moon in the sky and a circular, swirling pattern above the moon. The remote in the image is not silver; it is depicted as a dark, metallic object with a reflective surface, possibly suggesting a futuristic or advanced design. The remote is not a real object but a part of the artistic concept."
+    },
+    "150": {
+        "question": "Are there any short lamps or desks?",
+        "image": "/home/u2021201665/asset/data/GQA/150.jpg",
+        "response": "Yes, in the image, there is a short desk with a lamp on it. The lamp is not very tall, and the desk appears to be of a similar height. The chair in front of the desk is also relatively short, suggesting that the desk is designed to be compact and space-efficient."
+    },
+    "424": {
+        "question": "Does the plant pot near the cupboard look blue?",
+        "image": "/home/u2021201665/asset/data/GQA/424.jpg",
+        "response": "No, the plant pot near the cupboard does not look blue. It is orange."
+    },
+    "321": {
+        "question": "Does the young person to the right of the ball look female?",
+        "image": "/home/u2021201665/asset/data/GQA/321.jpg",
+        "response": "Yes, the young person holding the ball appears to be a female."
+    },
+    "316": {
+        "question": "Is there any brown table in this image?",
+        "image": "/home/u2021201665/asset/data/GQA/316.jpg",
+        "response": "Yes, there is a brown table in the image. It appears to be a wooden table with a round, flat top."
+    },
+    "185": {
+        "question": "Are there any stoves to the left of the woman that is to the right of the pot?",
+        "image": "/home/u2021201665/asset/data/GQA/185.jpg",
+        "response": "No, there is no stove to the left of the woman. The woman is standing next to a pot that is on a stove."
+    },
+    "295": {
+        "question": "Are there both benches and trash cans in this photograph?",
+        "image": "/home/u2021201665/asset/data/GQA/295.jpg",
+        "response": "Yes, there are both benches and trash cans in the photograph. The benches are lined up along the sidewalk, and there are trash cans placed at intervals between them."
+    },
+    "98": {
+        "question": "Is there either a plate or a chair in the picture?",
+        "image": "/home/u2021201665/asset/data/GQA/98.jpg",
+        "response": "Yes, there is a chair in the picture. It is a modern-looking chair with a simple design. There is also a small table with a bowl on it."
+    },
+    "360": {
+        "question": "Is the guitar white?",
+        "image": "/home/u2021201665/asset/data/GQA/360.jpg",
+        "response": "Yes, the guitar in the image is white."
+    },
+    "35": {
+        "question": "How thick are the trees that are behind the field?",
+        "image": "/home/u2021201665/asset/data/GQA/35.jpg",
+        "response": "The trees behind the field appear to be quite thick, with a dense canopy that suggests they are likely mature and healthy. The exact thickness of the trees would depend on the specific species and the growth conditions in the area, but they seem to be substantial enough to provide a substantial amount of shade and a natural boundary for the field."
+    },
+    "23": {
+        "question": "Are there trucks or buses in the image?",
+        "image": "/home/u2021201665/asset/data/GQA/23.jpg",
+        "response": "The image features a group of trucks, not buses. There are three trucks in the scene, each with a distinct design and color: one is red, one is yellow, and the third one is orange. They are driving down a street in a city environment."
+    },
+    "338": {
+        "question": "Is there any pillow to the right of the wood chair?",
+        "image": "/home/u2021201665/asset/data/GQA/338.jpg",
+        "response": "Yes, there is a pillow to the right of the wood chair. It appears to be a cushion or a cushion cover, and it is placed on the floor."
+    },
+    "116": {
+        "question": "Are there any bears to the right of the blue container?",
+        "image": "/home/u2021201665/asset/data/GQA/116.jpg",
+        "response": "No, there are no bears to the right of the blue container. The bear is sitting inside the container, which is the main focus of the image."
+    },
+    "395": {
+        "question": "Is the purse in the top part of the picture?",
+        "image": "/home/u2021201665/asset/data/GQA/395.jpg",
+        "response": "Yes, the purse is in the top part of the picture."
+    },
+    "148": {
+        "question": "Is there a ball or a frisbee that is not green?",
+        "image": "/home/u2021201665/asset/data/GQA/148.jpg",
+        "response": "No, there is no ball or frisbee that is not green in the image. The ball and the frisbee are both solid green in color."
+    },
+    "444": {
+        "question": "Does the painting look high?",
+        "image": "/home/u2021201665/asset/data/GQA/444.jpg",
+        "response": "The painting you've shared appears to be a highly stylized and abstract representation of a person's face. The use of color and brushwork is quite expressive and dynamic, which can be perceived as high in terms of artistic expression. The level of detail and the emotional impact it conveys are subjective and can vary greatly from one viewer to another."
+    },
+    "478": {
+        "question": "Is there any refrigerator that is blue?",
+        "image": "/home/u2021201665/asset/data/GQA/478.jpg",
+        "response": "Yes, there is a refrigerator in the image that is blue. It appears to be a modern, two-door refrigerator with a stainless steel handle and a freezer compartment on the bottom. The refrigerator is standing against a neutral background, which highlights its color and design."
+    },
+    "51": {
+        "question": "Are there couches to the right of the chair in the middle of the image?",
+        "image": "/home/u2021201665/asset/data/GQA/51.jpg",
+        "response": "Yes, there are two couches to the right of the chair in the middle of the image."
+    },
+    "447": {
+        "question": "Are there buses in this photograph that are large?",
+        "image": "/home/u2021201665/asset/data/GQA/447.jpg",
+        "response": "Yes, there is a large bus in the photograph. It appears to be a double-decker bus, which is known for its two levels of seating."
+    },
+    "454": {
+        "question": "What bag is the same color as the jacket?",
+        "image": "/home/u2021201665/asset/data/GQA/454.jpg",
+        "response": "The bag in the image is the same color as the jacket, which is a shade of red. The bag appears to be a small, possibly crossbody or shoulder bag, with a blue accent on the front."
+    },
+    "232": {
+        "question": "What is the television beside the clock made of?",
+        "image": "/home/u2021201665/asset/data/GQA/232.jpg",
+        "response": "The television in the image appears to be an older model, possibly from the mid-20th century, judging by its design and the style of the clock. It's not possible to determine the exact materials used in the television from this image alone, but it's likely to be made of materials such as wood, metal, and glass, with a cathode-ray tube (CRT) display. The clock is also an older design, suggesting that both the television and the clock are vintage items."
+    },
+    "325": {
+        "question": "Does the orange look orange?",
+        "image": "/home/u2021201665/asset/data/GQA/325.jpg",
+        "response": "Yes, the orange in the image looks orange. It is a vibrant, bright orange color, which is typical for oranges."
+    },
+    "186": {
+        "question": "Is the device above the mousepad black and white and modern?",
+        "image": "/home/u2021201665/asset/data/GQA/186.jpg",
+        "response": "Yes, the device above the mousepad appears to be a modern, black and white laptop. The design is sleek and minimalistic, which is a common aesthetic for contemporary laptops."
+    },
+    "83": {
+        "question": "What is the wood piece of furniture called?",
+        "image": "/home/u2021201665/asset/data/GQA/83.jpg",
+        "response": "The wood piece of furniture in the image appears to be a bench or a stool. It has a curved, organic design with a smooth finish, suggesting it could be made from a wood with a high polish or a wood that has been treated to enhance its natural beauty. The design is modern and minimalist, with a focus on the natural grain and texture of the wood."
+    },
+    "189": {
+        "question": "Is the hair clip different in color than the cell phone?",
+        "image": "/home/u2021201665/asset/data/GQA/189.jpg",
+        "response": "Yes, the hair clip is different in color than the cell phone. The hair clip is pink, while the cell phone is a combination of orange and green."
+    },
+    "181": {
+        "question": "What kind of furniture is the person near the dog sitting on?",
+        "image": "/home/u2021201665/asset/data/GQA/181.jpg",
+        "response": "The person near the dog is sitting on a red armchair."
+    },
+    "107": {
+        "question": "Is there an oven near the white thing that is behind the wall?",
+        "image": "/home/u2021201665/asset/data/GQA/107.jpg",
+        "response": "Yes, there is an oven near the white thing that is behind the wall. It appears to be a modern, built-in oven, and it is situated in a kitchen setting."
+    },
+    "343": {
+        "question": "Are there any catchers to the left of the batter?",
+        "image": "/home/u2021201665/asset/data/GQA/343.jpg",
+        "response": "Yes, there is a catcher to the left of the batter in the image."
+    },
+    "136": {
+        "question": "Is the floor small?",
+        "image": "/home/u2021201665/asset/data/GQA/136.jpg",
+        "response": "The image shows a room with a floor that appears to be relatively small, as it is described as a \"small room\" and \"small room with a doorway.\" The room has a low ceiling, which could contribute to the feeling of a confined space. The presence of a ladder suggests that the room might have limited access to higher areas, which could be another indication of a small room."
+    },
+    "470": {
+        "question": "Does the towel next to the phone look red and small?",
+        "image": "/home/u2021201665/asset/data/GQA/470.jpg",
+        "response": "Yes, the towel next to the phone appears to be small and red."
+    },
+    "349": {
+        "question": "Do the pants look khaki and striped?",
+        "image": "/home/u2021201665/asset/data/GQA/349.jpg",
+        "response": "Yes, the pants in the image appear to be khaki-colored with a striped pattern."
+    },
+    "331": {
+        "question": "What is the pastry that is behind the ketchup that is on the plate called?",
+        "image": "/home/u2021201665/asset/data/GQA/331.jpg",
+        "response": "The pastry in the image appears to be a croissant, which is a flaky, buttery pastry made from a layer of dough that is butter-based and filled with choux pastry. The croissant is typically folded over to enclose the filling, which can be sweet or savory. The ketchup is placed on top of the croissant, which is a common way to enhance the flavor of the pastry."
+    },
+    "36": {
+        "question": "Are there parking meters to the right of the mirror made of glass?",
+        "image": "/home/u2021201665/asset/data/GQA/36.jpg",
+        "response": "Yes, there are parking meters to the right of the mirror made of glass."
+    }
+}
