@@ -45,19 +45,13 @@ def qa(args):
         qs = data[i]['question']
         
         image = data[i]['image']
-        if image is not None:
-            image = image.replace("/home/yifan/liangshuang/asset","/home/u2021201665/asset")
-            image = image.replace("/high_perf_store/surround-view/liangshuang/LLaVA-CAV","/home/u2021201665/asset")
-            image = image.replace("/home/yifan/liangshuang/code/baseline/","/home/u2021201665/code/baseline/")
 
-            if "vajm" in datamode:
-                image = "/home/u2021201665/code/baseline/llava-attack/vajm-vicuna/bad_prompt.bmp"
+        if "vajm" in datamode:
+            image = "/home/u2021201665/code/baseline/llava-attack/vajm-vicuna/bad_prompt.bmp"
 
-            if "umk" in datamode:
-                qs = qs + ' | '+last_line
-                image = "/home/u2021201665/code/baseline/llava-attack/umk-vicuna/bad_prompt.bmp"
-            if "ours" in datamode:
-                image = "/home/u2021201665/code/SCAV-vicuna/vajm-0.05/bad_prompt.bmp"
+        elif "umk" in datamode:
+            qs = qs + ' | '+last_line
+            image = "/home/u2021201665/code/baseline/llava-attack/umk-vicuna/bad_prompt.bmp"
                 
         if image is not None:
             if model.config.mm_use_im_start_end:
@@ -91,8 +85,7 @@ def qa(args):
                 image_sizes=[image.size],
                 output_hidden_states=True
             )
-        # print(len(outputs.hidden_states))
-        # exit(0)
+
         extracted_states = [tensor[:, -1, :] for tensor in outputs.hidden_states]
         # 将提取的向量堆叠成一个新的张量（形状为 [N, 4096]，N 是 tuple 中张量的数量）
         extracted_tensor = torch.cat(extracted_states, dim=0)

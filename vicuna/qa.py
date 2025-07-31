@@ -21,60 +21,14 @@ def qa(args):
     #=====================准备数据====================
     device = args.device
     datamode = args.dataset
-    model_path = os.path.expanduser("/home/u2021201665/share/llava-v1.6-vicuna-7b")
+    model_path = os.path.expanduser("./asset/weights/llava-v1.6-vicuna-7b")
     model_name = get_model_name_from_path(model_path)
     tokenizer, model, image_processor, context_len = load_pretrained_model(model_path,args.model_base, model_name,device=device)
     model.to(device)
 
-
-
-    # if datamode == "GQA":
-    #     #选取的部分GQA问答问题
-    #     with open("data/GQA.json", 'r', encoding='utf-8') as file:
-    #         # 解析 JSON 数据
-    #         data = json.load(file)
-    # elif datamode == "SafetyBench0":
-    #     #是MM-safetybench的问题加图片，筛选了主题
-    #     with open("data/SafetyBench0.json",'r',encoding='utf-8') as file:
-    #         data = json.load(file)
-    # elif datamode == "SafetyBench3":
-    #     with open("data/SafetyBench3.json",'r',encoding='utf-8') as file:
-    #         data = json.load(file)
-    
-    # elif datamode == "pixart" or datamode == "pixart-des":
-    #     #用pixart生成的图片，问题手写得到
-    #     with open(f"data/{datamode}.json",'r',encoding='utf-8') as file:
-    #         data = json.load(file)
-
-    # elif datamode == "deepseekvoid" or datamode == "deepseekvoid-none":
-    #     #deepseek是由deepseek得到的问题，void代表空白图片，None代指无图片
-    #     with open(f"data/{datamode}.json",'r',encoding='utf-8') as file:
-    #         data = json.load(file)
-
-    # elif datamode == "SafetyBenchvoid" or datamode == "SafetyBenchvoid-none":
-    #     #None是测试无图片的影响，void是图片都是空白的背景
-    #     with open(f"data/{datamode}.json",'r',encoding='utf-8') as file:
-    #         data = json.load(file)
-    #     # print(len(data))
-    #     # exit(0)
-    #     qa = [data[str(i)] for i in range(len(data))]
-    #     questions = [i['question'] for i in qa]
-    #     images = [i['image'] for i in qa]
-    # elif datamode =="GQA-des" or datamode =="SafetyBench0-des":
-    #     #des是对图片描述的任务，用于记录图片对分类器的影响
-    #     with open(f"data/{datamode}.json",'r') as f:
-    #         data = json.load(f)
-    
-    print(datamode)
-    if "void" in datamode:
-        temp_datamode = datamode.split('-void')[0]
-        with open(f"instructions/{temp_datamode}.json",'r',encoding='utf-8') as file:
-            data = json.load(file)
-        for i in list(data.keys()):
-            data[i]['image'] = None
-    else:
-        with open(f"instructions/{datamode}.json",'r',encoding='utf-8') as file:
-            data = json.load(file)
+ 
+    with open(f"instructions/{datamode}.json",'r',encoding='utf-8') as file:
+        data = json.load(file)
 
     #记录每层的中间状态与回答 
     hidden_states = []
@@ -88,12 +42,7 @@ def qa(args):
         qs = data[i]['question']
         
         image_file = data[i]['image']
-        
-        if image_file is not None:
-            image_file = image_file.replace("/home/yifan/liangshuang/asset","/home/u2021201665/asset")
-            image_file = image_file.replace("/high_perf_store/surround-view/liangshuang/LLaVA-CAV","/home/u2021201665/asset")
-            image_file = image_file.replace("/home/yifan/liangshuang/code/baseline/","/home/u2021201665/code/baseline/")
-            
+
         if model.config.mm_use_im_start_end:
             qs = DEFAULT_IM_START_TOKEN + DEFAULT_IMAGE_TOKEN + DEFAULT_IM_END_TOKEN + '\n' + qs
         else:
@@ -108,11 +57,6 @@ def qa(args):
  
         image = Image.open(image_file).convert('RGB')
         image_tensor = process_images([image], image_processor, model.config)[0]
-        # a = torch.load("/home/u2021201665/asset/QA-vicuna/gpt_answer.pth")
-        # print(a.shape)
-        # print(a[0,:,:])
-        # print(image_tensor.shape)
-        # exit(0)
         with torch.no_grad():
             output_ids = model.generate(
                 input_ids,

@@ -1,0 +1,9 @@
+
+[build]
+build
+twine
+
+[train]
+deepspeed==0.12.6
+ninja
+wandb

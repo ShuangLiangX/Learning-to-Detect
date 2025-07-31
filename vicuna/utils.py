@@ -4,11 +4,10 @@ import json
 
 def test_data(device="cuda",void=False):
     
-    with open("/home/u2021201665/code/SCAV-vicuna/instructions/GQA-test.json",'r') as f:
+    with open("instructions/GQA-test.json",'r') as f:
         data_safe = json.load(f)
-    with open("/home/u2021201665/code/SCAV-vicuna/instructions/advbench-test.json",'r') as f:
-        data_unsafe = json.load(f)
-        
+    with open("instructions/advbench-test.json",'r') as f:
+        data_unsafe = json.load(f)        
 
     safe = torch.load("GQA_answer.pth", map_location=device)
     unsafe = torch.load("advbench_answer.pth", map_location=device)
@@ -23,20 +22,17 @@ def test_data(device="cuda",void=False):
     unsafety = unsafe[unsafe_indice]
     return safety, unsafety
 def train_data(device="cuda",void=False):
-    # print(device)
-    # exit(0)
-    # print(1)
-    with open("/home/u2021201665/code/SCAV-vicuna/instructions/GQA-train.json",'r') as f:
+    with open("instructions/GQA-train.json",'r') as f:
         data_safe = json.load(f)
-    with open("/home/u2021201665/code/SCAV-vicuna/instructions/advbench-train.json",'r') as f:
+    with open("instructions/advbench-train.json",'r') as f:
         data_unsafe = json.load(f)
         
     if void:
-        safe = torch.load("/home/u2021201665/asset/QA-vicuna/GQA-void_answer.pth", map_location=device)
-        unsafe = torch.load("/home/u2021201665/asset/QA-vicuna/advbench-void_answer.pth", map_location=device)
+        safe = torch.load("QA-vicuna/GQA-void_answer.pth", map_location=device)
+        unsafe = torch.load("QA-vicuna/advbench-void_answer.pth", map_location=device)
     else:
-        safe = torch.load("/home/u2021201665/asset/QA-vicuna/GQA_answer.pth", map_location=device)
-        unsafe = torch.load("/home/u2021201665/asset/QA-vicuna/advbench_answer.pth", map_location=device)
+        safe = torch.load("QA-vicuna/GQA_answer.pth", map_location=device)
+        unsafe = torch.load("QA-vicuna/advbench_answer.pth", map_location=device)
     print("train data")
     #提取训练tensor
     

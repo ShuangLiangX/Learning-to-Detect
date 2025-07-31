@@ -26,8 +26,8 @@ def main(args):
         num1 +=1
         qa = data[i]
         message = [
-        {"role": "user", "content": qa['question']},
-        {"role": "assistant", "content": qa[type1]},
+            {"role": "user", "content": qa['question']},
+            {"role": "assistant", "content": qa[type1]},
         ]
         input_ids = tokenizer.apply_chat_template(message, return_tensors="pt").to(device)
         output = model.generate(input_ids=input_ids, max_new_tokens=100, pad_token_id=0)
@@ -52,15 +52,12 @@ def main(args):
             data[i][type2] = 'safe'
     print(num1)            
     print(num2)
-        # print(answer)
-        # exit(0)
-        # 保存为 JSON 文件
     with open(file, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model_id", type=str, default="/home/u2021201665/weights/Llama-Guard-3-8B")
+    parser.add_argument("--model_id", type=str, default="weights/Llama-Guard-3-8B")
     parser.add_argument("--file",type=str,default=None)
     args = parser.parse_args()
     main(args)
