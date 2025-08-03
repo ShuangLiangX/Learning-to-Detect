@@ -47,7 +47,7 @@ def main():
     # 1. 准备数据
     # ======================
     set_seed(42)
-    model = 'qwen'
+    model = 'vicuna'
     mode = "safe"
     import sys
     sys.path.append(f"/home/u2021201665/code/SCAV-{model}")
@@ -128,43 +128,24 @@ def main():
 
     from time import perf_counter
     start = perf_counter()
-    # ============== 划分训练和测试 ==============
-    # 随机选取索引
-    if mode =="neg":
-        n_safe_total = possibilities_unsafe.shape[0]
-        n_test_unsafe = n_safe_total-320
-        indices = np.arange(n_safe_total)
-        np.random.shuffle(indices)
-        test_indices = indices[:n_test_unsafe]
-        train_indices = indices[n_test_unsafe:]
 
-        X_train_unsafe = possibilities_safe[train_indices]
-        X_test_unsafe = possibilities_safe[test_indices]
-        
-        # ================= 构造训练和测试集 =================
-        X_train = torch.tensor(X_train_unsafe, dtype=torch.float32)
+    n_safe_total = possibilities_safe.shape[0]
+    n_test_safe = 80
+    indices = np.arange(n_safe_total)
+    np.random.shuffle(indices)
+    test_indices = indices[:n_test_safe]
+    train_indices = indices[n_test_safe:]
 
-        X_test_all = np.concatenate([possibilities_safe, X_test_unsafe], axis=0)
-        y_test_all = np.concatenate([np.zeros(possibilities_safe.shape[0]), np.ones(X_test_unsafe.shape[0])])
-        X_test = torch.tensor(X_test_all, dtype=torch.float32)
-    else:
-        n_safe_total = possibilities_safe.shape[0]
-        n_test_safe = 80
-        indices = np.arange(n_safe_total)
-        np.random.shuffle(indices)
-        test_indices = indices[:n_test_safe]
-        train_indices = indices[n_test_safe:]
+    X_train_safe = possibilities_safe[train_indices]
+    X_test_safe = possibilities_safe[test_indices]
 
-        X_train_safe = possibilities_safe[train_indices]
-        X_test_safe = possibilities_safe[test_indices]
+    # ================= 构造训练和测试集 =================
+    X_train = torch.tensor(X_train_safe, dtype=torch.float32)
 
-        # ================= 构造训练和测试集 =================
-        X_train = torch.tensor(X_train_safe, dtype=torch.float32)
-
-        X_test_all = np.concatenate([X_test_safe, possibilities_unsafe], axis=0)
-        y_test_all = np.concatenate([np.zeros(X_test_safe.shape[0]), np.ones(possibilities_unsafe.shape[0])])
-        X_test = torch.tensor(X_test_all, dtype=torch.float32)
-        print(mode)
+    X_test_all = np.concatenate([X_test_safe, possibilities_unsafe], axis=0)
+    y_test_all = np.concatenate([np.zeros(X_test_safe.shape[0]), np.ones(possibilities_unsafe.shape[0])])
+    X_test = torch.tensor(X_test_all, dtype=torch.float32)
+    print(mode)
 
     # ============== 训练自编码器 ==============
     X_train = X_train.to(device)

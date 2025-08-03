@@ -7,7 +7,6 @@ import shortuuid
 
 from PIL import Image
 import math
-# os.environ["CUDA_VISIBLE_DEVICES"] = "7"  # 只使用第0号GPU
 import sys
 sys.path.insert(0, "/home/u2021201665/code/baseline/llava-attack")
 from llava.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN
@@ -21,7 +20,7 @@ def qa(args):
     #=====================准备数据====================
     device = args.device
     datamode = args.dataset
-    model_path = os.path.expanduser("./asset/weights/llava-v1.6-vicuna-7b")
+    model_path = os.path.expanduser("/home/u2021201665/share/llava-v1.6-vicuna-7b")
     model_name = get_model_name_from_path(model_path)
     tokenizer, model, image_processor, context_len = load_pretrained_model(model_path,args.model_base, model_name,device=device)
     model.to(device)
@@ -66,7 +65,6 @@ def qa(args):
                 temperature=args.temperature,
                 top_p=args.top_p,
                 num_beams=args.num_beams,
-                # no_repeat_ngram_size=3,
                 max_new_tokens=1024,
                 use_cache=True)
 

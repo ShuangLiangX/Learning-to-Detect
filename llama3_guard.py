@@ -48,8 +48,6 @@ def main(args):
             num2 +=1
         else:
             data[i][type2] = 'safe'
-    # print(num1)            
-    # print(num2)
     with open(file, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
