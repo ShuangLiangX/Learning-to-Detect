@@ -53,7 +53,7 @@ def main(args):
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model_id", type=str, default="weights/Llama-Guard-3-8B")
+    parser.add_argument("--model_id", type=str, default="asset/weights/Llama-Guard-3-8B")
     parser.add_argument("--file",type=str,default=None)
     args = parser.parse_args()
     main(args)

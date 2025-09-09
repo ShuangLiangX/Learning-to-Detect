@@ -1,874 +1,874 @@
 {
     "0": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_0.png",
+        "image": "/code/asset/MM-Vet/v1_0.png",
         "question": "What is x in the equation?"
     },
     "1": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_1.png",
+        "image": "/code/asset/MM-Vet/v1_1.png",
         "question": "What is d in the last equation?"
     },
     "2": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_1.png",
+        "image": "/code/asset/MM-Vet/v1_1.png",
         "question": "What is x in the equation?"
     },
     "3": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_3.png",
+        "image": "/code/asset/MM-Vet/v1_3.png",
         "question": "What is the answer to the bottom left equation?"
     },
     "4": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_3.png",
+        "image": "/code/asset/MM-Vet/v1_3.png",
         "question": "What is the answer to the second equation on the right?"
     },
     "5": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_5.png",
+        "image": "/code/asset/MM-Vet/v1_5.png",
         "question": "What is the answer to the second last equation on the right?"
     },
     "6": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_5.png",
+        "image": "/code/asset/MM-Vet/v1_5.png",
         "question": "What is y in the last equation?"
     },
     "7": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_7.png",
+        "image": "/code/asset/MM-Vet/v1_7.png",
         "question": "Find the pattern of how the \"X\" operator is redefined, and answer the given equation in the image."
     },
     "8": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_8.png",
+        "image": "/code/asset/MM-Vet/v1_8.png",
         "question": "What will the girl on the right write on the board?"
     },
     "9": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_9.png",
+        "image": "/code/asset/MM-Vet/v1_9.png",
         "question": "How many gallons of supreme gasoline can I get with $50?"
     },
     "10": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_9.png",
+        "image": "/code/asset/MM-Vet/v1_9.png",
         "question": "What is the price difference between diesel and regular gasoline?"
     },
     "11": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_11.jpg",
+        "image": "/code/asset/MM-Vet/v1_11.jpg",
         "question": "What is the total price for a bottle of Merlot and a bottle of Cabernet shown in the image?"
     },
     "12": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_11.jpg",
+        "image": "/code/asset/MM-Vet/v1_11.jpg",
         "question": "What is the cost of three bottles of Moet champagne?"
     },
     "13": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_13.jpg",
+        "image": "/code/asset/MM-Vet/v1_13.jpg",
         "question": "I am getting one funghi pizza and one prosciutto pizza. How much should I pay in total?"
     },
     "14": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_13.jpg",
+        "image": "/code/asset/MM-Vet/v1_13.jpg",
         "question": "I am getting two margherita pizza and one calzone. How much should I pay in total?"
     },
     "15": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_15.png",
+        "image": "/code/asset/MM-Vet/v1_15.png",
         "question": "What is the original price for pork belly before discount?"
     },
     "16": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_16.jpg",
+        "image": "/code/asset/MM-Vet/v1_16.jpg",
         "question": "What is the gasoline price?"
     },
     "17": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_17.jpg",
+        "image": "/code/asset/MM-Vet/v1_17.jpg",
         "question": "What is the color of the hat worn by the person in the front left?"
     },
     "18": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_18.jpg",
+        "image": "/code/asset/MM-Vet/v1_18.jpg",
         "question": "What is located to the right of the shampoo?"
     },
     "19": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_18.jpg",
+        "image": "/code/asset/MM-Vet/v1_18.jpg",
         "question": "What is in the right most bottle?"
     },
     "20": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_20.jpg",
+        "image": "/code/asset/MM-Vet/v1_20.jpg",
         "question": "What is the spatial relation between the frisbee and the man?"
     },
     "21": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_21.jpg",
+        "image": "/code/asset/MM-Vet/v1_21.jpg",
         "question": "Which car is on the parking spot 33?"
     },
     "22": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_21.jpg",
+        "image": "/code/asset/MM-Vet/v1_21.jpg",
         "question": "Which spot is the red car parking on?"
     },
     "23": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_23.png",
+        "image": "/code/asset/MM-Vet/v1_23.png",
         "question": "What is the price for tomatoes?"
     },
     "24": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_23.png",
+        "image": "/code/asset/MM-Vet/v1_23.png",
         "question": "What fruit is the the right of plums?"
     },
     "25": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_25.png",
+        "image": "/code/asset/MM-Vet/v1_25.png",
         "question": "Based on the image, what is the total international awareness of Tina Fey?"
     },
     "26": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_25.png",
+        "image": "/code/asset/MM-Vet/v1_25.png",
         "question": "Based on the image, in which country does Tina Fey have the highest level of total awareness?"
     },
     "27": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_27.png",
+        "image": "/code/asset/MM-Vet/v1_27.png",
         "question": "What earth's interior structure does number 2 indicate?"
     },
     "28": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_28.jpg",
+        "image": "/code/asset/MM-Vet/v1_28.jpg",
         "question": "What is the number displayed on the motorcycle ridden by the motorcyclist wearing a yellow suit?"
     },
     "29": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_28.jpg",
+        "image": "/code/asset/MM-Vet/v1_28.jpg",
         "question": "What is the number displayed on the motorcycle on the right?"
     },
     "30": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_30.jpg",
+        "image": "/code/asset/MM-Vet/v1_30.jpg",
         "question": "Are which one of these two jets are larger in size?"
     },
     "31": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_31.png",
+        "image": "/code/asset/MM-Vet/v1_31.png",
         "question": "Is the person bigger than the car?"
     },
     "32": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_32.png",
+        "image": "/code/asset/MM-Vet/v1_32.png",
         "question": "What should I do after kneading the dough, before dividing it into pieces?"
     },
     "33": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_33.png",
+        "image": "/code/asset/MM-Vet/v1_33.png",
         "question": "Should I add sugar when mixing egg and milk?"
     },
     "34": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_34.jpg",
+        "image": "/code/asset/MM-Vet/v1_34.jpg",
         "question": "What should I do before cutting herbs, sausage, and mushrooms?"
     },
     "35": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_35.png",
+        "image": "/code/asset/MM-Vet/v1_35.png",
         "question": "What is the index of the step when we need to add all purpose flour?"
     },
     "36": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_36.jpg",
+        "image": "/code/asset/MM-Vet/v1_36.jpg",
         "question": "What should we add in the third step?"
     },
     "37": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_37.jpg",
+        "image": "/code/asset/MM-Vet/v1_37.jpg",
         "question": "What should kids do after snap fingers?"
     },
     "38": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_38.jpg",
+        "image": "/code/asset/MM-Vet/v1_38.jpg",
         "question": "What should be drawn in the fourth step?"
     },
     "39": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_39.jpg",
+        "image": "/code/asset/MM-Vet/v1_39.jpg",
         "question": "What is the step after using probe to spread tire puncture?"
     },
     "40": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_40.png",
+        "image": "/code/asset/MM-Vet/v1_40.png",
         "question": "What is the second step suggested?"
     },
     "41": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_41.png",
+        "image": "/code/asset/MM-Vet/v1_41.png",
         "question": "What is the last strategy given in the image?"
     },
     "42": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_42.png",
+        "image": "/code/asset/MM-Vet/v1_42.png",
         "question": "What is the average total fueling cost excluding the Ford F150?"
     },
     "43": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_42.png",
+        "image": "/code/asset/MM-Vet/v1_42.png",
         "question": "What is the highest fueling cost?"
     },
     "44": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_44.png",
+        "image": "/code/asset/MM-Vet/v1_44.png",
         "question": "Which category did the worst job in plastic recycling, considering the amount of plastic made and thrown out?"
     },
     "45": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_44.png",
+        "image": "/code/asset/MM-Vet/v1_44.png",
         "question": "What is the difference in metric tonnes between the amount of plastic produced and the amount discarded?"
     },
     "46": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_46.png",
+        "image": "/code/asset/MM-Vet/v1_46.png",
         "question": "What is the estimated average standing charge for the year 2023?"
     },
     "47": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_46.png",
+        "image": "/code/asset/MM-Vet/v1_46.png",
         "question": "What is the estimated total cost for the year 2023?"
     },
     "48": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_48.jpg",
+        "image": "/code/asset/MM-Vet/v1_48.jpg",
         "question": "In which direction does the living room window face?"
     },
     "49": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_49.jpg",
+        "image": "/code/asset/MM-Vet/v1_49.jpg",
         "question": "What are the appliances in the kitchen in this floorplan?"
     },
     "50": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_50.jpg",
+        "image": "/code/asset/MM-Vet/v1_50.jpg",
         "question": "Which room is bigger, the double garage or the living room?"
     },
     "51": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_50.jpg",
+        "image": "/code/asset/MM-Vet/v1_50.jpg",
         "question": "Which room is bigger, the master bedroom or the patio?"
     },
     "52": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_52.png",
+        "image": "/code/asset/MM-Vet/v1_52.png",
         "question": "What is the solution if the lamp is plugged in and the bulb has burned out?"
     },
     "53": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_53.png",
+        "image": "/code/asset/MM-Vet/v1_53.png",
         "question": "Which step in the flowchart is drawn with a diamond shape?"
     },
     "54": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_54.png",
+        "image": "/code/asset/MM-Vet/v1_54.png",
         "question": "What is the average wait time to climb out of bed?"
     },
     "55": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_55.png",
+        "image": "/code/asset/MM-Vet/v1_55.png",
         "question": "Which year has the highest growth rate of median house price?"
     },
     "56": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_56.png",
+        "image": "/code/asset/MM-Vet/v1_56.png",
         "question": "What is Japan's gdp in 2012?"
     },
     "57": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_57.jpg",
+        "image": "/code/asset/MM-Vet/v1_57.jpg",
         "question": "In which years did rowing and athletics have the same number of gold medals?"
     },
     "58": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_58.png",
+        "image": "/code/asset/MM-Vet/v1_58.png",
         "question": "Which department is the person who has the highest salary from?"
     },
     "59": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_58.png",
+        "image": "/code/asset/MM-Vet/v1_58.png",
         "question": "Based on the table, how much is Wilkins earning?"
     },
     "60": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_60.png",
+        "image": "/code/asset/MM-Vet/v1_60.png",
         "question": "Which country has a below-average profit margin?"
     },
     "61": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_60.png",
+        "image": "/code/asset/MM-Vet/v1_60.png",
         "question": "Which country has the highest profit margin?"
     },
     "62": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_62.png",
+        "image": "/code/asset/MM-Vet/v1_62.png",
         "question": "In which month is the highest income generated?"
     },
     "63": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_62.png",
+        "image": "/code/asset/MM-Vet/v1_62.png",
         "question": "What percentage does salary contribute to total income?"
     },
     "64": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_64.png",
+        "image": "/code/asset/MM-Vet/v1_64.png",
         "question": "Who is the person on the left?"
     },
     "65": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_65.png",
+        "image": "/code/asset/MM-Vet/v1_65.png",
         "question": "Who is the person in the image?"
     },
     "66": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_66.jpg",
+        "image": "/code/asset/MM-Vet/v1_66.jpg",
         "question": "Who is the person in the bottom right?"
     },
     "67": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_67.png",
+        "image": "/code/asset/MM-Vet/v1_67.png",
         "question": "Which one is unsweetened?"
     },
     "68": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_68.png",
+        "image": "/code/asset/MM-Vet/v1_68.png",
         "question": "Is this apple organic?"
     },
     "69": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_69.jpg",
+        "image": "/code/asset/MM-Vet/v1_69.jpg",
         "question": "What is the calories for the entire bag?"
     },
     "70": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_70.png",
+        "image": "/code/asset/MM-Vet/v1_70.png",
         "question": "What is the name of this dish?"
     },
     "71": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_71.jpg",
+        "image": "/code/asset/MM-Vet/v1_71.jpg",
         "question": "What is the name of this dish?"
     },
     "72": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_72.png",
+        "image": "/code/asset/MM-Vet/v1_72.png",
         "question": "What is the name of this dish?"
     },
     "73": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_73.jpg",
+        "image": "/code/asset/MM-Vet/v1_73.jpg",
         "question": "What is the make of the car on the left?"
     },
     "74": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_74.jpg",
+        "image": "/code/asset/MM-Vet/v1_74.jpg",
         "question": "What does this factory make?"
     },
     "75": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_75.jpg",
+        "image": "/code/asset/MM-Vet/v1_75.jpg",
         "question": "what is the green logo on the car?"
     },
     "76": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_76.png",
+        "image": "/code/asset/MM-Vet/v1_76.png",
         "question": "What is the name of this landmark?"
     },
     "77": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_77.jpg",
+        "image": "/code/asset/MM-Vet/v1_77.jpg",
         "question": "What is the name of this landmark?"
     },
     "78": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_78.jpg",
+        "image": "/code/asset/MM-Vet/v1_78.jpg",
         "question": "What is the name of this landmark?"
     },
     "79": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_79.jpg",
+        "image": "/code/asset/MM-Vet/v1_79.jpg",
         "question": "What is the face value of this banknote?"
     },
     "80": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_80.jpg",
+        "image": "/code/asset/MM-Vet/v1_80.jpg",
         "question": "What is this banknote?"
     },
     "81": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_81.jpg",
+        "image": "/code/asset/MM-Vet/v1_81.jpg",
         "question": "What type of currency does this banknote represent?"
     },
     "82": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_82.png",
+        "image": "/code/asset/MM-Vet/v1_82.png",
         "question": "Which chest xray disease can be found? (Options include: Atelectasis; Cardiomegaly; Effusion; Infiltration; Mass; Nodule; Pneumonia; Pneumothorax; Consolidation; Edema; Emphysema; Fibrosis; Pleural Thickening; Hernia.)"
     },
     "83": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_83.png",
+        "image": "/code/asset/MM-Vet/v1_83.png",
         "question": "Which chest xray disease can be found? (Options include: Atelectasis; Cardiomegaly; Effusion; Infiltration; Mass; Nodule; Pneumonia; Pneumothorax; Consolidation; Edema; Emphysema; Fibrosis; Pleural Thickening; Hernia.)"
     },
     "84": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_84.png",
+        "image": "/code/asset/MM-Vet/v1_84.png",
         "question": "Which chest xray disease can be found? (Options include: Atelectasis; Cardiomegaly; Effusion; Infiltration; Mass; Nodule; Pneumonia; Pneumothorax; Consolidation; Edema; Emphysema; Fibrosis; Pleural Thickening; Hernia.)"
     },
     "85": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_85.jpg",
+        "image": "/code/asset/MM-Vet/v1_85.jpg",
         "question": "How many birds are there?"
     },
     "86": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_86.jpg",
+        "image": "/code/asset/MM-Vet/v1_86.jpg",
         "question": "How many tomatoes are there?"
     },
     "87": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_87.jpg",
+        "image": "/code/asset/MM-Vet/v1_87.jpg",
         "question": "How many books are there?"
     },
     "88": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_88.jpg",
+        "image": "/code/asset/MM-Vet/v1_88.jpg",
         "question": "What are all the scene text in the image?"
     },
     "89": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_89.jpg",
+        "image": "/code/asset/MM-Vet/v1_89.jpg",
         "question": "What are all the scene text in the image?"
     },
     "90": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_90.jpg",
+        "image": "/code/asset/MM-Vet/v1_90.jpg",
         "question": "What are all the scene text in the image?"
     },
     "91": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_91.jpg",
+        "image": "/code/asset/MM-Vet/v1_91.jpg",
         "question": "What are all the scene text in the image?"
     },
     "92": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_92.jpg",
+        "image": "/code/asset/MM-Vet/v1_92.jpg",
         "question": "What are all the scene text in the image?"
     },
     "93": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_93.jpg",
+        "image": "/code/asset/MM-Vet/v1_93.jpg",
         "question": "What are all the scene text in the image?"
     },
     "94": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_94.jpg",
+        "image": "/code/asset/MM-Vet/v1_94.jpg",
         "question": "What is the brand of this device?"
     },
     "95": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_95.jpg",
+        "image": "/code/asset/MM-Vet/v1_95.jpg",
         "question": "What is the license plate number?"
     },
     "96": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_96.jpg",
+        "image": "/code/asset/MM-Vet/v1_96.jpg",
         "question": "What are all the French scene text in the image?"
     },
     "97": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_97.jpg",
+        "image": "/code/asset/MM-Vet/v1_97.jpg",
         "question": "What are all the Chinese scene text in the image?"
     },
     "98": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_98.jpg",
+        "image": "/code/asset/MM-Vet/v1_98.jpg",
         "question": "Which continent is highlighted?"
     },
     "99": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_99.png",
+        "image": "/code/asset/MM-Vet/v1_99.png",
         "question": "Which are producers in this food web?"
     },
     "100": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_100.png",
+        "image": "/code/asset/MM-Vet/v1_100.png",
         "question": "Compare the average kinetic energies of the particles in each sample. The diagrams below show two pure samples of gas in identical closed, rigid containers. Each colored ball represents one gas particle. Both samples have the same number of particles. Which sample has the higher temperature? Sample A or sample B?"
     },
     "101": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_101.png",
+        "image": "/code/asset/MM-Vet/v1_101.png",
         "question": "Which of these highlighted cities is the farthest north?"
     },
     "102": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_102.png",
+        "image": "/code/asset/MM-Vet/v1_102.png",
         "question": "Where is this photo taken?"
     },
     "103": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_103.png",
+        "image": "/code/asset/MM-Vet/v1_103.png",
         "question": "Where is this photo taken?"
     },
     "104": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_104.png",
+        "image": "/code/asset/MM-Vet/v1_104.png",
         "question": "Where is this photo taken?"
     },
     "105": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_105.png",
+        "image": "/code/asset/MM-Vet/v1_105.png",
         "question": "In which country was this photo taken?"
     },
     "106": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_106.jpg",
+        "image": "/code/asset/MM-Vet/v1_106.jpg",
         "question": "Are the trees taller than the giraffes?"
     },
     "107": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_107.jpg",
+        "image": "/code/asset/MM-Vet/v1_107.jpg",
         "question": "Is this airplane taking off or landing?"
     },
     "108": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_108.jpg",
+        "image": "/code/asset/MM-Vet/v1_108.jpg",
         "question": "How many people are sitting down?"
     },
     "109": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_109.jpg",
+        "image": "/code/asset/MM-Vet/v1_109.jpg",
         "question": "Is the trash empty or full?"
     },
     "110": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_110.jpg",
+        "image": "/code/asset/MM-Vet/v1_110.jpg",
         "question": "Does the giraffe appear dangerous?"
     },
     "111": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_111.jpg",
+        "image": "/code/asset/MM-Vet/v1_111.jpg",
         "question": "Is there any reflection of zebra in water?"
     },
     "112": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_112.jpg",
+        "image": "/code/asset/MM-Vet/v1_112.jpg",
         "question": "Is the man happy?"
     },
     "113": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_113.jpg",
+        "image": "/code/asset/MM-Vet/v1_113.jpg",
         "question": "Are all of the cats the same color?"
     },
     "114": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_114.jpg",
+        "image": "/code/asset/MM-Vet/v1_114.jpg",
         "question": "Is that wine in the background?"
     },
     "115": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_115.jpg",
+        "image": "/code/asset/MM-Vet/v1_115.jpg",
         "question": "Is the man going to fall down?"
     },
     "116": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_116.jpg",
+        "image": "/code/asset/MM-Vet/v1_116.jpg",
         "question": "What place is pictured?"
     },
     "117": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_117.jpg",
+        "image": "/code/asset/MM-Vet/v1_117.jpg",
         "question": "Is it outdoors?"
     },
     "118": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_118.jpg",
+        "image": "/code/asset/MM-Vet/v1_118.jpg",
         "question": "How's the weather?"
     },
     "119": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_119.jpg",
+        "image": "/code/asset/MM-Vet/v1_119.jpg",
         "question": "What is the color of the fence made of metal?"
     },
     "120": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_120.jpg",
+        "image": "/code/asset/MM-Vet/v1_120.jpg",
         "question": "Does the person to the left of the man appear to be sitting?"
     },
     "121": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_121.jpg",
+        "image": "/code/asset/MM-Vet/v1_121.jpg",
         "question": "Is the plate of the table both dirty and silver?"
     },
     "122": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_122.jpg",
+        "image": "/code/asset/MM-Vet/v1_122.jpg",
         "question": "Is the curtain on the right side or on the left of the picture?"
     },
     "123": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_123.jpg",
+        "image": "/code/asset/MM-Vet/v1_123.jpg",
         "question": "Is there a computer in this photo?"
     },
     "124": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_124.jpg",
+        "image": "/code/asset/MM-Vet/v1_124.jpg",
         "question": "Are there napkins under the utensil to the left of the rice?"
     },
     "125": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_125.jpg",
+        "image": "/code/asset/MM-Vet/v1_125.jpg",
         "question": "Are there nuts or vegetables?"
     },
     "126": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_126.jpg",
+        "image": "/code/asset/MM-Vet/v1_126.jpg",
         "question": "Are there both plates and forks in this picture?"
     },
     "127": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_127.jpg",
+        "image": "/code/asset/MM-Vet/v1_127.jpg",
         "question": "What is this bird called?"
     },
     "128": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_128.jpg",
+        "image": "/code/asset/MM-Vet/v1_128.jpg",
         "question": "Which animal in the picture is larger, the cat or the dog?"
     },
     "129": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_129.jpg",
+        "image": "/code/asset/MM-Vet/v1_129.jpg",
         "question": "On the right desk, what is to the left of the laptop? "
     },
     "130": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_130.jpg",
+        "image": "/code/asset/MM-Vet/v1_130.jpg",
         "question": "Does the man ride a horse?"
     },
     "131": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_131.jpg",
+        "image": "/code/asset/MM-Vet/v1_131.jpg",
         "question": "Is the surfer to the left or to the right of the surfboard?"
     },
     "132": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_132.jpg",
+        "image": "/code/asset/MM-Vet/v1_132.jpg",
         "question": "What is the lamp on, a side table or a nightstand?"
     },
     "133": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_133.jpg",
+        "image": "/code/asset/MM-Vet/v1_133.jpg",
         "question": "What do both the stump and the fence have in common?"
     },
     "134": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_134.jpg",
+        "image": "/code/asset/MM-Vet/v1_134.jpg",
         "question": "Is the spoon made of the same material as the chopsticks?"
     },
     "135": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_135.jpg",
+        "image": "/code/asset/MM-Vet/v1_135.jpg",
         "question": "Does the shirt have a different color than the kite?"
     },
     "136": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_136.jpg",
+        "image": "/code/asset/MM-Vet/v1_136.jpg",
         "question": "Do all these people have the same gender?"
     },
     "137": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_137.jpg",
+        "image": "/code/asset/MM-Vet/v1_137.jpg",
         "question": "Are these two animals different species?"
     },
     "138": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_138.jpg",
+        "image": "/code/asset/MM-Vet/v1_138.jpg",
         "question": "Where are the persons? Answer it and give the rationale."
     },
     "139": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_139.jpg",
+        "image": "/code/asset/MM-Vet/v1_139.jpg",
         "question": "Why are the persons wearing black clothes? Answer it and give the rationale."
     },
     "140": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_140.jpg",
+        "image": "/code/asset/MM-Vet/v1_140.jpg",
         "question": "Why is the woman wearing a robe? Answer it and give the rationale."
     },
     "141": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_141.jpg",
+        "image": "/code/asset/MM-Vet/v1_141.jpg",
         "question": "Where is this happening? Answer it and give the rationale."
     },
     "142": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_142.jpg",
+        "image": "/code/asset/MM-Vet/v1_142.jpg",
         "question": "Is it summertime in the scene? Answer it and give the rationale."
     },
     "143": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_143.jpg",
+        "image": "/code/asset/MM-Vet/v1_143.jpg",
         "question": "Is the woman in red going to be mad at the man, for looking at the woman in dress? Answer it and give the rationale."
     },
     "144": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_144.jpg",
+        "image": "/code/asset/MM-Vet/v1_144.jpg",
         "question": "Why does the woman have both of her hands in the air? Answer it and give the rationale."
     },
     "145": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_145.jpg",
+        "image": "/code/asset/MM-Vet/v1_145.jpg",
         "question": "What kind of school does the boy go to? Answer it and give the rationale."
     },
     "146": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_146.jpg",
+        "image": "/code/asset/MM-Vet/v1_146.jpg",
         "question": "Do the persons live in this house? Answer it and give the rationale."
     },
     "147": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_147.jpg",
+        "image": "/code/asset/MM-Vet/v1_147.jpg",
         "question": "Why are the man and woman in white so close to each other? Answer it and give the rationale."
     },
     "148": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_148.jpg",
+        "image": "/code/asset/MM-Vet/v1_148.jpg",
         "question": "Can you explain this meme?"
     },
     "149": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_149.jpg",
+        "image": "/code/asset/MM-Vet/v1_149.jpg",
         "question": "Can you explain this meme?"
     },
     "150": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_150.jpg",
+        "image": "/code/asset/MM-Vet/v1_150.jpg",
         "question": "Can you explain this meme?"
     },
     "151": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_151.jpg",
+        "image": "/code/asset/MM-Vet/v1_151.jpg",
         "question": "Can you explain this meme?"
     },
     "152": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_152.jpg",
+        "image": "/code/asset/MM-Vet/v1_152.jpg",
         "question": "Can you explain this meme?"
     },
     "153": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_153.jpg",
+        "image": "/code/asset/MM-Vet/v1_153.jpg",
         "question": "What is funny about this image?"
     },
     "154": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_154.png",
+        "image": "/code/asset/MM-Vet/v1_154.png",
         "question": "What is funny about this image?"
     },
     "155": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_155.png",
+        "image": "/code/asset/MM-Vet/v1_155.png",
         "question": "What occasions would someone use this meme?"
     },
     "156": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_156.jpg",
+        "image": "/code/asset/MM-Vet/v1_156.jpg",
         "question": "What occasions would someone use this meme?"
     },
     "157": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_157.jpg",
+        "image": "/code/asset/MM-Vet/v1_157.jpg",
         "question": "What occasions would someone use this meme?"
     },
     "158": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_158.jpg",
+        "image": "/code/asset/MM-Vet/v1_158.jpg",
         "question": "How to cook this dish?"
     },
     "159": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_159.jpg",
+        "image": "/code/asset/MM-Vet/v1_159.jpg",
         "question": "How to make this?"
     },
     "160": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_160.jpg",
+        "image": "/code/asset/MM-Vet/v1_160.jpg",
         "question": "How to cook this dish?"
     },
     "161": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_161.jpg",
+        "image": "/code/asset/MM-Vet/v1_161.jpg",
         "question": "How to cook this dish?"
     },
     "162": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_162.jpg",
+        "image": "/code/asset/MM-Vet/v1_162.jpg",
         "question": "How to cook this dish?"
     },
     "163": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_163.jpg",
+        "image": "/code/asset/MM-Vet/v1_163.jpg",
         "question": "How to cook this dish?"
     },
     "164": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_164.jpg",
+        "image": "/code/asset/MM-Vet/v1_164.jpg",
         "question": "How to cook this dish?"
     },
     "165": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_165.jpg",
+        "image": "/code/asset/MM-Vet/v1_165.jpg",
         "question": "How to cook this dish?"
     },
     "166": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_166.jpg",
+        "image": "/code/asset/MM-Vet/v1_166.jpg",
         "question": "How to cook this dish?"
     },
     "167": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_167.jpg",
+        "image": "/code/asset/MM-Vet/v1_167.jpg",
         "question": "How to cook this dish?"
     },
     "168": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_168.jpg",
+        "image": "/code/asset/MM-Vet/v1_168.jpg",
         "question": "Can you give a short introduction to this movie?"
     },
     "169": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_169.jpg",
+        "image": "/code/asset/MM-Vet/v1_169.jpg",
         "question": "Can you give a short introduction to this movie?"
     },
     "170": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_170.jpg",
+        "image": "/code/asset/MM-Vet/v1_170.jpg",
         "question": "Can you give a short introduction to this movie?"
     },
     "171": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_171.jpg",
+        "image": "/code/asset/MM-Vet/v1_171.jpg",
         "question": "Can you give a short introduction to this movie?"
     },
     "172": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_172.jpg",
+        "image": "/code/asset/MM-Vet/v1_172.jpg",
         "question": "Can you give a short introduction to this movie?"
     },
     "173": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_173.jpg",
+        "image": "/code/asset/MM-Vet/v1_173.jpg",
         "question": "Can you give a short introduction to this movie?"
     },
     "174": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_174.jpg",
+        "image": "/code/asset/MM-Vet/v1_174.jpg",
         "question": "Can you give a short introduction to this movie?"
     },
     "175": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_175.jpg",
+        "image": "/code/asset/MM-Vet/v1_175.jpg",
         "question": "Can you give a short introduction to this movie?"
     },
     "176": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_176.jpg",
+        "image": "/code/asset/MM-Vet/v1_176.jpg",
         "question": "Can you give a short introduction to this movie?"
     },
     "177": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_177.jpg",
+        "image": "/code/asset/MM-Vet/v1_177.jpg",
         "question": "Can you give a short introduction to this movie?"
     },
     "178": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_178.jpg",
+        "image": "/code/asset/MM-Vet/v1_178.jpg",
         "question": "Can you give a short introduction to this painting?"
     },
     "179": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_179.jpg",
+        "image": "/code/asset/MM-Vet/v1_179.jpg",
         "question": "Can you give a short introduction to this painting?"
     },
     "180": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_180.jpg",
+        "image": "/code/asset/MM-Vet/v1_180.jpg",
         "question": "Can you give a short introduction to this painting?"
     },
     "181": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_181.jpg",
+        "image": "/code/asset/MM-Vet/v1_181.jpg",
         "question": "Can you give a short introduction to this painting?"
     },
     "182": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_182.jpg",
+        "image": "/code/asset/MM-Vet/v1_182.jpg",
         "question": "Can you give a short introduction to this painting?"
     },
     "183": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_183.jpg",
+        "image": "/code/asset/MM-Vet/v1_183.jpg",
         "question": "Can you give a short introduction to this painting?"
     },
     "184": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_184.jpg",
+        "image": "/code/asset/MM-Vet/v1_184.jpg",
         "question": "Can you give a short introduction to this painting?"
     },
     "185": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_185.jpg",
+        "image": "/code/asset/MM-Vet/v1_185.jpg",
         "question": "Can you give a short introduction to this painting?"
     },
     "186": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_186.jpg",
+        "image": "/code/asset/MM-Vet/v1_186.jpg",
         "question": "Can you give a short introduction to this painting?"
     },
     "187": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_187.jpg",
+        "image": "/code/asset/MM-Vet/v1_187.jpg",
         "question": "Can you give a short introduction to this painting?"
     },
     "188": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_188.jpg",
+        "image": "/code/asset/MM-Vet/v1_188.jpg",
         "question": "What is this disease (give short introduction) and how to treat it?"
     },
     "189": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_189.jpg",
+        "image": "/code/asset/MM-Vet/v1_189.jpg",
         "question": "What is this disease (give short introduction) and how to treat it?"
     },
     "190": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_190.jpg",
+        "image": "/code/asset/MM-Vet/v1_190.jpg",
         "question": "What is this disease (give short introduction) and how to treat it?"
     },
     "191": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_191.jpg",
+        "image": "/code/asset/MM-Vet/v1_191.jpg",
         "question": "What is this disease (give short introduction) and how to treat it?"
     },
     "192": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_192.jpg",
+        "image": "/code/asset/MM-Vet/v1_192.jpg",
         "question": "What is this disease (give short introduction) and how to treat it?"
     },
     "193": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_193.jpg",
+        "image": "/code/asset/MM-Vet/v1_193.jpg",
         "question": "What is this disease (give short introduction) and how to treat it?"
     },
     "194": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_194.jpg",
+        "image": "/code/asset/MM-Vet/v1_194.jpg",
         "question": "What is this disease (give short introduction) and how to treat it?"
     },
     "195": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_195.jpg",
+        "image": "/code/asset/MM-Vet/v1_195.jpg",
         "question": "What is this disease (give short introduction) and how to treat it?"
     },
     "196": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_196.jpg",
+        "image": "/code/asset/MM-Vet/v1_196.jpg",
         "question": "What is this disease (give short introduction) and how to treat it?"
     },
     "197": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_197.jpg",
+        "image": "/code/asset/MM-Vet/v1_197.jpg",
         "question": "What is this disease (give short introduction) and how to treat it?"
     },
     "198": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_198.jpg",
+        "image": "/code/asset/MM-Vet/v1_198.jpg",
         "question": "Can you give a short introduction to this person?"
     },
     "199": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_199.jpg",
+        "image": "/code/asset/MM-Vet/v1_199.jpg",
         "question": "Can you give a short introduction to this person?"
     },
     "200": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_200.jpg",
+        "image": "/code/asset/MM-Vet/v1_200.jpg",
         "question": "Can you give a short introduction to this person?"
     },
     "201": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_201.jpg",
+        "image": "/code/asset/MM-Vet/v1_201.jpg",
         "question": "Can you give a short introduction to this person?"
     },
     "202": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_202.jpg",
+        "image": "/code/asset/MM-Vet/v1_202.jpg",
         "question": "Can you give a short introduction to this person?"
     },
     "203": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_203.jpg",
+        "image": "/code/asset/MM-Vet/v1_203.jpg",
         "question": "Can you give a short introduction to this person?"
     },
     "204": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_204.jpg",
+        "image": "/code/asset/MM-Vet/v1_204.jpg",
         "question": "Can you give a short introduction to this person?"
     },
     "205": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_205.jpg",
+        "image": "/code/asset/MM-Vet/v1_205.jpg",
         "question": "Can you give a short introduction to this person?"
     },
     "206": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_206.jpg",
+        "image": "/code/asset/MM-Vet/v1_206.jpg",
         "question": "Can you give a short introduction to this person?"
     },
     "207": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_207.jpg",
+        "image": "/code/asset/MM-Vet/v1_207.jpg",
         "question": "Can you give a short introduction to this person?"
     },
     "208": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_208.png",
+        "image": "/code/asset/MM-Vet/v1_208.png",
         "question": "The graph below shows the long-term international migration, UK, 1999-2008.\n\nSummarize the information by selecting and reporting the main features, and make comparisons where relevant.\n\nYou should write at least 150 words."
     },
     "209": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_209.png",
+        "image": "/code/asset/MM-Vet/v1_209.png",
         "question": "The graph and table below give information about water use worldwide and water consumption in two different countries.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nYou should write at least 150 words."
     },
     "210": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_210.png",
+        "image": "/code/asset/MM-Vet/v1_210.png",
         "question": "The charts below give information about USA marriage and divorce rates between 1970 and 2000, and the marital status of adult Americans in two of the years.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nYou should write at least 150 words."
     },
     "211": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_211.png",
+        "image": "/code/asset/MM-Vet/v1_211.png",
         "question": "The chart below shows the amount spent on six consumer goods in four European countries.\n\nWrite a report for a university lecturer describing the information shown below.\n\nYou should write at least 150 words."
     },
     "212": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_212.png",
+        "image": "/code/asset/MM-Vet/v1_212.png",
         "question": "The table below gives information about the underground railway systems in six cities.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nYou should write at least 150 words."
     },
     "213": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_213.jpg",
+        "image": "/code/asset/MM-Vet/v1_213.jpg",
         "question": "The table below gives information on consumer spending on different items in five different countries in 2002.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nYou should write at least 150 words."
     },
     "214": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_214.png",
+        "image": "/code/asset/MM-Vet/v1_214.png",
         "question": "The pie charts below show units of electricity production by fuel source in Australia and France in 1980 and 2000.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nYou should write at least 150 words."
     },
     "215": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_215.jpg",
+        "image": "/code/asset/MM-Vet/v1_215.jpg",
         "question": "Chorleywood is a village near London whose population has increased steadily since the middle of the nineteenth century. The map below shows the development of the village.\n\nWrite a report for a university lecturer describing the development of the village. \n\nYou should write at least 150 words."
     },
     "216": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_216.png",
+        "image": "/code/asset/MM-Vet/v1_216.png",
         "question": "The map below is of the town of Garlsdon. A new supermarket (S) is planned for the town. The map shows two possible sites for the supermarket.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant. \n\nYou should write at least 150 words."
     },
     "217": {
-        "image": "/home/yifan/liangshuang/code/baseline/HiddenDetect/code/data/MM-Vet/v1_217.png",
+        "image": "/code/asset/MM-Vet/v1_217.png",
         "question": "The diagram below shows how the Australian Bureau of Meteorology collects up-to-the-minute information on the weather in order to produce reliable forecasts.\n\nWrite a report for a university lecturer describing the information shown below. \n\nYou should write at least 150 words."
     }
 }
