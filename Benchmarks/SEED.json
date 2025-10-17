@@ -1,0 +1,1602 @@
+{
+    "0": {
+        "question": "Where is the woman in the blue dress standing in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/264884_4056442036.png"
+    },
+    "1": {
+        "question": "Where is the woman located in the picture?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1046321_1756602567.png"
+    },
+    "2": {
+        "question": "Does anyone in the image appear to be singing?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2501784_2880235324.png"
+    },
+    "3": {
+        "question": "What color is the number on the jersey held by the baseball player in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/402398_973977373.png"
+    },
+    "4": {
+        "question": "How many instances of fireworks are detected in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1971975_999748309.png"
+    },
+    "5": {
+        "question": "In the image, what sport is being played?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/15793_2501015608.png"
+    },
+    "6": {
+        "question": "What can be said about the crowd in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2519087_255726225.png"
+    },
+    "7": {
+        "question": "What is the spatial relation between the flag and the building?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1032008_3707955894.png"
+    },
+    "8": {
+        "question": "What is the overall theme of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/612693_695768113.png"
+    },
+    "9": {
+        "question": "What can be inferred about the use of the space in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/328314_1784603386.png"
+    },
+    "10": {
+        "question": "What is unique about the cat's ears in this image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2827490_1855416106.png"
+    },
+    "11": {
+        "question": "What color are the kitchen cabinets in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2695939_3465811417.png"
+    },
+    "12": {
+        "question": "What is the primary color of the carpet in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2169337_4193764271.png"
+    },
+    "13": {
+        "question": "What type of event is taking place in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/376650_1050833297.png"
+    },
+    "14": {
+        "question": "What is the main event portrayed in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1536223_4099395284.png"
+    },
+    "15": {
+        "question": "What is the relative position of the person on stage and the microphone he is holding?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/379652_1912104749.png"
+    },
+    "16": {
+        "question": "What clothing item is worn by most of the people in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/352653_1679225484.png"
+    },
+    "17": {
+        "question": "What is the size and shape of the bush in the middle of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1230668_1180059975.png"
+    },
+    "18": {
+        "question": "What do the decorations on the cookies resemble?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/731056_1652008055.png"
+    },
+    "19": {
+        "question": "Which object is closest to the fireplace?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1238855_2995245895.png"
+    },
+    "20": {
+        "question": "What type of room is depicted in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2358356_3228509904.png"
+    },
+    "21": {
+        "question": "How many people are on stage in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/622966_4047783965.png"
+    },
+    "22": {
+        "question": "How many cars are in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2402701_2589722445.png"
+    },
+    "23": {
+        "question": "What is the predominant color of the truck in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2052763_1637009106.png"
+    },
+    "24": {
+        "question": "What is the color of the roof of the gazebo?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/189639_1184692429.png"
+    },
+    "25": {
+        "question": "What is the color of the clock on the tower?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/271055_3068433900.png"
+    },
+    "26": {
+        "question": "What is the relative position of the church and the building in this image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/288414_135929681.png"
+    },
+    "27": {
+        "question": "What color is the curtain in the background?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2916041_4197227131.png"
+    },
+    "28": {
+        "question": "What color is the woman's sweater in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/210380_1600016761.png"
+    },
+    "29": {
+        "question": "What is the primary object in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/593215_3151753069.png"
+    },
+    "30": {
+        "question": "How many people are shown in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1984377_26884970.png"
+    },
+    "31": {
+        "question": "What is the primary subject of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1006812_1439571395.png"
+    },
+    "32": {
+        "question": "What color is the woman's hair?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1065804_1130774501.png"
+    },
+    "33": {
+        "question": "What is the main subject of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/409480_2224053843.png"
+    },
+    "34": {
+        "question": "What is the man wearing who is smoking a pipe?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/207137_2964452812.png"
+    },
+    "35": {
+        "question": "What is the main object in this image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2044594_1908306686.png"
+    },
+    "36": {
+        "question": "What is the cat doing to the person's hand?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1487756_1030170921.png"
+    },
+    "37": {
+        "question": "What is the main subject in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/546695_207128425.png"
+    },
+    "38": {
+        "question": "What is the position of the people in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/172699_94588004.png"
+    },
+    "39": {
+        "question": "What is the position of the crowd in relation to the football game?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/31137_3937644058.png"
+    },
+    "40": {
+        "question": "What is the primary color of the flowers on the cake?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1726908_219578726.png"
+    },
+    "41": {
+        "question": "What color is the text in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2287922_3072284593.png"
+    },
+    "42": {
+        "question": "How many soccer players are visible in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1387236_1324354181.png"
+    },
+    "43": {
+        "question": "What is the primary source of lighting for the tennis court?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2935630_2180226009.png"
+    },
+    "44": {
+        "question": "What sport is being played in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/380790_840433008.png"
+    },
+    "45": {
+        "question": "How many visible instruments are there in the scene?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2167615_1061051137.png"
+    },
+    "46": {
+        "question": "What is the relative position between the train and the people on the platform?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2054579_2225292751.png"
+    },
+    "47": {
+        "question": "How many soccer players in blue and white uniforms are present in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2872620_940542182.png"
+    },
+    "48": {
+        "question": "How many horses can be seen in the black and white photographs?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/23740_859965611.png"
+    },
+    "49": {
+        "question": "How many musical instruments are on the stage?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1477099_830261739.png"
+    },
+    "50": {
+        "question": "In the given image, where is the chair made out of tree trunks and stumps located?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1359639_684808781.png"
+    },
+    "51": {
+        "question": "What is the main focus of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/381661_1015219008.png"
+    },
+    "52": {
+        "question": "How many people are in the crowd watching the performance?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/599492_3993771906.png"
+    },
+    "53": {
+        "question": "How many trees are there in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1555331_148998554.png"
+    },
+    "54": {
+        "question": "How many men are in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/19666_2980245962.png"
+    },
+    "55": {
+        "question": "How many windows are there in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/211014_516637768.png"
+    },
+    "56": {
+        "question": "What is the color of the tennis court?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2816304_3099407751.png"
+    },
+    "57": {
+        "question": "How many people are present in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/618334_1698185003.png"
+    },
+    "58": {
+        "question": "How many helmets can be seen in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1084426_3404716749.png"
+    },
+    "59": {
+        "question": "What is the main color of the Christmas presents under the tree in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/83880_358529346.png"
+    },
+    "60": {
+        "question": "What is the predominant hue of the objects in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/564757_388299504.png"
+    },
+    "61": {
+        "question": "What is the color of the shoes worn by the man in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/51776_379021333.png"
+    },
+    "62": {
+        "question": "What is the woman on the wall doing?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3085165_265641726.png"
+    },
+    "63": {
+        "question": "What is the color of the shoe worn by the person in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/564962_17115536.png"
+    },
+    "64": {
+        "question": "Is there any indication of a drum or drums present in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2167615_1061051137.png"
+    },
+    "65": {
+        "question": "What is the color of the hair closest to the woman's face?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/158475_475415924.png"
+    },
+    "66": {
+        "question": "How many objects in the image have blood on them?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1317300_2604497305.png"
+    },
+    "67": {
+        "question": "What is the main light color in the room?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1871401_615550957.png"
+    },
+    "68": {
+        "question": "What is the dominant color of the room in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2068770_1447401350.png"
+    },
+    "69": {
+        "question": "How many people are on the stage?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1373918_3394718782.png"
+    },
+    "70": {
+        "question": "How is the woman with blonde hair positioned in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2204370_2732528001.png"
+    },
+    "71": {
+        "question": "What would be a good next step for the workers after loading the pallets of wood onto the truck?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2879947_2236917369.png"
+    },
+    "72": {
+        "question": "Where is the bedside table located in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1235599_947365633.png"
+    },
+    "73": {
+        "question": "What color is the hoodie the man is wearing?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/242430_2726301332.png"
+    },
+    "74": {
+        "question": "What type of vehicle is visible in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2935630_2180226009.png"
+    },
+    "75": {
+        "question": "What accessory is the woman wearing on her wrist?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1828614_2790327796.png"
+    },
+    "76": {
+        "question": "What is the primary activity taking place in this image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1475736_949019007.png"
+    },
+    "77": {
+        "question": "What color are the curtains in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/258996_391204279.png"
+    },
+    "78": {
+        "question": "What type of building can be seen in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/322484_653441485.png"
+    },
+    "79": {
+        "question": "How many baseball players are in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/99214_2907991731.png"
+    },
+    "80": {
+        "question": "Which object in the image is old and painted?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1558573_4129758229.png"
+    },
+    "81": {
+        "question": "What color is the lamp shade in the living room?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/495904_3175914431.png"
+    },
+    "82": {
+        "question": "What type of hairstyle does the man with long hair have?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/504886_830373379.png"
+    },
+    "83": {
+        "question": "What is the predominant color in this image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/295042_2361411755.png"
+    },
+    "84": {
+        "question": "What could be the event happening in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/209814_3112708062.png"
+    },
+    "85": {
+        "question": "Considering the detected color of the water and sky, what type of weather would you presume for this day?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1184984_1870025222.png"
+    },
+    "86": {
+        "question": "How many windows can be seen in the tall white building in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1243347_695819207.png"
+    },
+    "87": {
+        "question": "Where is the blonde woman with curly hair sitting in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1684591_4064933764.png"
+    },
+    "88": {
+        "question": "What is the position of the Christmas tree in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/209928_2041106249.png"
+    },
+    "89": {
+        "question": "What type of art is visible on the side of the building?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1345815_4031020502.png"
+    },
+    "90": {
+        "question": "What is the color of the cloth in the basket?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3186996_2570689680.png"
+    },
+    "91": {
+        "question": "What unique attribute does the balding man have on his head?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2281144_1699058715.png"
+    },
+    "92": {
+        "question": "How many couches are present in the living room?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3052839_1088833569.png"
+    },
+    "93": {
+        "question": "What is the primary theme of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/337196_3978613424.png"
+    },
+    "94": {
+        "question": "What can be inferred from the presence of sunglasses in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/622966_4047783965.png"
+    },
+    "95": {
+        "question": "What object can be seen detected in the image, but is not a soccer player or part of the crowd?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2935668_668580227.png"
+    },
+    "96": {
+        "question": "What is the attribute detected on the person's arm?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2272148_4262882317.png"
+    },
+    "97": {
+        "question": "What could be the reason for some of the workers wearing blue gloves?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2587396_1656196672.png"
+    },
+    "98": {
+        "question": "What type of event is happening in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/183627_257443270.png"
+    },
+    "99": {
+        "question": "What is the color of the heart on the stick?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2523341_2064113026.png"
+    },
+    "100": {
+        "question": "What is the attribute detected for the microphone object?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/437816_313828853.png"
+    },
+    "101": {
+        "question": "How many people are visible in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/77304_3748774057.png"
+    },
+    "102": {
+        "question": "What type of furniture is mostly found in the room?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1824970_3609358988.png"
+    },
+    "103": {
+        "question": "Where is the man in a uniform positioned in the court in relation to the player with the ball?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/76506_264965645.png"
+    },
+    "104": {
+        "question": "What is the color of the woman's coat in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/317011_255823401.png"
+    },
+    "105": {
+        "question": "What is the position of the man with the guitar?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/480310_3921579606.png"
+    },
+    "106": {
+        "question": "What is the prominent pattern on the dress in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1812487_3257352173.png"
+    },
+    "107": {
+        "question": "What kind of object is in the foreground of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1475736_949019007.png"
+    },
+    "108": {
+        "question": "What is the shape of the umbrella seen in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2933058_1021767331.png"
+    },
+    "109": {
+        "question": "What is the predominant color in the landscape?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2437702_2260006373.png"
+    },
+    "110": {
+        "question": "What can be inferred about the mood of the individuals in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1378096_1673692596.png"
+    },
+    "111": {
+        "question": "How many objects have the attribute \"curled\"?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1594141_1229180937.png"
+    },
+    "112": {
+        "question": "What is the color of the player's shoes on the right side of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2002272_3588637842.png"
+    },
+    "113": {
+        "question": "What is the main drink visible in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/49750_778574483.png"
+    },
+    "114": {
+        "question": "What is the distance between the toilet and the sink in the bathroom?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2997261_95059808.png"
+    },
+    "115": {
+        "question": "What is the color of the straws?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/26354_431195030.png"
+    },
+    "116": {
+        "question": "What is the overall theme of this picture?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1279078_3334203074.png"
+    },
+    "117": {
+        "question": "What is the dominant color of the buildings in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/485964_153751274.png"
+    },
+    "118": {
+        "question": "How many watches are in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/26402_318571339.png"
+    },
+    "119": {
+        "question": "What color is the vest worn by the man standing on the right?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/229855_2715969228.png"
+    },
+    "120": {
+        "question": "How many plants are in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1255416_89423349.png"
+    },
+    "121": {
+        "question": "What is the ring color depicted in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/970542_1026317887.png"
+    },
+    "122": {
+        "question": "What is the color of the woman's sweater?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/400760_3913268409.png"
+    },
+    "123": {
+        "question": "What is the predominant color of the suit worn by the man on the basketball court?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1396353_1033933617.png"
+    },
+    "124": {
+        "question": "What kind of building can be seen in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/29591_3529589974.png"
+    },
+    "125": {
+        "question": "What is the gender of the person playing the musical instrument in the concert?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2672490_2589858445.png"
+    },
+    "126": {
+        "question": "What is the main theme of this image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2196834_1631827092.png"
+    },
+    "127": {
+        "question": "How many houses are in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/493226_2506907004.png"
+    },
+    "128": {
+        "question": "What is the shape of the desert on the table in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/129664_2832120937.png"
+    },
+    "129": {
+        "question": "How many cars are present in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/34846_1825721516.png"
+    },
+    "130": {
+        "question": "What is the color of the tablecloth on the table?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/504096_396107548.png"
+    },
+    "131": {
+        "question": "Is there a bird in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/87424_45550868.png"
+    },
+    "132": {
+        "question": "What is the most prominent natural element in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/134301_3315884898.png"
+    },
+    "133": {
+        "question": "What color is the bow on the teddy bear's sweater?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2184627_3560813047.png"
+    },
+    "134": {
+        "question": "How many men are present in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1931338_1189055551.png"
+    },
+    "135": {
+        "question": "What type of jacket is the woman wearing?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/88806_3817525898.png"
+    },
+    "136": {
+        "question": "What type of tree is in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/620946_4240679793.png"
+    },
+    "137": {
+        "question": "What is the individual in the center of the image doing?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/124115_131711027.png"
+    },
+    "138": {
+        "question": "What is the position of the women who are dancing together?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/171892_1185607901.png"
+    },
+    "139": {
+        "question": "What is the material of the walls in the bathroom?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/73855_170703498.png"
+    },
+    "140": {
+        "question": "Which statement about the girl's hair is true?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/914467_3203455891.png"
+    },
+    "141": {
+        "question": "What color is the shirt of the person playing the guitar?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1280814_2581793099.png"
+    },
+    "142": {
+        "question": "Is the tree in front of the house with leaves or without leaves?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/331421_381732639.png"
+    },
+    "143": {
+        "question": "What is the position of the person in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/483691_4156918401.png"
+    },
+    "144": {
+        "question": "What is the dominant object in the center of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/454521_3314095019.png"
+    },
+    "145": {
+        "question": "Where is the woman throwing confetti located?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/229855_2715969228.png"
+    },
+    "146": {
+        "question": "What are the workers carrying in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2786721_4274417030.png"
+    },
+    "147": {
+        "question": "What is the main focus of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/278974_39225003.png"
+    },
+    "148": {
+        "question": "How many vehicles are present in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2565342_3680691581.png"
+    },
+    "149": {
+        "question": "What is the predominant color of the clothing worn by the models on the runway?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1590008_849975754.png"
+    },
+    "150": {
+        "question": "What is the relationship between the guitar and the person on stage?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/898416_1646616397.png"
+    },
+    "151": {
+        "question": "What is the overall theme of this image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1573892_3521275815.png"
+    },
+    "152": {
+        "question": "Which object can be seen near the parked blue car?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2143537_3707587724.png"
+    },
+    "153": {
+        "question": "What is the color of the shirt worn by the man playing the guitar?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2977219_2893703148.png"
+    },
+    "154": {
+        "question": "Which of these objects in the image has a sign with text?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1501032_3570974850.png"
+    },
+    "155": {
+        "question": "What is the man's facial expression while playing the cello?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2125426_27717495.png"
+    },
+    "156": {
+        "question": "What is the color of the person's hair playing the musical instrument?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/151598_1982324633.png"
+    },
+    "157": {
+        "question": "How many portraits are in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1159206_124004897.png"
+    },
+    "158": {
+        "question": "How could the woman hold the apple?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/392015_1815786273.png"
+    },
+    "159": {
+        "question": "What is the main feature of the house in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3065059_3222714020.png"
+    },
+    "160": {
+        "question": "What additional item can be seen on the table aside from the beer bottle?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/76036_1147473840.png"
+    },
+    "161": {
+        "question": "What is the shape of the lamp shade in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1102791_4292619114.png"
+    },
+    "162": {
+        "question": "This image shows windmills on a hillside under a cloudy sky. What is the most likely purpose of the windmills?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2814242_216914128.png"
+    },
+    "163": {
+        "question": "What kind of light is shown in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/965784_4228340603.png"
+    },
+    "164": {
+        "question": "What is the man wearing in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2298653_2733959848.png"
+    },
+    "165": {
+        "question": "Where is the cricket player positioned in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/208378_3216410509.png"
+    },
+    "166": {
+        "question": "How many drums make up the drum set being played?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/517095_217451520.png"
+    },
+    "167": {
+        "question": "What is the woman wearing?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2869527_4202350111.png"
+    },
+    "168": {
+        "question": "Which object is located closest to the bottom of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2496676_4030033598.png"
+    },
+    "169": {
+        "question": "What is the color of the horse?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3193390_2352858503.png"
+    },
+    "170": {
+        "question": "Which object color combination can be found in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2082493_315220527.png"
+    },
+    "171": {
+        "question": "What is unique about the older man's face compared to the younger man?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/195410_3409825508.png"
+    },
+    "172": {
+        "question": "What is the prominent feature in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3059935_498309312.png"
+    },
+    "173": {
+        "question": "What is the article of clothing worn by the person in the image that has the attribute \"tan\" and \"long\"?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3212130_2889669646.png"
+    },
+    "174": {
+        "question": "What is the instrument being played by the person on stage?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1032534_161944688.png"
+    },
+    "175": {
+        "question": "What is on the table in the room?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/408708_697502139.png"
+    },
+    "176": {
+        "question": "What type of event is happening in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/99588_69164982.png"
+    },
+    "177": {
+        "question": "How many pictures are included in the scene?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1202646_3392689118.png"
+    },
+    "178": {
+        "question": "What is the relation between the man holding a video camera and the soccer game?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1009595_2764952812.png"
+    },
+    "179": {
+        "question": "How many people are singing into a microphone?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1462593_3156226401.png"
+    },
+    "180": {
+        "question": "What is the man wearing on his head?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/48733_409740246.png"
+    },
+    "181": {
+        "question": "What item appears multiple times in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/456408_1710131055.png"
+    },
+    "182": {
+        "question": "What color is the woman's shorts?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/24980_257541641.png"
+    },
+    "183": {
+        "question": "What type of building is present in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/70228_1259601721.png"
+    },
+    "184": {
+        "question": "What is the color of the horse on the left side of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3268470_789017952.png"
+    },
+    "185": {
+        "question": "What is the color of the building in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/152766_1135814113.png"
+    },
+    "186": {
+        "question": "Where is the person located in this image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/686537_3983530875.png"
+    },
+    "187": {
+        "question": "What is the season depicted in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2100124_2691270138.png"
+    },
+    "188": {
+        "question": "What is the relative position of the woman's hand and her neck?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1876648_2490126417.png"
+    },
+    "189": {
+        "question": "What is the color of the stuffed toy in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1997497_886111845.png"
+    },
+    "190": {
+        "question": "What is the relative position between the two girls in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/790209_1818106973.png"
+    },
+    "191": {
+        "question": "What is the primary feature of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2481429_3026700712.png"
+    },
+    "192": {
+        "question": "How many objects in the image have red hair?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1317300_2604497305.png"
+    },
+    "193": {
+        "question": "What is the color of the antlers on the cake?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1138010_3913302475.png"
+    },
+    "194": {
+        "question": "What is the main color of the sky in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1158837_2705123831.png"
+    },
+    "195": {
+        "question": "How many guitars are present in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3181813_3177506916.png"
+    },
+    "196": {
+        "question": "What is the view from the street in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3047627_2988423302.png"
+    },
+    "197": {
+        "question": "Why might the electrical outlet be near the countertop in the kitchen?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1129528_3304528695.png"
+    },
+    "198": {
+        "question": "How many people are on stage playing musical instruments?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/264388_3313325294.png"
+    },
+    "199": {
+        "question": "What is the position of the sink relative to the refrigerator?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/160790_1349572849.png"
+    },
+    "200": {
+        "question": "Where is the dining table positioned in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/121703_1804572733.png"
+    },
+    "201": {
+        "question": "What kind of event is taking place in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/229941_2290530646.png"
+    },
+    "202": {
+        "question": "What is placed on the coffee table in the living room?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2463944_3994716537.png"
+    },
+    "203": {
+        "question": "Which of the following objects is not present in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/184613_3865893828.png"
+    },
+    "204": {
+        "question": "What color is the chair in the living room?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2098703_2774053995.png"
+    },
+    "205": {
+        "question": "What is the event taking place in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/618334_1698185003.png"
+    },
+    "206": {
+        "question": "How many soccer players are present in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2377611_697980833.png"
+    },
+    "207": {
+        "question": "How many children are present in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/111201_3680150274.png"
+    },
+    "208": {
+        "question": "What is the color of the table visible in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3160524_2166899128.png"
+    },
+    "209": {
+        "question": "What type of event is taking place in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/43390_450240492.png"
+    },
+    "210": {
+        "question": "What is the view from the house's patio and balcony?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3065059_3222714020.png"
+    },
+    "211": {
+        "question": "How many people can be seen in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/342927_3302781452.png"
+    },
+    "212": {
+        "question": "What type of flooring does this living room have?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2846004_93024721.png"
+    },
+    "213": {
+        "question": "What color is the dress being worn by the model on the runway?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/201722_2862955900.png"
+    },
+    "214": {
+        "question": "What is the main activity happening on this street in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/380197_1208235606.png"
+    },
+    "215": {
+        "question": "How many dancers are in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/314240_489169013.png"
+    },
+    "216": {
+        "question": "Which of the following describes the color scheme of this kitchen's main elements?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1743539_1010698877.png"
+    },
+    "217": {
+        "question": "Where are the strawberries located?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2025952_1125534516.png"
+    },
+    "218": {
+        "question": "How many books can be seen in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3071242_482782716.png"
+    },
+    "219": {
+        "question": "What color is the couch in the living room?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2310906_918695477.png"
+    },
+    "220": {
+        "question": "What is the relation between the people and the water in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1605996_2518745693.png"
+    },
+    "221": {
+        "question": "Which accessory is the woman walking down the runway wearing?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/59997_1181448752.png"
+    },
+    "222": {
+        "question": "What is the color of the number visible in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/192346_1225804031.png"
+    },
+    "223": {
+        "question": "Which of the following objects is not described in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2373043_2832861262.png"
+    },
+    "224": {
+        "question": "What is the dominant color of the image besides white?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2480046_3998775964.png"
+    },
+    "225": {
+        "question": "What is the color of the dog in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2320796_2542842685.png"
+    },
+    "226": {
+        "question": "What is the dominant color of the scenery in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/336283_584381383.png"
+    },
+    "227": {
+        "question": "How many people are playing musical instruments on stage?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/137288_871967385.png"
+    },
+    "228": {
+        "question": "What color are the shoes of the soccer player lifting the trophy?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2495407_712194774.png"
+    },
+    "229": {
+        "question": "How many guitarists are present on stage?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/273203_1031436120.png"
+    },
+    "230": {
+        "question": "What is the main object present in the foreground of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/500034_4177959752.png"
+    },
+    "231": {
+        "question": "What color is the sign?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/806928_1822313864.png"
+    },
+    "232": {
+        "question": "What is the dominant color of the flowers in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/609786_1613100351.png"
+    },
+    "233": {
+        "question": "What is the scene depicted in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2771671_836939803.png"
+    },
+    "234": {
+        "question": "What is the prominent color of the desert landscape in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/20391_1231492684.png"
+    },
+    "235": {
+        "question": "What is the predominant color of the shirt worn by the person carrying a crate on their head?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/19231_3251637765.png"
+    },
+    "236": {
+        "question": "What color is the sign present in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2168503_3276426154.png"
+    },
+    "237": {
+        "question": "What sport is being played in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/255082_3029200165.png"
+    },
+    "238": {
+        "question": "Which player in the image is bleeding from the face?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/150198_977622526.png"
+    },
+    "239": {
+        "question": "Which object in the image appears the most times?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1120141_3652181649.png"
+    },
+    "240": {
+        "question": "Where is the guitar located?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/366769_1955559565.png"
+    },
+    "241": {
+        "question": "What is the overall theme of this image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/219069_603186282.png"
+    },
+    "242": {
+        "question": "Where is the laptop in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/649302_1947716241.png"
+    },
+    "243": {
+        "question": "Where is the person's hand in relation to the diamond ring?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/970542_1026317887.png"
+    },
+    "244": {
+        "question": "What can be said about the position of the people in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2501784_2880235324.png"
+    },
+    "245": {
+        "question": "How many people are in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3247419_1938120927.png"
+    },
+    "246": {
+        "question": "Which type of street can be mostly seen in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/97497_1977120227.png"
+    },
+    "247": {
+        "question": "How many instruments can be seen in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/769836_3357014702.png"
+    },
+    "248": {
+        "question": "What is the predominant color of the drum detected in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1275077_2094679082.png"
+    },
+    "249": {
+        "question": "Can a license plate be seen in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2561290_772061767.png"
+    },
+    "250": {
+        "question": "How many people are standing on the carpet in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/122496_1342642440.png"
+    },
+    "251": {
+        "question": "How many shelves are in the room?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2544534_1886087782.png"
+    },
+    "252": {
+        "question": "What color is the roof of the building?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2472813_4135892368.png"
+    },
+    "253": {
+        "question": "Which of the following animals is present in this image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2313841_1396470423.png"
+    },
+    "254": {
+        "question": "How many people are on stage in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/319353_3357112430.png"
+    },
+    "255": {
+        "question": "What is the dominant color of the writing on the orange background?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/995026_566435898.png"
+    },
+    "256": {
+        "question": "What is the woman in the image doing?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1443033_1526147066.png"
+    },
+    "257": {
+        "question": "What is the predominant color in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/919602_2364493689.png"
+    },
+    "258": {
+        "question": "What is the color of the sand on the beach?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/9983_658064439.png"
+    },
+    "259": {
+        "question": "What color is the wooden spoon in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3198397_1559207725.png"
+    },
+    "260": {
+        "question": "Where is the wicker chair located in the living room?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/871099_2867519483.png"
+    },
+    "261": {
+        "question": "What color are the man's shoes?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/379392_1551194377.png"
+    },
+    "262": {
+        "question": "What is the relation between a man and a bottle in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/197873_2409938248.png"
+    },
+    "263": {
+        "question": "What is the position of the white couch relative to the glass coffee table?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1016620_2794287931.png"
+    },
+    "264": {
+        "question": "What color are the sneakers in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2150798_3303425921.png"
+    },
+    "265": {
+        "question": "How many women are posing in the room in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/21729_485299802.png"
+    },
+    "266": {
+        "question": "What is the dominant object in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1943156_3637620613.png"
+    },
+    "267": {
+        "question": "How many individuals are on the field?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2164365_1607735009.png"
+    },
+    "268": {
+        "question": "What is the predominant color of the boots worn by the person sitting in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/13947_1692452205.png"
+    },
+    "269": {
+        "question": "What can you infer about the atmosphere and cleanliness of the room?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2221868_1650454788.png"
+    },
+    "270": {
+        "question": "What is the gender of the person playing the guitar?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1176315_4172033357.png"
+    },
+    "271": {
+        "question": "Where is the clock tower located in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/771143_1211304432.png"
+    },
+    "272": {
+        "question": "Where is the woman in relation to the black metal fence?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/474848_3180434502.png"
+    },
+    "273": {
+        "question": "How many kayaks are on the water in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/702162_3779058276.png"
+    },
+    "274": {
+        "question": "How many people are in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/705432_4011423603.png"
+    },
+    "275": {
+        "question": "What is the person wearing a white skirt doing in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1570332_2368730310.png"
+    },
+    "276": {
+        "question": "What is the color of the gloves being worn by the individual in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/400184_310369243.png"
+    },
+    "277": {
+        "question": "What color is the man's beard in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/56101_4176570525.png"
+    },
+    "278": {
+        "question": "What color are the curtains on the window?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2580850_3948245134.png"
+    },
+    "279": {
+        "question": "What is the color of the fence in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/10519_3569346457.png"
+    },
+    "280": {
+        "question": "What is the relative position of the two framed pictures in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/502163_4165423738.png"
+    },
+    "281": {
+        "question": "How many soccer players are visible in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/241991_3607308100.png"
+    },
+    "282": {
+        "question": "Which of the following objects is closest to the painted line on the ground?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/685587_2425951007.png"
+    },
+    "283": {
+        "question": "What is the man wearing in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/126386_3151267015.png"
+    },
+    "284": {
+        "question": "What object is in the center of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/236858_2698451907.png"
+    },
+    "285": {
+        "question": "What color is the fence in the park image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/329668_666880096.png"
+    },
+    "286": {
+        "question": "What is the overall theme of the picture?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1948519_2999147481.png"
+    },
+    "287": {
+        "question": "How many faces are visible in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/685587_2425951007.png"
+    },
+    "288": {
+        "question": "What is the occasion in this image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/501960_3252329609.png"
+    },
+    "289": {
+        "question": "What is the weather like in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/401232_4010279011.png"
+    },
+    "290": {
+        "question": "What is the event in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/334244_1117838623.png"
+    },
+    "291": {
+        "question": "What is the position of the blue box on the shelf in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/150900_902961864.png"
+    },
+    "292": {
+        "question": "What is the relative position of the fence to the tree?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2291066_33498216.png"
+    },
+    "293": {
+        "question": "What are the vegetables on the tray in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/71318_3709312811.png"
+    },
+    "294": {
+        "question": "What is the predominant color of the \"glass, blue, white\" object in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/25225_3336837641.png"
+    },
+    "295": {
+        "question": "What is the mood of the crowd in this image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/599492_3993771906.png"
+    },
+    "296": {
+        "question": "What is the main focus of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1545370_1880656460.png"
+    },
+    "297": {
+        "question": "What is the predominant color of the man's shirt in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2007522_946812234.png"
+    },
+    "298": {
+        "question": "Which attribute describes the grass in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2183407_1969508587.png"
+    },
+    "299": {
+        "question": "What is on the wall above the bed closest to the window?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/236028_1116863820.png"
+    },
+    "300": {
+        "question": "What is the color of the door on the stone building?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/235313_1132101034.png"
+    },
+    "301": {
+        "question": "What is the shape of the table in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1887858_1770623542.png"
+    },
+    "302": {
+        "question": "What is the main focus of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/198704_2219075212.png"
+    },
+    "303": {
+        "question": "What time of day is it in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/200176_1540028381.png"
+    },
+    "304": {
+        "question": "What is the predominant color in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/258996_391204279.png"
+    },
+    "305": {
+        "question": "Is there a microphone visible in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/849871_764762961.png"
+    },
+    "306": {
+        "question": "What object is the man holding in front of the debris?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2882766_2875162661.png"
+    },
+    "307": {
+        "question": "How many pictures appear in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/455506_2338193502.png"
+    },
+    "308": {
+        "question": "What is the main object in the living room?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/576586_3273124448.png"
+    },
+    "309": {
+        "question": "What is the weather like in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/120844_2498856081.png"
+    },
+    "310": {
+        "question": "What is the color of the sand in the picture?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/360819_260549257.png"
+    },
+    "311": {
+        "question": "What color is the man's shirt in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2542851_2035055523.png"
+    },
+    "312": {
+        "question": "Which of the following objects have been detected multiple times in attribute detections?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/18386_1704503727.png"
+    },
+    "313": {
+        "question": "Considering the presence of a swimming pool and engaged audience, what can you infer about this baseball stadium?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/348759_1591303514.png"
+    },
+    "314": {
+        "question": "What is the weather like in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/719349_2777881927.png"
+    },
+    "315": {
+        "question": "What is the predominant color of the taxi cab in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3050498_756654754.png"
+    },
+    "316": {
+        "question": "Which object is in the center of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2683394_1856167309.png"
+    },
+    "317": {
+        "question": "What color is the rug on the floor?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/288864_3983620076.png"
+    },
+    "318": {
+        "question": "What object can be seen on the metal bench?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1554989_1934106446.png"
+    },
+    "319": {
+        "question": "What color is the uniform of the football player with the ball?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1397180_824376680.png"
+    },
+    "320": {
+        "question": "How many men are present in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/191904_4170697732.png"
+    },
+    "321": {
+        "question": "What is the main feature of this image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/91383_1380171959.png"
+    },
+    "322": {
+        "question": "What type of event is represented in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/158687_399570702.png"
+    },
+    "323": {
+        "question": "How many seagulls are present in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2139199_3816112765.png"
+    },
+    "324": {
+        "question": "What is the shape of the archway?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/464142_1664711860.png"
+    },
+    "325": {
+        "question": "What type of room is presented in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2696943_2237878024.png"
+    },
+    "326": {
+        "question": "On what object is the man wearing sunglasses focused?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/622966_4047783965.png"
+    },
+    "327": {
+        "question": "Which object is in the foreground of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/330830_2028200515.png"
+    },
+    "328": {
+        "question": "How many light fixtures are in the room?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3036827_1824027929.png"
+    },
+    "329": {
+        "question": "What is the relative position of the people to the flooded house?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2707108_1804936945.png"
+    },
+    "330": {
+        "question": "What is the color of the refrigerator in the kitchen?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/433071_4049413723.png"
+    },
+    "331": {
+        "question": "What color is the belt worn by the man?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/269667_1949800406.png"
+    },
+    "332": {
+        "question": "How many people are in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1697693_3019009640.png"
+    },
+    "333": {
+        "question": "What is the general atmosphere of the scene?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2425047_596779091.png"
+    },
+    "334": {
+        "question": "Is the soccer ball currently being kicked by any of the players in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1068162_1166501501.png"
+    },
+    "335": {
+        "question": "What is the shape of the room's ceiling?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1307945_2333396524.png"
+    },
+    "336": {
+        "question": "Where is the largest object in the image located?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1271228_1585184901.png"
+    },
+    "337": {
+        "question": "Are there any people present in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/479293_1836408442.png"
+    },
+    "338": {
+        "question": "What kind of instrument is on the left side of the stage in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2327064_1936275855.png"
+    },
+    "339": {
+        "question": "What is present on the corner of the road in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/236683_884382604.png"
+    },
+    "340": {
+        "question": "What is the color of the car parked on the street in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1242133_2393005769.png"
+    },
+    "341": {
+        "question": "What type of sculpture is in the museum?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/203194_3148545197.png"
+    },
+    "342": {
+        "question": "What is the overall theme of the picture?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3277588_1530323341.png"
+    },
+    "343": {
+        "question": "What is the primary object being played by the musicians in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2785991_1376589067.png"
+    },
+    "344": {
+        "question": "What is the color of the guitar being played on stage?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/134333_2110562854.png"
+    },
+    "345": {
+        "question": "What is the material of the shower in the bathroom?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/516291_2911630354.png"
+    },
+    "346": {
+        "question": "How can the color of the floor be described?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/98584_2529921582.png"
+    },
+    "347": {
+        "question": "What is the predominant color of the microphone?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1250354_172414958.png"
+    },
+    "348": {
+        "question": "What is the overall theme of this image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/306461_1129323728.png"
+    },
+    "349": {
+        "question": "What is the position of the person wearing a blue shirt in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/49185_3669893101.png"
+    },
+    "350": {
+        "question": "What is the woman's mouth doing in the picture?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2680366_1162699701.png"
+    },
+    "351": {
+        "question": "What is the main focus of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1127569_3895763118.png"
+    },
+    "352": {
+        "question": "What is the person in the image doing?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/400184_310369243.png"
+    },
+    "353": {
+        "question": "What is the color of the woman's hair in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/398018_3702302373.png"
+    },
+    "354": {
+        "question": "How many people are walking out of the building in formal attire in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1302012_327324629.png"
+    },
+    "355": {
+        "question": "What is the color of the shirt worn by the coach?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1387236_1324354181.png"
+    },
+    "356": {
+        "question": "How many people are in the street in the background?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/375651_2266355886.png"
+    },
+    "357": {
+        "question": "What is the position of the woman on the left?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/105841_1067147049.png"
+    },
+    "358": {
+        "question": "How is the window in the room decorated?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1961615_3342769037.png"
+    },
+    "359": {
+        "question": "What is happening in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/428227_4130417527.png"
+    },
+    "360": {
+        "question": "What is the color of the fork?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2366025_3882793638.png"
+    },
+    "361": {
+        "question": "How many people are in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/423564_2370899926.png"
+    },
+    "362": {
+        "question": "What is the primary object in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2204370_2732528001.png"
+    },
+    "363": {
+        "question": "How many people are sitting at the table?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1122262_2783124748.png"
+    },
+    "364": {
+        "question": "What is the main color scheme of this image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1394997_1996249376.png"
+    },
+    "365": {
+        "question": "What is the color of the jacket worn by the man?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/379652_1912104749.png"
+    },
+    "366": {
+        "question": "How many candles are on the table?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1572470_2953626211.png"
+    },
+    "367": {
+        "question": "In the image, what appears to be going down the drain?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/3046960_3562101152.png"
+    },
+    "368": {
+        "question": "Why might a person on the sidelines be described as \"blurry\"?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2509673_510608952.png"
+    },
+    "369": {
+        "question": "If someone were to sit down in one of the chairs, what would be directly in front of them in the hot tub?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/716339_267726056.png"
+    },
+    "370": {
+        "question": "What are most people doing in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/19231_3251637765.png"
+    },
+    "371": {
+        "question": "Where is the green plant with yellow flowers located in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2155868_2951732249.png"
+    },
+    "372": {
+        "question": "How many horses are depicted in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/974608_2672765352.png"
+    },
+    "373": {
+        "question": "What color is the flower seen in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/67403_4206170155.png"
+    },
+    "374": {
+        "question": "What is the relation between the building and the grass in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/264166_2764211493.png"
+    },
+    "375": {
+        "question": "How many pillows are on the bed?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/91940_1067687311.png"
+    },
+    "376": {
+        "question": "What is the most prominent object in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/322785_1807720710.png"
+    },
+    "377": {
+        "question": "What color is the woman's dress in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/465845_2381399086.png"
+    },
+    "378": {
+        "question": "What is the atmosphere of the scene in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/471675_3908459363.png"
+    },
+    "379": {
+        "question": "What is the primary view outside the windows in the room?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/473547_2739069240.png"
+    },
+    "380": {
+        "question": "What is the scene in the image most likely depicting?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1631688_297322396.png"
+    },
+    "381": {
+        "question": "How many women are in this image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/247322_1644663376.png"
+    },
+    "382": {
+        "question": "What is the main purpose of the table in this image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1653726_2602759262.png"
+    },
+    "383": {
+        "question": "How many people are playing musical instruments on the stage?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2961213_3769374366.png"
+    },
+    "384": {
+        "question": "Where are the two tampa bay buccaneers players positioned in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2414710_3824965896.png"
+    },
+    "385": {
+        "question": "How many drums are in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1064268_2511604534.png"
+    },
+    "386": {
+        "question": "What is the dominant color in the living room?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/491751_2851766447.png"
+    },
+    "387": {
+        "question": "Which furniture item is in the center of the room?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2827705_1048825550.png"
+    },
+    "388": {
+        "question": "What is the shape of the window in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2143537_3707587724.png"
+    },
+    "389": {
+        "question": "What color is the person's shirt in the background?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/148037_987102625.png"
+    },
+    "390": {
+        "question": "How many people are in the picture?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2993299_3430298093.png"
+    },
+    "391": {
+        "question": "Which of the following options accurately describes the object in the forefront of the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/96863_2863892400.png"
+    },
+    "392": {
+        "question": "What is the weather like in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/1919280_1057687394.png"
+    },
+    "393": {
+        "question": "What object dominates the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2192980_3824642326.png"
+    },
+    "394": {
+        "question": "What is the relative position of the spatula to the stack of plates?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/479795_1677233215.png"
+    },
+    "395": {
+        "question": "What can be inferred about the weather conditions in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/176094_1171867620.png"
+    },
+    "396": {
+        "question": "How many chairs are present in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/2702291_777217208.png"
+    },
+    "397": {
+        "question": "Why might the boy have his face painted blue and be sitting in a tree?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/244344_156856390.png"
+    },
+    "398": {
+        "question": "What is the predominant color of the shoes worn by the woman in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/395608_4212609536.png"
+    },
+    "399": {
+        "question": "What is the most prominent object in the image?",
+        "image": "asset/adversarial_images/SEED-Bench/SEED-Bench-image/393591_4213918063.png"
+    }
+}

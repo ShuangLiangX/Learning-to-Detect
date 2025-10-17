@@ -1,0 +1,758 @@
+{
+  "0": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/1.jpg"
+  },
+  "1": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/2.jpg"
+  },
+  "2": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/3.jpg"
+  },
+  "3": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/4.jpg"
+  },
+  "4": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/5.jpg"
+  },
+  "5": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/6.jpg"
+  },
+  "6": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/7.jpg"
+  },
+  "7": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/8.jpg"
+  },
+  "8": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/9.jpg"
+  },
+  "9": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/10.jpg"
+  },
+  "10": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/11.jpg"
+  },
+  "11": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/12.jpg"
+  },
+  "12": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/13.jpg"
+  },
+  "13": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/14.jpg"
+  },
+  "14": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/15.jpg"
+  },
+  "15": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/16.jpg"
+  },
+  "16": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/17.jpg"
+  },
+  "17": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/18.jpg"
+  },
+  "18": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/19.jpg"
+  },
+  "19": {
+    "question": "What is the total value of the chips shown in the image",
+    "image": "asset/adversarial_images/MOAT/images/chips/20.jpg"
+  },
+  "20": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/1.png"
+  },
+  "21": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/2.png"
+  },
+  "22": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/3.png"
+  },
+  "23": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/4.png"
+  },
+  "24": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/5.png"
+  },
+  "25": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/6.png"
+  },
+  "26": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/7.png"
+  },
+  "27": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/8.png"
+  },
+  "28": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/9.png"
+  },
+  "29": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/10.png"
+  },
+  "30": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/11.png"
+  },
+  "31": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/12.png"
+  },
+  "32": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/13.png"
+  },
+  "33": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/14.png"
+  },
+  "34": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/15.png"
+  },
+  "35": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/16.png"
+  },
+  "36": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/17.png"
+  },
+  "37": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/18.png"
+  },
+  "38": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/19.png"
+  },
+  "39": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/20.png"
+  },
+  "40": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/21.png"
+  },
+  "41": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/22.png"
+  },
+  "42": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/23.png"
+  },
+  "43": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/24.png"
+  },
+  "44": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/25.png"
+  },
+  "45": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/26.png"
+  },
+  "46": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/27.png"
+  },
+  "47": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/28.png"
+  },
+  "48": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/29.png"
+  },
+  "49": {
+    "question": "Which city is this streetview image from?",
+    "image": "asset/adversarial_images/MOAT/images/geoguessr/30.png"
+  },
+  "50": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/1.png"
+  },
+  "51": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/2.png"
+  },
+  "52": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/3.png"
+  },
+  "53": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/4.png"
+  },
+  "54": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/5.png"
+  },
+  "55": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/6.png"
+  },
+  "56": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/7.png"
+  },
+  "57": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/8.png"
+  },
+  "58": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/9.png"
+  },
+  "59": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/10.png"
+  },
+  "60": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/11.png"
+  },
+  "61": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/12.png"
+  },
+  "62": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/13.png"
+  },
+  "63": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/14.png"
+  },
+  "64": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/15.png"
+  },
+  "65": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/16.png"
+  },
+  "66": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/17.png"
+  },
+  "67": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/18.png"
+  },
+  "68": {
+    "question": "Which type of Antarctic orca is shown in the image? Type B1 and type B2 are both considered Type B in this question.",
+    "image": "asset/adversarial_images/MOAT/images/orca/19.png"
+  },
+  "69": {
+    "question": "For a person heading to Narita Airport (成田空港), which way should they go?",
+    "image": "asset/adversarial_images/MOAT/images/stations_jp_1/1.png"
+  },
+  "70": {
+    "question": "For a person heading to Narita Airport (成田空港), which way should they go?",
+    "image": "asset/adversarial_images/MOAT/images/stations_jp_1/2.png"
+  },
+  "71": {
+    "question": "For a person heading to the Fushimi Inari Shrine (伏見稲荷大社), which way should they go?",
+    "image": "asset/adversarial_images/MOAT/images/stations_jp_1/3.png"
+  },
+  "72": {
+    "question": "For a person heading to Narita Airport (成田空港), which way should they go?",
+    "image": "asset/adversarial_images/MOAT/images/stations_jp_1/4.png"
+  },
+  "73": {
+    "question": "For a wheelchair user heading to Wakayama (和歌山), which way should they go?",
+    "image": "asset/adversarial_images/MOAT/images/stations_jp_1/5.png"
+  },
+  "74": {
+    "question": "For a wheelchair user heading to Shikoku (四国), which way should they go?",
+    "image": "asset/adversarial_images/MOAT/images/stations_jp_1/6.png"
+  },
+  "75": {
+    "question": "For a person heading to Kansai Airport (関西空港), which way should they go?",
+    "image": "asset/adversarial_images/MOAT/images/stations_jp_1/7.png"
+  },
+  "76": {
+    "question": "For a person heading to Haneda Airport (羽田空港), which way should they go?",
+    "image": "asset/adversarial_images/MOAT/images/stations_jp_1/8.png"
+  },
+  "77": {
+    "question": "For a wheelchair user heading to Narita Airport (成田空港), which way should they go?",
+    "image": "asset/adversarial_images/MOAT/images/stations_jp_1/9.png"
+  },
+  "78": {
+    "question": "For a person heading to Narita Airport (成田空港), which way should they go?",
+    "image": "asset/adversarial_images/MOAT/images/stations_jp_1/10.png"
+  },
+  "79": {
+    "question": "For a person heading to Kansai Airport (関西空港), which way should they go?",
+    "image": "asset/adversarial_images/MOAT/images/stations_jp_1/11.png"
+  },
+  "80": {
+    "question": "For a wheelchair user heading to Tokyo Skytree (東京スカイツリー), which way should they go?",
+    "image": "asset/adversarial_images/MOAT/images/stations_jp_1/12.png"
+  },
+  "81": {
+    "question": "For a person heading to Kansai Airport (関西空港), which way should they go?",
+    "image": "asset/adversarial_images/MOAT/images/stations_jp_1/13.png"
+  },
+  "82": {
+    "question": "A person is following the directions shown in image 1. They are currently at Akihabara Station, and image 2 is their first person view. Which way should they go?",
+    "image": "asset/adversarial_images/MOAT/merge/82.png"
+  },
+  "83": {
+    "question": "A person is following the directions shown in image 1. They are currently at Shimbashi Station, and image 2 is their first person view. Which way should they go?",
+    "image": "asset/adversarial_images/MOAT/merge/83.png"
+  },
+  "84": {
+    "question": "A person is following the directions shown in image 1. They are currently at Shinagawa Station, and image 2 is their first person view. Which way should they go?",
+    "image": "asset/adversarial_images/MOAT/merge/84.png"
+  },
+  "85": {
+    "question": "A person is following the directions shown in image 1. They are currently at Otemachi Station, and image 2 is their first person view. Which way should they go?",
+    "image": "asset/adversarial_images/MOAT/merge/85.png"
+  },
+  "86": {
+    "question": "A person is following the directions shown in image 1. They are currently at Osaka Umeda Station, and image 2 is their first person view. Which way should they go?",
+    "image": "asset/adversarial_images/MOAT/merge/86.png"
+  },
+  "87": {
+    "question": "A person is following the directions shown in image 1. They are currently at Shin-Osaka Station, and image 2 is their first person view. Which way should they go?",
+    "image": "asset/adversarial_images/MOAT/merge/87.png"
+  },
+  "88": {
+    "question": "A person is following the directions shown in image 1. They are currently at Kyoto Station, and image 2 is their first person view. Which way should they go?",
+    "image": "asset/adversarial_images/MOAT/merge/88.png"
+  },
+  "89": {
+    "question": "A person is following the directions shown in image 1. They are currently at Tennoji Station, and image 2 is their first person view. Which way should they go?",
+    "image": "asset/adversarial_images/MOAT/merge/89.png"
+  },
+  "90": {
+    "question": "A wheelchair user is following the directions shown in image 1. They are currently at Tokyo Station, and image 2 is their first person view. Which way should they go?",
+    "image": "asset/adversarial_images/MOAT/merge/90.png"
+  },
+  "91": {
+    "question": "A wheelchair user is following the directions shown in image 1. They are currently at Shinjuku Station, and image 2 is their first person view. Which way should they go?",
+    "image": "asset/adversarial_images/MOAT/merge/91.png"
+  },
+  "92": {
+    "question": "A person is following the directions shown in image 1. They are currently at Osaka Station, and image 2 is their first person view. Which way should they go?",
+    "image": "asset/adversarial_images/MOAT/merge/92.png"
+  },
+  "93": {
+    "question": "A person is following the directions shown in image 1. They are currently at Osaka Station, and image 2 is their first person view. Which way should they go?",
+    "image": "asset/adversarial_images/MOAT/merge/93.png"
+  },
+  "94": {
+    "question": "A person is following the directions shown in image 1. They are currently at Kyoto Station, and image 2 is their first person view. Which way should they go?",
+    "image": "asset/adversarial_images/MOAT/merge/94.png"
+  },
+  "95": {
+    "question": "A person is following the directions shown in image 1. They are currently at Ueno Station, and image 2 is their first person view. Which way should they go?",
+    "image": "asset/adversarial_images/MOAT/merge/95.png"
+  },
+  "96": {
+    "question": "A person is following the directions shown in image 1. They are currently at Ueno Station, and image 2 is their first person view. Which way should they go?",
+    "image": "asset/adversarial_images/MOAT/merge/96.png"
+  },
+  "97": {
+    "question": "What is the total score of the 5 arrows on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_archery/1.jpg"
+  },
+  "98": {
+    "question": "What is the total score of the 8 arrows on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_archery/2.jpg"
+  },
+  "99": {
+    "question": "What is the total score of the 8 arrows on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_archery/3.jpg"
+  },
+  "100": {
+    "question": "What is the total score of the 7 arrows on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_archery/4.jpg"
+  },
+  "101": {
+    "question": "What is the total score of the 6 arrows on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_archery/5.jpg"
+  },
+  "102": {
+    "question": "What is the total score of the 6 arrows on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_archery/6.jpg"
+  },
+  "103": {
+    "question": "What is the total score of the 6 arrows on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_archery/7.jpg"
+  },
+  "104": {
+    "question": "What is the total score of the 6 arrows on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_archery/8.jpg"
+  },
+  "105": {
+    "question": "What is the total score of the 6 arrows on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_archery/9.jpg"
+  },
+  "106": {
+    "question": "What is the total score of the 6 arrows on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_archery/10.jpg"
+  },
+  "107": {
+    "question": "What is the total score of the 6 arrows on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_archery/11.jpg"
+  },
+  "108": {
+    "question": "What is the total score of the 6 arrows on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_archery/12.jpg"
+  },
+  "109": {
+    "question": "How many hydrogen atoms are there in this molecule?",
+    "image": "asset/adversarial_images/MOAT/images/organic_chemistry_1/1.png"
+  },
+  "110": {
+    "question": "How many carbon atoms are there in this molecule?",
+    "image": "asset/adversarial_images/MOAT/images/organic_chemistry_1/2.png"
+  },
+  "111": {
+    "question": "How many hydrogen atoms are there in this molecule?",
+    "image": "asset/adversarial_images/MOAT/images/organic_chemistry_1/3.png"
+  },
+  "112": {
+    "question": "How many double bounds are there in this molecule?",
+    "image": "asset/adversarial_images/MOAT/images/organic_chemistry_1/4.png"
+  },
+  "113": {
+    "question": "How many hydrogen atoms are there in this molecule?",
+    "image": "asset/adversarial_images/MOAT/images/organic_chemistry_1/5.png"
+  },
+  "114": {
+    "question": "How many hydrogen atoms are there in this molecule?",
+    "image": "asset/adversarial_images/MOAT/images/organic_chemistry_1/6.png"
+  },
+  "115": {
+    "question": "How many carbon atoms are there in this molecule?",
+    "image": "asset/adversarial_images/MOAT/images/organic_chemistry_1/7.png"
+  },
+  "116": {
+    "question": "Is this molecule structurally stressed?",
+    "image": "asset/adversarial_images/MOAT/images/organic_chemistry_1/8.png"
+  },
+  "117": {
+    "question": "How many hydrogen atoms are there in this molecule?",
+    "image": "asset/adversarial_images/MOAT/images/organic_chemistry_1/9.png"
+  },
+  "118": {
+    "question": "How many hydrogen atoms are there in this molecule?",
+    "image": "asset/adversarial_images/MOAT/images/organic_chemistry_1/10.png"
+  },
+  "119": {
+    "question": "How many bonds between atoms of the same element (e.g. carbon-carbon bonds, oxygen-oxygen bonds, etc.) are there in this molecule?",
+    "image": "asset/adversarial_images/MOAT/images/organic_chemistry_1/11.png"
+  },
+  "120": {
+    "question": "How many double bonds are there in this molecule?",
+    "image": "asset/adversarial_images/MOAT/images/organic_chemistry_1/12.png"
+  },
+  "121": {
+    "question": "How many carbon-nitrogen double bonds are there in this molecule?",
+    "image": "asset/adversarial_images/MOAT/images/organic_chemistry_1/13.png"
+  },
+  "122": {
+    "question": "How many carbon atoms are there in this molecule?",
+    "image": "asset/adversarial_images/MOAT/images/organic_chemistry_1/14.png"
+  },
+  "123": {
+    "question": "How many hydrogen atoms are there in this molecule?",
+    "image": "asset/adversarial_images/MOAT/images/organic_chemistry_1/15.png"
+  },
+  "124": {
+    "question": "Are the molecules shown in image 1 and image 2 the same, or are they different compounds?",
+    "image": "asset/adversarial_images/MOAT/merge/124.png"
+  },
+  "125": {
+    "question": "Are the molecules shown in image 1 and image 2 the same, or are they different compounds?",
+    "image": "asset/adversarial_images/MOAT/merge/125.png"
+  },
+  "126": {
+    "question": "Are the molecules shown in image 1 and image 2 the same, or are they different compounds?",
+    "image": "asset/adversarial_images/MOAT/merge/126.png"
+  },
+  "127": {
+    "question": "Are the molecules shown in image 1 and image 2 the same, or are they different compounds?",
+    "image": "asset/adversarial_images/MOAT/merge/127.png"
+  },
+  "128": {
+    "question": "Are the molecules shown in image 1 and image 2 the same, or are they different compounds?",
+    "image": "asset/adversarial_images/MOAT/merge/128.png"
+  },
+  "129": {
+    "question": "Are the molecules shown in image 1 and image 2 the same, or are they different compounds?",
+    "image": "asset/adversarial_images/MOAT/merge/129.png"
+  },
+  "130": {
+    "question": "Are the molecules shown in image 1 and image 2 the same, or are they different compounds?",
+    "image": "asset/adversarial_images/MOAT/merge/130.png"
+  },
+  "131": {
+    "question": "Are the molecules shown in image 1 and image 2 the same, or are they different compounds?",
+    "image": "asset/adversarial_images/MOAT/merge/131.png"
+  },
+  "132": {
+    "question": "Are the molecules shown in image 1 and image 2 the same, or are they different compounds?",
+    "image": "asset/adversarial_images/MOAT/merge/132.png"
+  },
+  "133": {
+    "question": "Are the molecules shown in image 1 and image 2 the same, or are they different compounds?",
+    "image": "asset/adversarial_images/MOAT/merge/133.png"
+  },
+  "134": {
+    "question": "How many electoral votes did the blue candidate get?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/1.png"
+  },
+  "135": {
+    "question": "How many electoral votes did the red candidate get?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/2.png"
+  },
+  "136": {
+    "question": "How many electoral votes were casted for candidates other than the deep blue one and the deep red one?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/3.png"
+  },
+  "137": {
+    "question": "How many states (Washington DC counts as a state here) did the red candidate win?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/4.png"
+  },
+  "138": {
+    "question": "How many electoral votes does the state with the second highest number of electoral votes won by the red candidate have?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/5.png"
+  },
+  "139": {
+    "question": "How many electoral votes did the deep blue candidate get?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/6.png"
+  },
+  "140": {
+    "question": "How many electoral votes does the state with the second highest number of electoral votes won by the red candidate have?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/7.png"
+  },
+  "141": {
+    "question": "How many states (Washington DC counts as a state here) did the blue candidate win?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/8.png"
+  },
+  "142": {
+    "question": "How many states (Washington DC counts as a state here) did the blue candidate win?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/9.png"
+  },
+  "143": {
+    "question": "How many electoral votes did the deep blue candidate get?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/10.png"
+  },
+  "144": {
+    "question": "How many electoral votes did the blue candidate get?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/11.png"
+  },
+  "145": {
+    "question": "How many states (Washington DC counts as a state here) did the blue candidate win?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/12.png"
+  },
+  "146": {
+    "question": "How many electoral votes does the state with the second highest number of electoral votes won by the blue candidate have?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/13.png"
+  },
+  "147": {
+    "question": "How many electoral votes did the blue candidate get?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/14.png"
+  },
+  "148": {
+    "question": "How many electoral votes did the orange candidate get?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/15.png"
+  },
+  "149": {
+    "question": "How many electoral votes did the red candidate get?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/16.png"
+  },
+  "150": {
+    "question": "How many electoral votes did the light blue candidate get?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/17.png"
+  },
+  "151": {
+    "question": "How many states did the red candidate win?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/18.png"
+  },
+  "152": {
+    "question": "How many electoral votes did the blue candidate get?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/19.png"
+  },
+  "153": {
+    "question": "How many electoral votes does the state with most electoral votes won by the blue candidate have?",
+    "image": "asset/adversarial_images/MOAT/images/elections_us/20.png"
+  },
+  "154": {
+    "question": "How many tiles do I have in my hand?",
+    "image": "asset/adversarial_images/MOAT/images/mahjong/1.png"
+  },
+  "155": {
+    "question": "How many tiles does the player to my right have in his hand?",
+    "image": "asset/adversarial_images/MOAT/images/mahjong/1.png"
+  },
+  "156": {
+    "question": "How many tiles does the player opposite me have in his hand?",
+    "image": "asset/adversarial_images/MOAT/images/mahjong/1.png"
+  },
+  "157": {
+    "question": "How many tiles do I have in my hand?",
+    "image": "asset/adversarial_images/MOAT/images/mahjong/2.png"
+  },
+  "158": {
+    "question": "How many tiles do I have in my hand?",
+    "image": "asset/adversarial_images/MOAT/images/mahjong/3.png"
+  },
+  "159": {
+    "question": "How many tiles does the player to my right have in his hand?",
+    "image": "asset/adversarial_images/MOAT/images/mahjong/4.png"
+  },
+  "160": {
+    "question": "How many tiles do I have in my hand?",
+    "image": "asset/adversarial_images/MOAT/images/mahjong/5.png"
+  },
+  "161": {
+    "question": "How many tiles does the player to my left have in his hand?",
+    "image": "asset/adversarial_images/MOAT/images/mahjong/5.png"
+  },
+  "162": {
+    "question": "How many tiles do I have in my hand?",
+    "image": "asset/adversarial_images/MOAT/images/mahjong/7.png"
+  },
+  "163": {
+    "question": "How many tiles do I have in my hand?",
+    "image": "asset/adversarial_images/MOAT/images/mahjong/8.png"
+  },
+  "164": {
+    "question": "What are the tiles in my hand, from left to right?",
+    "image": "asset/adversarial_images/MOAT/images/mahjong/1.png"
+  },
+  "165": {
+    "question": "What are the tiles in my hand, from left to right?",
+    "image": "asset/adversarial_images/MOAT/images/mahjong/3.png"
+  },
+  "166": {
+    "question": "What are the tiles in my hand, from left to right?",
+    "image": "asset/adversarial_images/MOAT/images/mahjong/8.png"
+  },
+  "167": {
+    "question": "What are the tiles in the hand of the player opposite me, from left to right? (According to the position of the player)",
+    "image": "asset/adversarial_images/MOAT/images/mahjong/12.png"
+  },
+  "168": {
+    "question": "What are the tiles in the hand of the player to my left, from left to right? (According to the position of the player)",
+    "image": "asset/adversarial_images/MOAT/images/mahjong/13.png"
+  },
+  "169": {
+    "question": "What is the total score of the ten bullet holes on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_rifle/1.jpg"
+  },
+  "170": {
+    "question": "What is the total score of the ten bullet holes on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_rifle/2.jpg"
+  },
+  "171": {
+    "question": "What is the total score of the ten bullet holes on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_rifle/3.jpg"
+  },
+  "172": {
+    "question": "What is the total score of the ten bullet holes on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_rifle/4.jpg"
+  },
+  "173": {
+    "question": "What is the total score of the nine bullet holes on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_rifle/5.jpg"
+  },
+  "174": {
+    "question": "What is the total score of the ten bullet holes on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_rifle/6.jpg"
+  },
+  "175": {
+    "question": "What is the total score of the ten bullet holes on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_rifle/7.jpg"
+  },
+  "176": {
+    "question": "What is the total score of the ten bullet holes on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_rifle/8.jpg"
+  },
+  "177": {
+    "question": "What is the total score of the ten bullet holes on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_rifle/9.jpg"
+  },
+  "178": {
+    "question": "What is the total score of the ten bullet holes on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_pistol/1.jpg"
+  },
+  "179": {
+    "question": "What is the total score of the seven bullet holes on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_pistol/2.jpg"
+  },
+  "180": {
+    "question": "What is the total score of the eight bullet holes on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_pistol/3.jpg"
+  },
+  "181": {
+    "question": "What is the total score of the eight bullet holes on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_pistol/4.jpg"
+  },
+  "182": {
+    "question": "What is the total score of the seven bullet holes on the target?",
+    "image": "asset/adversarial_images/MOAT/images/targets_pistol/5.jpg"
+  },
+  "183": {
+    "question": "What safety hazard is shown in the image?",
+    "image": "asset/adversarial_images/MOAT/images/construction_site/1.png"
+  },
+  "184": {
+    "question": "What safety hazard is shown in the image?",
+    "image": "asset/adversarial_images/MOAT/images/construction_site/2.png"
+  },
+  "185": {
+    "question": "What safety hazard is shown in the image?",
+    "image": "asset/adversarial_images/MOAT/images/construction_site/3.png"
+  },
+  "186": {
+    "question": "What safety hazard is shown in the image?",
+    "image": "asset/adversarial_images/MOAT/images/construction_site/4.png"
+  },
+  "187": {
+    "question": "What safety hazard is shown in the image?",
+    "image": "asset/adversarial_images/MOAT/images/construction_site/5.png"
+  },
+  "188": {
+    "question": "What safety hazard is shown in the image?",
+    "image": "asset/adversarial_images/MOAT/images/construction_site/6.png"
+  }
+}

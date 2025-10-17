@@ -1,6 +1,6 @@
-# Learning to Detect Unknown Jailbreak Attacks in Large Vision-Language Models: A Unified and Accurate Approach
+# Learning to Detect Unknown Jailbreak Attacks in Large Vision-Language Models
 
-This repository provides the official implementation of **"Learning to Detect Unknown Jailbreak Attacks in Large Vision-Language Models: A Unified and Accurate Approach"**.
+This repository provides the official implementation of **"Learning to Detect Unknown Jailbreak Attacks in Large Vision-Language Models"**.
 
 ## Content
 - [Base model](#base-model)
@@ -39,8 +39,8 @@ python code/vicuna/qa.py --file code/vicuna/instructions/GQA.json
     python code/vicuna/qa-baseline.py 
 ```
 
-### 2. Train and Test Linear Classifiers for MSCAV
-####    Train and test linear classifiers
+### 2. Train and Test the MSCAV classifiers
+####    Train and test classifiers
 ```
     python code/vicuna/train.py --train
     python code/vicuna/train.py --test
@@ -60,8 +60,6 @@ python code/vicuna/qa.py --file code/vicuna/instructions/GQA.json
 ## Dataset
 | Dataset | Details |
 |------|-----|
-| [MM-vet](https://github.com/yuweihao/MM-Vet)   |  |
-| [FigImg](https://github.com/ThuCCSLab/FigStep/tree/main/data/images/SafeBench)  |  |
 | [MM-SafetyBench](https://huggingface.co/datasets/PKU-Alignment/MM-SafetyBench)  |   |
 | [HADES](https://github.com/AoiDragon/HADES)   |  |
 

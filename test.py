@@ -6,8 +6,7 @@ import argparse
 import json
 import random
 import numpy as np
-from sklearn.metrics import precision_recall_curve,auc
-from sklearn.metrics import roc_curve
+from sklearn.metrics import precision_recall_curve,auc,f1_score,roc_curve
 import joblib
 import random
 from sklearn.decomposition import PCA
@@ -54,41 +53,33 @@ def main():
     pth = args.pth
     layer_type = args.layers
     
-    datasets = ["safetybench","FigImg","vajm","umk","HADES"]
+    datasets = ["MML","JOOD","HADES","vajm","umk"]
     p0=0.9     
     score_list = []
-    for dataset in datasets:             
-        if dataset == "safetybench":
-            safe = torch.load(f"asset/HiddenStates/mm-vet_answer.pth",map_location=device)
-            unsafe = torch.load(f"asset/HiddenStates/SafetyBench_answer.pth",map_location=device)
-        elif dataset == "FigImg":
-            safe = torch.load(f"asset/HiddenStates/mm-vet_answer.pth",map_location=device)
-            unsafe = torch.load(f"asset/HiddenStates/FigImage_answer.pth",map_location=device)             
-        elif dataset == "vajm":
+    # asset/HiddenStates
+    for dataset in datasets:                
+        if dataset == "vajm":
             with open("Benchmarks/SafetyBench-vajm.json", "r") as f:
-                data = json.load(f)           
+                data = json.load(f)            
             
-            safe = torch.load(f"asset/HiddenStates/mm-vet_answer.pth",map_location=device) 
-                       
+            safe = torch.load(f"asset/HiddenStates/SEED_answer.pth",map_location=device)       
             unsafe = torch.load(f"asset/HiddenStates/SafetyBench-vajm_answer.pth",map_location=device)
-
-            random_numbers = random.sample(range(unsafe.shape[0]), 218)
-            unsafe = unsafe[random_numbers]
             
         elif dataset == "umk":
             with open("Benchmarks/SafetyBench-umk.json", "r") as f:
                 data = json.load(f)            
             
-            safe = torch.load(f"asset/HiddenStates/mm-vet_answer.pth",map_location=device)            
+            safe = torch.load(f"asset/HiddenStates/SEED_answer.pth",map_location=device)          
             unsafe = torch.load(f"asset/HiddenStates/SafetyBench-umk_answer.pth",map_location=device)
-            random_numbers = random.sample(range(unsafe.shape[0]), 218)
-            unsafe = unsafe[random_numbers]
         elif dataset == "HADES":
-            safe = torch.load(f"asset/HiddenStates/mm-vet_answer.pth",map_location=device)            
+            safe = torch.load(f"asset/HiddenStates/SEED_answer.pth",map_location=device)          
             unsafe = torch.load(f"asset/HiddenStates/HADES_answer.pth",map_location=device)
-            random_numbers = random.sample(range(unsafe.shape[0]), 218)
-            unsafe = unsafe[random_numbers]
-            
+        elif dataset == "MML":
+            safe = torch.load(f"asset/HiddenStates/SEED_answer.pth",map_location=device)          
+            unsafe = torch.load(f"asset/HiddenStates/MML-m_answer.pth",map_location=device)
+        elif dataset == "JOOD":
+            safe = torch.load(f"asset/HiddenStates/SEED_answer.pth",map_location=device)          
+            unsafe = torch.load(f"asset/HiddenStates/JOOD_answer.pth",map_location=device)
         data = torch.cat([safe,unsafe],dim=0)
         label1 = torch.zeros(safe.shape[0])
         label2 = torch.ones(unsafe.shape[0])
@@ -116,7 +107,8 @@ def main():
             possibilities.append(scores)
         
         possibilities = torch.stack(possibilities,dim=1)
-
+        threshold = 0.07502565979957584
+        
         #SAPE
         X_new = possibilities.to(torch.float32)
         with torch.no_grad():
@@ -128,6 +120,9 @@ def main():
         print(dataset)
         print(f"AUPRC for: {AUPRC:.4f}")
         print(f"AUROC for: {AUROC:.4f}")
+        preds = (scores > threshold).int()  
+        f1 = f1_score(labels.numpy(), preds.numpy())
+        print(f"{dataset} : F1-score:{f1:.4f}")
 def set_seed(seed=42):
     random.seed(seed)
     np.random.seed(seed)

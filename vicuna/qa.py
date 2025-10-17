@@ -59,7 +59,6 @@ def qa(args):
         outputs = tokenizer.batch_decode(output_ids, skip_special_tokens=True)[0].strip()
         print(outputs)
         data[i]['response'] = outputs
-    exit(0)
     # 保存为 JSON 文件
     with open(f'instructions/{datamode}.json', 'w', encoding='utf-8') as file:
         json.dump(data, file, ensure_ascii=False, indent=4)

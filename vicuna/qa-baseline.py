@@ -23,7 +23,7 @@ def qa(args):
     model_name = get_model_name_from_path(model_path)
     tokenizer, model, image_processor, context_len = load_pretrained_model(model_path, None, model_name,device=device)
     model.to(device)
-    for datamode in ["advbench","GQA","mm-vet","FigImg","SafetyBench","HADES","SafetyBench-vajm","SafetyBench-umk"]:
+    for datamode in ["MML-m","JOOD","HADES","SafetyBench-vajm","SafetyBench-umk","SEED","MOAT"]:
         print(datamode)
         if os.path.exists(f"../Benchmarks/{datamode}.json"):     
             
