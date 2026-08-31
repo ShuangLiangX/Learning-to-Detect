@@ -1,67 +1,142 @@
 # Learning to Detect Unknown Jailbreak Attacks in Large Vision-Language Models
 
-This repository provides the official implementation of **"Learning to Detect Unknown Jailbreak Attacks in Large Vision-Language Models"**.
+Official implementation of **“Learning to Detect Unknown Jailbreak Attacks in Large Vision-Language Models.”**
 
-## Content
-- [Base model](#base-model)
-- [Jailbreak Attack Detection](#jailbreak-attack-detection)
+This repository contains the data-processing, hidden-state extraction, classifier training, safety-pattern auto-encoder, and evaluation code used in the project.
 
-- [Dataset](#dataset)
+## Contents
 
-## Base model 
+- [Models](#models)
+- [Repository Structure](#repository-structure)
+- [Detection Pipeline](#detection-pipeline)
+- [Datasets](#datasets)
 
-Our method uses the following two base models:
+## Models
 
-[LLaVA-v1.6-Vicuna](https://huggingface.co/liuhaotian/llava-v1.6-vicuna-7b) is a powerful vision-language model that combines a visual encoder with the Vicuna language model to process multimodal inputs and generate natural language responses.
+The experiments use the following base models:
 
-[LlamaGuard3](https://huggingface.co/meta-llama/Llama-Guard-3-8B) is a safety guardrail model developed by Meta AI, specifically designed to detect and prevent harmful content generation and effectively identify potentially unsafe requests and responses.
+- [LLaVA-v1.6-Vicuna-7B](https://huggingface.co/liuhaotian/llava-v1.6-vicuna-7b), a large vision-language model based on Vicuna.
+- [Llama Guard 3 8B](https://huggingface.co/meta-llama/Llama-Guard-3-8B), a safety guardrail model used to assess generated responses.
 
-Please download the model weights and place them in the `code/asset/weights` directory.
+Download the model weights separately and place them under:
 
-## Jailbreak Attack Detection
-
-### 1. Data Processing and Hidden State Extraction  
-*(Optional, since the processed data and extracted states are already preserved in the repository.)*
-
-#### Query the model on $I^-$ (AdvBench) and $I^+$ (GQA)
-```
-python code/vicuna/qa.py --file code/vicuna/instructions/advbench.json
-python code/vicuna/qa.py --file code/vicuna/instructions/GQA.json
-```
-#### Assess model responses and split into training/testing datasets
-```
-    python code/llama3_guard.py --file code/vicuna/instructions/advbench.json
-    python code/vicuna/instructions/process.py 
+```text
+asset/weights/
 ```
 
-#### Extract hidden states for LoD training and benchmark evaluation
-```
-    python code/vicuna/qa-baseline.py 
+## Repository Structure
+
+```text
+.
+├── asset/
+│   ├── advbench/                 # AdvBench images
+│   ├── harmbench/                # HarmBench DirectRequest images
+│   ├── GQA/                      # GQA images
+│   ├── HiddenStates/             # Extracted hidden states
+│   └── weights/                  # Model weights (not included)
+├── Benchmarks/                   # Evaluation benchmark metadata
+├── vicuna/
+│   ├── instructions/
+│   │   ├── advbench.json
+│   │   ├── GQA.json
+│   │   └── harmbench.json        # HarmBench DirectRequest metadata
+│   ├── qa.py
+│   ├── qa-baseline.py
+│   └── train.py
+├── autoencoder.py
+├── llama3_guard.py
+└── test.py
 ```
 
-### 2. Train and Test the MSCAV classifiers
-####    Train and test classifiers
-```
-    python code/vicuna/train.py --train
-    python code/vicuna/train.py --test
-```
+## Detection Pipeline
 
-### 3. Train the Safety Pattern Auto-Encoder (SPAE)
+Some scripts use paths relative to their own working directory. Run the commands from the directories shown below.
 
-```
-    python code/autoencoder.py
-```
+### 1. Query the vision-language model
 
-### 4.  Evaluate Detection Performance
-```
-    python code/test.py
+Query the model on the unsafe source data (AdvBench) and safe source data (GQA):
+
+```bash
+cd vicuna
+python qa.py --dataset advbench
+python qa.py --dataset GQA
+cd ..
 ```
 
-## Dataset
-| Dataset | Details |
-|------|-----|
-| [MM-SafetyBench](https://huggingface.co/datasets/PKU-Alignment/MM-SafetyBench)  |   |
-| [HADES](https://github.com/AoiDragon/HADES)   |  |
+The HarmBench DirectRequest data can be queried with the same interface:
 
+```bash
+cd vicuna
+python qa.py --dataset harmbench
+cd ..
+```
 
-Please download the datasets and place them in the `code/asset` directory.
+### 2. Assess and split model responses
+
+Assess the generated AdvBench responses with Llama Guard 3:
+
+```bash
+python llama3_guard.py --file vicuna/instructions/advbench.json
+```
+
+Create the AdvBench and GQA training/test splits:
+
+```bash
+cd vicuna/instructions
+python process.py
+cd ../..
+```
+
+### 3. Extract hidden states
+
+Extract hidden states for the evaluation benchmarks currently configured in `vicuna/qa-baseline.py`:
+
+```bash
+cd vicuna
+python qa-baseline.py
+cd ..
+```
+
+### 4. Train and test the MSCAV classifiers
+
+```bash
+cd vicuna
+python train.py --train
+python train.py --test
+cd ..
+```
+
+### 5. Train the Safety Pattern Auto-Encoder (SPAE)
+
+```bash
+python autoencoder.py
+```
+
+### 6. Evaluate detection performance
+
+```bash
+python test.py
+```
+
+## Datasets
+
+### Training and appendix data
+
+| Dataset | Role | Metadata | Images |
+| --- | --- | --- | --- |
+| AdvBench | Unsafe source data | `vicuna/instructions/advbench.json` | `asset/advbench/` |
+| GQA | Safe source data | `vicuna/instructions/GQA.json` | `asset/GQA/` |
+| HarmBench (DirectRequest) | Unsafe-source experiment reported in the appendix | `vicuna/instructions/harmbench.json` | `asset/harmbench/` |
+
+The included HarmBench DirectRequest subset contains **320** image–request pairs. Image paths in `harmbench.json` are repository-relative and follow the same layout convention as AdvBench.
+
+### Evaluation benchmarks
+
+Metadata for the included evaluation sets is stored in `Benchmarks/`, including HADES, JOOD, MML-m, MOAT, SEED, and SafetyBench variants.
+
+External dataset resources:
+
+- [MM-SafetyBench](https://huggingface.co/datasets/PKU-Alignment/MM-SafetyBench)
+- [HADES](https://github.com/AoiDragon/HADES)
+
+Place any separately downloaded dataset assets under `asset/` and keep the image paths in the corresponding JSON files consistent with the local directory layout.
