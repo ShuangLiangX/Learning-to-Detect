@@ -62,23 +62,23 @@ def main():
             with open("Benchmarks/SafetyBench-vajm.json", "r") as f:
                 data = json.load(f)            
             
-            safe = torch.load(f"asset/HiddenStates/SEED_answer.pth",map_location=device)       
+            safe = torch.load(f"asset/HiddenStates/mm-vet_answer.pth",map_location=device)       
             unsafe = torch.load(f"asset/HiddenStates/SafetyBench-vajm_answer.pth",map_location=device)
             
         elif dataset == "umk":
             with open("Benchmarks/SafetyBench-umk.json", "r") as f:
                 data = json.load(f)            
             
-            safe = torch.load(f"asset/HiddenStates/SEED_answer.pth",map_location=device)          
+            safe = torch.load(f"asset/HiddenStates/mm-vet_answer.pth",map_location=device)          
             unsafe = torch.load(f"asset/HiddenStates/SafetyBench-umk_answer.pth",map_location=device)
         elif dataset == "HADES":
-            safe = torch.load(f"asset/HiddenStates/SEED_answer.pth",map_location=device)          
+            safe = torch.load(f"asset/HiddenStates/mm-vet_answer.pth",map_location=device)          
             unsafe = torch.load(f"asset/HiddenStates/HADES_answer.pth",map_location=device)
         elif dataset == "MML":
-            safe = torch.load(f"asset/HiddenStates/SEED_answer.pth",map_location=device)          
+            safe = torch.load(f"asset/HiddenStates/mm-vet_answer.pth",map_location=device)          
             unsafe = torch.load(f"asset/HiddenStates/MML-m_answer.pth",map_location=device)
         elif dataset == "JOOD":
-            safe = torch.load(f"asset/HiddenStates/SEED_answer.pth",map_location=device)          
+            safe = torch.load(f"asset/HiddenStates/mm-vet_answer.pth",map_location=device)          
             unsafe = torch.load(f"asset/HiddenStates/JOOD_answer.pth",map_location=device)
         data = torch.cat([safe,unsafe],dim=0)
         label1 = torch.zeros(safe.shape[0])
