@@ -138,11 +138,18 @@ Metadata for the included evaluation sets is stored in `Benchmarks/`, including 
 
 Each included attack JSON contains 400 samples. The evaluation script uses all supplied hidden states without additional sampling.
 
+Download the corresponding attack images and matching benchmark metadata from **[ModelScope: detecpolo/Learning-to-Detect](https://modelscope.cn/datasets/detecpolo/Learning-to-Detect)**. The package covers all six attack sets (400 records per attack, with 1,602 distinct images; VAJM and UMK each share one attack image).
+
+Copy the downloaded `asset/` and `Benchmarks/` directories into the repository root, preserving their directory structure. The package does not include the `mm-vet` safe evaluation data, model weights, or extracted hidden states.
+
+As described in Section 4.1 of the paper, FC-Attack, JOOD, MML, VAJM, and UMK inputs are constructed by applying the corresponding attack methods to unsafe inputs from MM-SafetyBench (13 safety-related scenarios). HADES uses its own released dataset (five categories). Appendix B describes the expanded-set evaluation; the downloadable package above contains the 400-sample attack sets.
+
+
 For the safe evaluation set, provide `Benchmarks/mm-vet.json` containing 400 safe samples, with `question` and `image` fields for each sample, and the corresponding images. This metadata and the safe hidden states are not included. The extraction script writes `asset/HiddenStates/mm-vet_answer.pth`, which is shared across attack evaluations.
 
 VAJM and UMK use the included `asset/adversarial_images/vajm-vicuna.bmp` and `asset/adversarial_images/umk-vicuna.bmp`, respectively. The extractor overrides the clean-image paths in their metadata and appends the provided UMK suffix.
 
-FC metadata expects the flowchart images under `asset/adversarial_images/FC_Attack-main/data_flowchart/vertical/generated/`. These images must be supplied separately. Metadata image paths are resolved relative to the repository root.
+FC metadata expects the flowchart images under `asset/adversarial_images/FC_Attack-main/data_flowchart/vertical/generated/`. These images are included in the ModelScope package linked above. Metadata image paths are resolved relative to the repository root.
 
 To extract only selected benchmarks from the `vicuna` directory:
 
