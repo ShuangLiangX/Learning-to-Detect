@@ -4,10 +4,10 @@ import os
 import json
 from tqdm import tqdm
 import shortuuid
+from pathlib import Path
 from PIL import Image
 
-import sys 
-sys.path.insert(0,"/home/u2021201665/code/baseline/llava-attack")
+REPO_ROOT = Path(__file__).resolve().parents[1]
 
 from llava.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN
 from llava.conversation import conv_templates, SeparatorStyle,default_conversation
@@ -19,22 +19,25 @@ def qa(args):
 
 
     device = args.device    
-    model_path = os.path.expanduser("../asset/weights/llava-v1.6-vicuna-7b")
+    model_path = str(REPO_ROOT / "asset/weights/llava-v1.6-vicuna-7b")
     model_name = get_model_name_from_path(model_path)
     tokenizer, model, image_processor, context_len = load_pretrained_model(model_path, None, model_name,device=device)
     model.to(device)
-    for datamode in ["MML-m","JOOD","HADES","SafetyBench-vajm","SafetyBench-umk","SEED","MOAT"]:
+    for datamode in args.datasets:
         print(datamode)
-        if os.path.exists(f"../Benchmarks/{datamode}.json"):     
-            
-            with open(f"../Benchmarks/{datamode}.json",'r',encoding='utf-8') as file:
-                data = json.load(file)
-        else:
-            with open(f"instructions/{datamode}.json",'r',encoding='utf-8') as file:
-                data = json.load(file)
-        
+        metadata_path = REPO_ROOT / "Benchmarks" / f"{datamode}.json"
+        if not metadata_path.exists():
+            metadata_path = REPO_ROOT / "vicuna/instructions" / f"{datamode}.json"
+        if not metadata_path.exists():
+            raise FileNotFoundError(
+                f"Provide Benchmarks/{datamode}.json with question and image fields "
+                f"before extracting {datamode} hidden states."
+            )
+        with metadata_path.open(encoding="utf-8") as file:
+            data = json.load(file)
+
         hidden_states = []
-        with open(f"../Benchmarks/umk_suffix-vicuna.json",'r') as f:
+        with open(REPO_ROOT / "Benchmarks/umk_suffix-vicuna.json", "r") as f:
             suffixes = json.load(f) 
         last_line = suffixes[-1]
         image_tensor = None
@@ -42,8 +45,14 @@ def qa(args):
             qs = data[i]['question']
             image = data[i]['image']
 
-            if "umk" in datamode:
+            if datamode == "SafetyBench-vajm":
+                image = "asset/adversarial_images/vajm-vicuna.bmp"
+            elif datamode == "SafetyBench-umk":
+                image = "asset/adversarial_images/umk-vicuna.bmp"
                 qs = qs + ' | '+last_line
+
+            if image is not None and not os.path.isabs(image):
+                image = str(REPO_ROOT / image)
                     
             if image is not None:
                 if model.config.mm_use_im_start_end:
@@ -51,7 +60,7 @@ def qa(args):
                 else:  
                     qs = DEFAULT_IMAGE_TOKEN + '\n' + qs
 
-            conv = conv_templates["llava_v1"].copy()
+            conv = conv_templates[args.conv_mode].copy()
             conv.append_message(conv.roles[0], qs)
             conv.append_message(conv.roles[1], None)
             prompt = conv.get_prompt()
@@ -62,15 +71,12 @@ def qa(args):
                 image_tensor = torch.stack(image_patches,dim=0)
             else:
                 image = Image.open(image).convert('RGB')
-                image_tensor = process_images([image], image_processor, model.config)[0]
+                image_tensor = process_images([image], image_processor, model.config)[0].unsqueeze(0)
             input_ids = tokenizer_image_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).to(device)
 
-            input_ids = input_ids.to(device)
-            attention_mask =  torch.LongTensor( [ [1]* (input_ids.shape[1])]).to(device)
             with torch.no_grad():
                 outputs = model(
                     input_ids=input_ids,
-                    attention_mask=attention_mask,
                     return_dict=True,
                     images=image_tensor.half(),
                     image_sizes=[image.size],
@@ -86,9 +92,24 @@ def qa(args):
         hidden_states = torch.stack(hidden_states) 
 
 
-        torch.save(hidden_states,f"../asset/HiddenStates/{datamode}_answer.pth")      
+        torch.save(hidden_states, REPO_ROOT / "asset/HiddenStates" / f"{datamode}_answer.pth")
+def set_seed(seed=42):
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--device",type=str,default='cuda:7')
+    parser.add_argument("--device", type=str, default="cuda")
+    parser.add_argument("--conv-mode", type=str, default="llava_v1")
+    parser.add_argument(
+        "--datasets", nargs="+",
+        default=["FC", "JOOD", "HADES", "MML-m", "SafetyBench-vajm", "SafetyBench-umk", "mm-vet"],
+        help="Benchmark names to extract; mm-vet requires separately supplied metadata and images.",
+    )
     args = parser.parse_args()
+    set_seed()
     qa(args)

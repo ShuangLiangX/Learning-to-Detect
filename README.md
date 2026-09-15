@@ -4,6 +4,8 @@ Official implementation of **“Learning to Detect Unknown Jailbreak Attacks in 
 
 This repository contains the data-processing, hidden-state extraction, classifier training, safety-pattern auto-encoder, and evaluation code used in the project.
 
+This release provides the LLaVA-v1.6-Vicuna-7B implementation. Adapting the pipeline to Qwen2.5-VL or CogVLM requires model-specific input processing and separately trained detectors.
+
 ## Contents
 
 - [Models](#models)
@@ -132,7 +134,22 @@ The included HarmBench DirectRequest subset contains **320** image–request pai
 
 ### Evaluation benchmarks
 
-Metadata for the included evaluation sets is stored in `Benchmarks/`, including HADES, JOOD, MML-m, MOAT, SEED, and SafetyBench variants.
+Metadata for the included evaluation sets is stored in `Benchmarks/`, including FC, HADES, JOOD, MML-m, and SafetyBench variants.
+
+Each included attack JSON contains 400 samples. The evaluation script uses all supplied hidden states without additional sampling.
+
+For the safe evaluation set, provide `Benchmarks/mm-vet.json` containing 400 safe samples, with `question` and `image` fields for each sample, and the corresponding images. This metadata and the safe hidden states are not included. The extraction script writes `asset/HiddenStates/mm-vet_answer.pth`, which is shared across attack evaluations.
+
+VAJM and UMK use the included `asset/adversarial_images/vajm-vicuna.bmp` and `asset/adversarial_images/umk-vicuna.bmp`, respectively. The extractor overrides the clean-image paths in their metadata and appends the provided UMK suffix.
+
+FC metadata expects the flowchart images under `asset/adversarial_images/FC_Attack-main/data_flowchart/vertical/generated/`. These images must be supplied separately. Metadata image paths are resolved relative to the repository root.
+
+To extract only selected benchmarks from the `vicuna` directory:
+
+```bash
+python qa-baseline.py --datasets FC SafetyBench-vajm SafetyBench-umk
+```
+
 
 External dataset resources:
 

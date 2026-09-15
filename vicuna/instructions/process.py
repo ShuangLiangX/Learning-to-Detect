@@ -26,6 +26,7 @@ with open(f'advbench-test.json', 'w', encoding='utf-8') as f:
 with open(f'GQA.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
+random.seed(42)
 keys = list(data.keys())
 selected_keys = random.sample(keys, 100)
 train_data = {key: data[key] for key in selected_keys}

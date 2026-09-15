@@ -53,12 +53,15 @@ def main():
     pth = args.pth
     layer_type = args.layers
     
-    datasets = ["MML","JOOD","HADES","vajm","umk"]
+    datasets = ["FC","MML","JOOD","HADES","vajm","umk"]
     p0=0.9     
     score_list = []
     # asset/HiddenStates
     for dataset in datasets:                
-        if dataset == "vajm":
+        if dataset == "FC":
+            safe = torch.load(f"asset/HiddenStates/mm-vet_answer.pth",map_location=device)
+            unsafe = torch.load(f"asset/HiddenStates/FC_answer.pth",map_location=device)
+        elif dataset == "vajm":
             with open("Benchmarks/SafetyBench-vajm.json", "r") as f:
                 data = json.load(f)            
             
