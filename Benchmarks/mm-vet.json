@@ -1,0 +1,2070 @@
+{
+  "0": {
+    "question": "Which line is longer, the top or the bottom?",
+    "image": "asset/mm-vet/images/v2_498_0.jpg"
+  },
+  "1": {
+    "question": "What is the average wait time to climb out of bed?",
+    "image": "asset/mm-vet/images/v2_54_0.png"
+  },
+  "2": {
+    "question": "Tell me about the video content, given the 9 frames below. Please include as many details as possible.",
+    "image": "asset/mm-vet/merge/v2_488.png"
+  },
+  "3": {
+    "question": "Can you give a short introduction to this movie?",
+    "image": "asset/mm-vet/images/v2_177_0.jpg"
+  },
+  "4": {
+    "question": "Write a radiology report for this image as an expert radiologist.",
+    "image": "asset/mm-vet/images/v2_427_0.png"
+  },
+  "5": {
+    "question": "What is the name of this landmark?",
+    "image": "asset/mm-vet/images/v2_77_0.jpg"
+  },
+  "6": {
+    "question": "Can you give a short introduction to this movie?",
+    "image": "asset/mm-vet/images/v2_174_0.jpg"
+  },
+  "7": {
+    "question": "Count the number of people in the image.",
+    "image": "asset/mm-vet/images/v2_284_0.jpg"
+  },
+  "8": {
+    "question": "Which circle is larger, A or B?",
+    "image": "asset/mm-vet/images/v2_509_0.jpg"
+  },
+  "9": {
+    "question": "As shown in the image, two iron balls are hanging on the Leaning Tower of Pisa, ball A weighs 20kg, and ball B weighs 5kg. If the ropes hanging them are cut at the same time and air resistance is ignored, which iron ball will land first?",
+    "image": "asset/mm-vet/images/v2_511_0.jpg"
+  },
+  "10": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_324_0.png"
+  },
+  "11": {
+    "question": "What is the highlighted part?",
+    "image": "asset/mm-vet/images/v2_382_0.png"
+  },
+  "12": {
+    "question": "How many fingers does the right hand of the girl have?",
+    "image": "asset/mm-vet/images/v2_503_0.jpg"
+  },
+  "13": {
+    "question": "What is the read of the speed meter?<IMG>The yellow pointer is roughly at the middle between 80 and 100 mph. The middle between 80 and 100 is 90. The speed is around 91 mph, as the pointer is just passing 90 mph.",
+    "image": "asset/mm-vet/merge/v2_240.png"
+  },
+  "14": {
+    "question": "What is the solution if the lamp is plugged in and the bulb has burned out?",
+    "image": "asset/mm-vet/images/v2_52_0.png"
+  },
+  "15": {
+    "question": "Can you give a short introduction to this painting?",
+    "image": "asset/mm-vet/images/v2_186_0.jpg"
+  },
+  "16": {
+    "question": "Does the man ride a horse?",
+    "image": "asset/mm-vet/images/v2_130_0.jpg"
+  },
+  "17": {
+    "question": "What is the number displayed on the motorcycle ridden by the motorcyclist wearing a yellow suit?",
+    "image": "asset/mm-vet/images/v2_28_0.jpg"
+  },
+  "18": {
+    "question": "How much did I pay for tax?\nWhere is the information?",
+    "image": "asset/mm-vet/merge/v2_218.png"
+  },
+  "19": {
+    "question": "Write a sentence for the image consisting only of words starting with the letter 'B'.",
+    "image": "asset/mm-vet/images/v2_219_0.png"
+  },
+  "20": {
+    "question": "Imagine that you are an expert in evaluating the car damage from car accident for auto insurance reporting. Please evaluate the damage seen in the image below. For filing the incident report, please follow the following format in JSON (note xxx is placeholder, if the information is not available in the image, put \"N/A\" instead).\n{\"make\": xxx, \"model\": xxx, \"license plate\": xxx, \"damage description\": xxx, \"estimated cost of repair\": xxx}",
+    "image": "asset/mm-vet/images/v2_436_0.png"
+  },
+  "21": {
+    "question": "Which one of the five designs makes the best comparison?<IMG>a.<IMG>b.<IMG>c.<IMG>d.<IMG>e.",
+    "image": "asset/mm-vet/merge/v2_385.png"
+  },
+  "22": {
+    "question": "Are the red lines curved?",
+    "image": "asset/mm-vet/images/v2_510_0.jpg"
+  },
+  "23": {
+    "question": "Describe the image in French",
+    "image": "asset/mm-vet/images/v2_319_0.jpg"
+  },
+  "24": {
+    "question": "Describe the image in Czech",
+    "image": "asset/mm-vet/images/v2_319_0.jpg"
+  },
+  "25": {
+    "question": "For opening a door, decide the correct order in which they should be displayed.\na<IMG>b<IMG>c",
+    "image": "asset/mm-vet/merge/v2_372.png"
+  },
+  "26": {
+    "question": "Can you spot the pink elephant playing in the corner?",
+    "image": "asset/mm-vet/images/v2_276_0.png"
+  },
+  "27": {
+    "question": "Which of the organisms is the producer in this food web?",
+    "image": "asset/mm-vet/images/v2_292_0.png"
+  },
+  "28": {
+    "question": "Can you give a short introduction to this person?",
+    "image": "asset/mm-vet/images/v2_200_0.jpg"
+  },
+  "29": {
+    "question": "Count the number of apples in the image.",
+    "image": "asset/mm-vet/images/v2_281_0.jpg"
+  },
+  "30": {
+    "question": "What are the appliances in the kitchen in this floorplan?",
+    "image": "asset/mm-vet/images/v2_49_0.jpg"
+  },
+  "31": {
+    "question": "Here are three sub images arranged in a 2-by-2 matrix. First, look at the two images in the first column, in the top left and bottom left. Then, find out the pattern in the first column based on the left two images. Next, use the found pattern and the image in the top right to infer the missing figure. Finally, describe what would the missing image look like?",
+    "image": "asset/mm-vet/images/v2_226_0.png"
+  },
+  "32": {
+    "question": "Describe the logos in details",
+    "image": "asset/mm-vet/images/v2_264_0.png"
+  },
+  "33": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_300_0.png"
+  },
+  "34": {
+    "question": "Describe the pointed region in the image.",
+    "image": "asset/mm-vet/images/v2_232_0.png"
+  },
+  "35": {
+    "question": "What is this disease (give short introduction) and how to treat it?",
+    "image": "asset/mm-vet/images/v2_197_0.jpg"
+  },
+  "36": {
+    "question": "Describe the image to lessen someone's desire to visit.",
+    "image": "asset/mm-vet/images/v2_399_0.jpg"
+  },
+  "37": {
+    "question": "Who is the person in the image and what is the person doing?",
+    "image": "asset/mm-vet/images/v2_245_0.png"
+  },
+  "38": {
+    "question": "What would the missing image look like?",
+    "image": "asset/mm-vet/images/v2_226_0.png"
+  },
+  "39": {
+    "question": "If the image is presented in a language other than English, translate the content to English.",
+    "image": "asset/mm-vet/images/v2_335_0.png"
+  },
+  "40": {
+    "question": "What percentage does salary contribute to total income?",
+    "image": "asset/mm-vet/images/v2_62_0.png"
+  },
+  "41": {
+    "question": "Can you explain this meme?",
+    "image": "asset/mm-vet/images/v2_148_0.jpg"
+  },
+  "42": {
+    "question": "How to make this?",
+    "image": "asset/mm-vet/images/v2_159_0.jpg"
+  },
+  "43": {
+    "question": "Describe the pointed region in the image.",
+    "image": "asset/mm-vet/images/v2_353_0.png"
+  },
+  "44": {
+    "question": "What are all the French scene text in the image?",
+    "image": "asset/mm-vet/images/v2_96_0.jpg"
+  },
+  "45": {
+    "question": "Describe the poster. Which city is this dish from?",
+    "image": "asset/mm-vet/images/v2_314_0.jpg"
+  },
+  "46": {
+    "question": "Write a radiology report as an expert radiologist for the following case.",
+    "image": "asset/mm-vet/images/v2_428_0.png"
+  },
+  "47": {
+    "question": "Can you find the red ball near the gray cat in the image?",
+    "image": "asset/mm-vet/images/v2_274_0.png"
+  },
+  "48": {
+    "question": "Locate the region based on given coordinates and describe the contents in the region. Regions are represented by (x1,y1,x2,y2) coordinates. x1 x2 are the left and right most positions, normalized into 0 to 1, where 0 is the left and 1 is the right. y1 y2 are the top and bottom most positions, normalized into 0 to 1, where 0 is the top and 1 is the bottom. Describe the relative position of region (0.47, 0.48, 0.55, 0.87) in the image. Describe the contents in that relative position. No need to mention contents in other part of the image.",
+    "image": "asset/mm-vet/images/v2_232_0.png"
+  },
+  "49": {
+    "question": "Which year has the highest growth rate of median house price?",
+    "image": "asset/mm-vet/images/v2_55_0.png"
+  },
+  "50": {
+    "question": "Describe the image with a sentence consisting of nine words.",
+    "image": "asset/mm-vet/images/v2_219_0.png"
+  },
+  "51": {
+    "question": "Describe the image",
+    "image": "asset/mm-vet/images/v2_259_0.png"
+  },
+  "52": {
+    "question": "Describe the name of the dish.",
+    "image": "asset/mm-vet/images/v2_255_0.png"
+  },
+  "53": {
+    "question": "First, read the operating menus below for coffee machine buttons.\nMenu 1:<IMG>Menu 2:<IMG>Menu 3:<IMG>Now, let's look at the operating panel of the coffee machine in the image below, which button should I use for a 6 OZ coffee: left, right, top or bottom button?",
+    "image": "asset/mm-vet/merge/v2_452.png"
+  },
+  "54": {
+    "question": "Tell me about the video content, given the frames below.",
+    "image": "asset/mm-vet/merge/v2_485.png"
+  },
+  "55": {
+    "question": "What will the girl on the right write on the board?",
+    "image": "asset/mm-vet/images/v2_8_0.png"
+  },
+  "56": {
+    "question": "Write a sentence for the image consisting only of words starting with the letter 'D'.",
+    "image": "asset/mm-vet/images/v2_219_0.png"
+  },
+  "57": {
+    "question": "What is the calories for the entire bag?",
+    "image": "asset/mm-vet/images/v2_69_0.jpg"
+  },
+  "58": {
+    "question": "Suppose you are a detective, what can you infer from the visual clues in the image?",
+    "image": "asset/mm-vet/images/v2_296_0.jpg"
+  },
+  "59": {
+    "question": "Try to locate a large waterfall behind the trees.",
+    "image": "asset/mm-vet/images/v2_278_0.png"
+  },
+  "60": {
+    "question": "Which chest xray disease can be found? (Options include: Atelectasis; Cardiomegaly; Effusion; Infiltration; Mass; Nodule; Pneumonia; Pneumothorax; Consolidation; Edema; Emphysema; Fibrosis; Pleural Thickening; Hernia.)",
+    "image": "asset/mm-vet/images/v2_84_0.png"
+  },
+  "61": {
+    "question": "Can we make sure the cat is alive before we open the box?",
+    "image": "asset/mm-vet/images/v2_507_0.jpg"
+  },
+  "62": {
+    "question": "Identify and read emotions of people from their faces as shown in the image below.",
+    "image": "asset/mm-vet/images/v2_389_0.png"
+  },
+  "63": {
+    "question": "What is [person3] doing?",
+    "image": "asset/mm-vet/images/v2_294_0.png"
+  },
+  "64": {
+    "question": "Which drink has fewer total calories, the first or the second?",
+    "image": "asset/mm-vet/merge/v2_497.png"
+  },
+  "65": {
+    "question": "What fruit is the the right of plums?",
+    "image": "asset/mm-vet/images/v2_23_0.png"
+  },
+  "66": {
+    "question": "What are the differences between these two experiments in the slides?",
+    "image": "asset/mm-vet/images/v2_367_0.png"
+  },
+  "67": {
+    "question": "描述這張圖片",
+    "image": "asset/mm-vet/images/v2_316_0.jpg"
+  },
+  "68": {
+    "question": "What does this part of the poster highlights?",
+    "image": "asset/mm-vet/images/v2_366_0.png"
+  },
+  "69": {
+    "question": "Popište obrázek",
+    "image": "asset/mm-vet/images/v2_316_0.jpg"
+  },
+  "70": {
+    "question": "Describe the name of the dish.",
+    "image": "asset/mm-vet/images/v2_258_0.jpg"
+  },
+  "71": {
+    "question": "Generate the following image in tikz.",
+    "image": "asset/mm-vet/images/v2_350_0.png"
+  },
+  "72": {
+    "question": "Generate latex code",
+    "image": "asset/mm-vet/images/v2_344_0.jpg"
+  },
+  "73": {
+    "question": "Look at the CT scan of lung in the image below, tell me what's wrong.",
+    "image": "asset/mm-vet/images/v2_263_0.png"
+  },
+  "74": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_327_0.jpg"
+  },
+  "75": {
+    "question": "Write a radiology report as an expert radiologist for the following case.",
+    "image": "asset/mm-vet/images/v2_424_0.png"
+  },
+  "76": {
+    "question": "Where is this photo taken?",
+    "image": "asset/mm-vet/images/v2_102_0.png"
+  },
+  "77": {
+    "question": "Which country has a below-average profit margin?",
+    "image": "asset/mm-vet/images/v2_60_0.png"
+  },
+  "78": {
+    "question": "What is y in the last equation?",
+    "image": "asset/mm-vet/images/v2_5_0.png"
+  },
+  "79": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_88_0.jpg"
+  },
+  "80": {
+    "question": "What is the last strategy given in the image?",
+    "image": "asset/mm-vet/images/v2_41_0.png"
+  },
+  "81": {
+    "question": "Describe the landmark in the image.",
+    "image": "asset/mm-vet/images/v2_251_0.jpg"
+  },
+  "82": {
+    "question": "Answer the question in the image.",
+    "image": "asset/mm-vet/images/v2_313_0.png"
+  },
+  "83": {
+    "question": "Here are the photos of my family members.\nLinda<IMG>Cotton<IMG>Max<IMG>Sam<IMG>Emma<IMG>Please describe the image with as many details as possible, using my family members’ names.",
+    "image": "asset/mm-vet/merge/v2_437.png"
+  },
+  "84": {
+    "question": "Can you translate the flowchart to a python code?",
+    "image": "asset/mm-vet/images/v2_308_0.jpg"
+  },
+  "85": {
+    "question": "Imagine that you are a robot operating a phone. Like how humans operate the phone, you can move your finger to an icon, click an icon with your finger, scroll down a screen, or type some texts with the keyboard.\nBelow is what you see on the phone screen. Describe the image and predict your next move. If the action involves moving your finger to an icon, describe the location of that icon as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_479_0.png"
+  },
+  "86": {
+    "question": "Can you give a short introduction to this movie?",
+    "image": "asset/mm-vet/images/v2_171_0.jpg"
+  },
+  "87": {
+    "question": "Describe the image in Chinese",
+    "image": "asset/mm-vet/images/v2_319_0.jpg"
+  },
+  "88": {
+    "question": "Are all of the cats the same color?",
+    "image": "asset/mm-vet/images/v2_113_0.jpg"
+  },
+  "89": {
+    "question": "Describe the image.",
+    "image": "asset/mm-vet/images/v2_311_0.png"
+  },
+  "90": {
+    "question": "Find out the pattern in the first two rows and use it to infer the missing figure in the third row.",
+    "image": "asset/mm-vet/images/v2_387_0.png"
+  },
+  "91": {
+    "question": "Describe both the image and logo in details",
+    "image": "asset/mm-vet/images/v2_268_0.jpg"
+  },
+  "92": {
+    "question": "What is the face value of this banknote?",
+    "image": "asset/mm-vet/images/v2_79_0.jpg"
+  },
+  "93": {
+    "question": "Where are the persons? Answer it and give the rationale.",
+    "image": "asset/mm-vet/images/v2_138_0.jpg"
+  },
+  "94": {
+    "question": "What is this disease (give short introduction) and how to treat it?",
+    "image": "asset/mm-vet/images/v2_188_0.jpg"
+  },
+  "95": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_93_0.jpg"
+  },
+  "96": {
+    "question": "Where is this photo taken?",
+    "image": "asset/mm-vet/images/v2_103_0.png"
+  },
+  "97": {
+    "question": "Imagine that you are a robot operating a computer. Like how humans operate the computer, you can move the mouse, click an icon with the mouse, or type some texts with the keyboard.\nYou are asked to find a detailed recipe of Mapo Tofu.\nBelow is what you see on the computer screen, predict your next move. If the action involves moving the mouse, describe the location as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_457_0.png"
+  },
+  "98": {
+    "question": "Imagine that you are a robot operating a computer. Like how humans operate the computer, you can move the mouse, click an icon with the mouse, or type some texts with the keyboard. \nYou are asked to find a detailed recipe of Mapo Tofu.\nPrevious action: “I would move the mouse to the \"Jump to Recipe\" button located at the top right corner of the webpage. I would then click on the button to jump to the detailed recipe section of the page.\"\nYou have now completed the previous action as described above. Below is what you see on the computer screen. Based on the image below, what will you do next? If the action involves moving the mouse, describe the location as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_461_0.png"
+  },
+  "99": {
+    "question": "Can you give a short introduction to this painting?",
+    "image": "asset/mm-vet/images/v2_180_0.jpg"
+  },
+  "100": {
+    "question": "What is the read of the speed meter?",
+    "image": "asset/mm-vet/images/v2_238_0.png"
+  },
+  "101": {
+    "question": "Are which one of these two jets are larger in size?",
+    "image": "asset/mm-vet/images/v2_30_0.jpg"
+  },
+  "102": {
+    "question": "What kind of school does the boy go to? Answer it and give the rationale.",
+    "image": "asset/mm-vet/images/v2_145_0.jpg"
+  },
+  "103": {
+    "question": "Explain the figure.",
+    "image": "asset/mm-vet/images/v2_309_0.png"
+  },
+  "104": {
+    "question": "Can you explain this meme?",
+    "image": "asset/mm-vet/images/v2_150_0.jpg"
+  },
+  "105": {
+    "question": "What is the name of this dish?",
+    "image": "asset/mm-vet/images/v2_71_0.jpg"
+  },
+  "106": {
+    "question": "Can you explain this meme?",
+    "image": "asset/mm-vet/images/v2_152_0.jpg"
+  },
+  "107": {
+    "question": "Based on the image, in which country does Tina Fey have the highest level of total awareness?",
+    "image": "asset/mm-vet/images/v2_25_0.png"
+  },
+  "108": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_297_0.png"
+  },
+  "109": {
+    "question": "Imagine that you are a robot operating a computer. Like how humans operate the computer, you can move the mouse, click an icon with the mouse, or type some texts with the keyboard. \nBelow is what you see on the computer screen. Describe the image and predict your next move. If the action involves moving the mouse, describe the location and the icon as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_480_0.png"
+  },
+  "110": {
+    "question": "Given Image 1, tell me what is wrong in image 2.\nImage 1<IMG>Image 2",
+    "image": "asset/mm-vet/merge/v2_417.png"
+  },
+  "111": {
+    "question": "Which room is bigger, the master bedroom or the patio?",
+    "image": "asset/mm-vet/images/v2_50_0.jpg"
+  },
+  "112": {
+    "question": "Who is the person in the image and what is the person doing?",
+    "image": "asset/mm-vet/images/v2_246_0.jpg"
+  },
+  "113": {
+    "question": "Which animal in the picture is larger, the cat or the dog?",
+    "image": "asset/mm-vet/images/v2_128_0.jpg"
+  },
+  "114": {
+    "question": "What is wrong with the object in the image?",
+    "image": "asset/mm-vet/images/v2_408_0.png"
+  },
+  "115": {
+    "question": "How to cook this dish?",
+    "image": "asset/mm-vet/images/v2_164_0.jpg"
+  },
+  "116": {
+    "question": "What is this disease (give short introduction) and how to treat it?",
+    "image": "asset/mm-vet/images/v2_190_0.jpg"
+  },
+  "117": {
+    "question": "Based on the image, what is the total international awareness of Tina Fey?",
+    "image": "asset/mm-vet/images/v2_25_0.png"
+  },
+  "118": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_305_0.jpg"
+  },
+  "119": {
+    "question": "What is happening in the image? From scale 1 to 10, decide how similar the image is to the text prompt \"a parrot driving a car\"?",
+    "image": "asset/mm-vet/images/v2_443_0.png"
+  },
+  "120": {
+    "question": "This is a paper \"Paper Gestalt.\" Describe the paper in details and highlight their contribution.\nPage 1<IMG>Page 2<IMG>Page 3<IMG>Page 4<IMG>Page 5",
+    "image": "asset/mm-vet/merge/v2_315.png"
+  },
+  "121": {
+    "question": "What is the read of the speed meter?<IMG>The yellow pointer is roughly at the middle between 80 and 100 mph. The middle between 80 and 100 is 90. The speed is around 91 mph, as the pointer is just passing 90 mph.<IMG>The yellow pointer is  at the long tick between 20 and 40 mph. The long tick at the middle between 20 and 40 is 30. The speed is around 29 mph, as the pointer is close to 30 mph but not quite 30 yet.",
+    "image": "asset/mm-vet/merge/v2_242.png"
+  },
+  "122": {
+    "question": "For below image, find what products are presented in the basket. Try to be accurate",
+    "image": "asset/mm-vet/images/v2_421_0.png"
+  },
+  "123": {
+    "question": "Are there nuts or vegetables?",
+    "image": "asset/mm-vet/images/v2_125_0.jpg"
+  },
+  "124": {
+    "question": "What is the total price for a bottle of Merlot and a bottle of Cabernet shown in the image?",
+    "image": "asset/mm-vet/images/v2_11_0.jpg"
+  },
+  "125": {
+    "question": "Which track should the trolley go on, A or B?",
+    "image": "asset/mm-vet/images/v2_505_0.jpg"
+  },
+  "126": {
+    "question": "What is this disease (give short introduction) and how to treat it?",
+    "image": "asset/mm-vet/images/v2_194_0.jpg"
+  },
+  "127": {
+    "question": "What should I do before cutting herbs, sausage, and mushrooms?",
+    "image": "asset/mm-vet/images/v2_34_0.jpg"
+  },
+  "128": {
+    "question": "Imagine that you are a robot operating a phone. Like how humans operate the phone, you can move your finger to an icon, click an icon with your finger, scroll down a screen, or type some texts with the keyboard.\nYou are asked to shop for an ergonomic keyboard, your budget is between $50 and $100.\nPrevious action: \" My next move would be to move my finger to the \"Add to Cart\" button, which is located below the \"Buy New\" button and above the \"Ships from Amazon\" section. I would then click on the \"Add to Cart\" button to add the item to my shopping cart. \"\nYou have now completed the previous action as described above. Below is what you see on the phone screen. What will you do next? If the action involves moving your finger to an icon, describe the location of that icon as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_478_0.png"
+  },
+  "129": {
+    "question": "What occasions would someone use this meme?",
+    "image": "asset/mm-vet/images/v2_156_0.jpg"
+  },
+  "130": {
+    "question": "Count the number of people in the image.",
+    "image": "asset/mm-vet/images/v2_283_0.jpg"
+  },
+  "131": {
+    "question": "After seeing the below image, how people might emotionally feel and react?",
+    "image": "asset/mm-vet/images/v2_394_0.jpg"
+  },
+  "132": {
+    "question": "What is the highest fueling cost?",
+    "image": "asset/mm-vet/images/v2_42_0.png"
+  },
+  "133": {
+    "question": "What is this bird called?",
+    "image": "asset/mm-vet/images/v2_127_0.jpg"
+  },
+  "134": {
+    "question": "Explain the figure",
+    "image": "asset/mm-vet/images/v2_307_0.png"
+  },
+  "135": {
+    "question": "Are there napkins under the utensil to the left of the rice?",
+    "image": "asset/mm-vet/images/v2_124_0.jpg"
+  },
+  "136": {
+    "question": "How's the weather?",
+    "image": "asset/mm-vet/images/v2_118_0.jpg"
+  },
+  "137": {
+    "question": "What is the answer to the second last equation on the right?",
+    "image": "asset/mm-vet/images/v2_5_0.png"
+  },
+  "138": {
+    "question": "Is the curtain on the right side or on the left of the picture?",
+    "image": "asset/mm-vet/images/v2_122_0.jpg"
+  },
+  "139": {
+    "question": "Predict what will happen next based on the images.",
+    "image": "asset/mm-vet/merge/v2_374.png"
+  },
+  "140": {
+    "question": "Answer the question in the following figure. Provide intermediate steps.",
+    "image": "asset/mm-vet/images/v2_235_0.png"
+  },
+  "141": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_89_0.jpg"
+  },
+  "142": {
+    "question": "What is the price for tomatoes?",
+    "image": "asset/mm-vet/images/v2_23_0.png"
+  },
+  "143": {
+    "question": "Count the number of oranges in the image.",
+    "image": "asset/mm-vet/images/v2_282_0.jpg"
+  },
+  "144": {
+    "question": "What is the name of this landmark?",
+    "image": "asset/mm-vet/images/v2_76_0.png"
+  },
+  "145": {
+    "question": "Imagine that you are a home robot, and is asked to go to the kitchen to fetch something from the fridge.\nThe image below shows your current position. Please plan your next action.",
+    "image": "asset/mm-vet/images/v2_453_0.png"
+  },
+  "146": {
+    "question": "How many birds are there?",
+    "image": "asset/mm-vet/images/v2_85_0.jpg"
+  },
+  "147": {
+    "question": "What is the number displayed on the motorcycle on the right?",
+    "image": "asset/mm-vet/images/v2_28_0.jpg"
+  },
+  "148": {
+    "question": "What is x in the equation?",
+    "image": "asset/mm-vet/images/v2_0_0.png"
+  },
+  "149": {
+    "question": "What is wrong with the object in the image?",
+    "image": "asset/mm-vet/images/v2_410_0.png"
+  },
+  "150": {
+    "question": "How to cook this dish?",
+    "image": "asset/mm-vet/images/v2_160_0.jpg"
+  },
+  "151": {
+    "question": "What is d in the last equation?",
+    "image": "asset/mm-vet/images/v2_1_0.png"
+  },
+  "152": {
+    "question": "What do both the stump and the fence have in common?",
+    "image": "asset/mm-vet/images/v2_133_0.jpg"
+  },
+  "153": {
+    "question": "How many books are there?",
+    "image": "asset/mm-vet/images/v2_87_0.jpg"
+  },
+  "154": {
+    "question": "In which years did rowing and athletics have the same number of gold medals?",
+    "image": "asset/mm-vet/images/v2_57_0.jpg"
+  },
+  "155": {
+    "question": "Imagine that you are a robot operating a computer. Like how humans operate the computer, you can move the mouse, click an icon with the mouse, or type some texts with the keyboard. \nYou are asked to find a detailed recipe of Mapo Tofu.\nPrevious action: \" I would move the mouse to the search bar located in the center of the screen, approximately 1/2 of the way down from the top. I would then click on the search bar and type in \"Mapo Tofu recipe\" using the keyboard. After typing in the search query, I would press the \"Enter\" key on the keyboard to initiate the search.\"\nYou have now completed the previous action as described above. Below is what you see on the computer screen. What will you do next? If the action involves moving the mouse, describe the location as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_459_0.png"
+  },
+  "156": {
+    "question": "Imagine that you are a robot operating a phone. Like how humans operate the phone, you can move your finger to an icon, click an icon with your finger, scroll down a screen, or type some texts with the keyboard.\nYou are asked to shop for an ergonomic keyboard, your budget is between $50 and $100.\nPrevious action: \"My next move would be to move my finger to the search bar, which is located at the top of the screen. I would then click on the search bar and type in \"ergonomic keyboard\" using the keyboard. After typing in the search term, I would click on the \"Search\" button, which is located on the bottom right corner of the keyboard, to initiate the search. \"\nYou have now completed the previous action as described above. Below is what you see on the phone screen. Please predict your immediate next move. If the action involves moving your finger to an icon, describe the location of that icon as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_472_0.png"
+  },
+  "157": {
+    "question": "Does the giraffe appear dangerous?",
+    "image": "asset/mm-vet/images/v2_110_0.jpg"
+  },
+  "158": {
+    "question": "Can you give a short introduction to this movie?",
+    "image": "asset/mm-vet/images/v2_169_0.jpg"
+  },
+  "159": {
+    "question": "Are these two animals different species?",
+    "image": "asset/mm-vet/images/v2_137_0.jpg"
+  },
+  "160": {
+    "question": "What is happening in the image? From scale 1 to 10, decide how similar the image is to the text prompt \"a parrot driving a car\"?",
+    "image": "asset/mm-vet/images/v2_444_0.png"
+  },
+  "161": {
+    "question": "Describe the name of the dish.",
+    "image": "asset/mm-vet/images/v2_256_0.jpg"
+  },
+  "162": {
+    "question": "What is wrong with the object in the image?",
+    "image": "asset/mm-vet/images/v2_415_0.png"
+  },
+  "163": {
+    "question": "What is the index of the step when we need to add all purpose flour?",
+    "image": "asset/mm-vet/images/v2_35_0.png"
+  },
+  "164": {
+    "question": "Locate the region based on given coordinates and describe the contents in the region. Regions are represented by (x1,y1,x2,y2) coordinates. x1 x2 are the left and right most positions, normalized into 0 to 1, where 0 is the left and 1 is the right. y1 y2 are the top and bottom most positions, normalized into 0 to 1, where 0 is the top and 1 is the bottom. Describe the relative position of region (0.01, 0.67, 0.36, 0.91) in the image. Describe the contents in that relative position. No need to mention contents in other part of the image.",
+    "image": "asset/mm-vet/images/v2_219_0.png"
+  },
+  "165": {
+    "question": "If the image is presented in a language other than English, translate the content to English.",
+    "image": "asset/mm-vet/images/v2_334_0.png"
+  },
+  "166": {
+    "question": "What is this disease (give short introduction) and how to treat it?",
+    "image": "asset/mm-vet/images/v2_189_0.jpg"
+  },
+  "167": {
+    "question": "Which continent is highlighted?",
+    "image": "asset/mm-vet/images/v2_98_0.jpg"
+  },
+  "168": {
+    "question": "Describe the landmark in the image.",
+    "image": "asset/mm-vet/images/v2_253_0.jpg"
+  },
+  "169": {
+    "question": "Is Yao Ming the tallest?",
+    "image": "asset/mm-vet/images/v2_502_0.jpg"
+  },
+  "170": {
+    "question": "What is the name of this landmark?",
+    "image": "asset/mm-vet/images/v2_78_0.jpg"
+  },
+  "171": {
+    "question": "Count the number of apples in the image.",
+    "image": "asset/mm-vet/images/v2_280_0.jpg"
+  },
+  "172": {
+    "question": "Can you give a short introduction to this painting?",
+    "image": "asset/mm-vet/images/v2_181_0.jpg"
+  },
+  "173": {
+    "question": "Localize each person in the image using bounding box. What is the image size of the input image?",
+    "image": "asset/mm-vet/images/v2_288_0.jpg"
+  },
+  "174": {
+    "question": "what is the green logo on the car?",
+    "image": "asset/mm-vet/images/v2_75_0.jpg"
+  },
+  "175": {
+    "question": "Locate the referred object and represent the location of the region. Regions are represented by (x1,y1,x2,y2) coordinates. x1 x2 are the left and right most positions, normalized into 0 to 1, where 0 is the left and 1 is the right. y1 y2 are the top and bottom most positions, normalized into 0 to 1, where 0 is the top and 1 is the bottom. For example, the (x1,y1,x2,y2) coordinates for that region with the beer bottle is (0.47, 0.48, 0.55, 0.87).<IMG>For the image below, what is the (x1,y1,x2,y2) coordinates for the region with the blue Subaru SUV?",
+    "image": "asset/mm-vet/merge/v2_368.png"
+  },
+  "176": {
+    "question": "How much should I pay for the beer on the table according to the price on the menu?<IMG>Here is a photo of the menu.",
+    "image": "asset/mm-vet/merge/v2_219.png"
+  },
+  "177": {
+    "question": "How many families are earning more than 13000 and owns more than 2 cars?",
+    "image": "asset/mm-vet/images/v2_310_0.png"
+  },
+  "178": {
+    "question": "Identify and read emotions of people from their faces as shown in the image below.",
+    "image": "asset/mm-vet/images/v2_391_0.png"
+  },
+  "179": {
+    "question": "Locate the referred object and represent the location of the region. Regions are represented by (x1,y1,x2,y2) coordinates. x1 x2 are the left and right most positions, normalized into 0 to 1, where 0 is the left and 1 is the right. y1 y2 are the top and bottom most positions, normalized into 0 to 1, where 0 is the top and 1 is the bottom. For example, the (x1,y1,x2,y2) coordinates for that region with the beer bottle is (0.47, 0.48, 0.55, 0.87).<IMG>For the image below, what is the (x1,y1,x2,y2) coordinates for the region with object<IMG>in it?",
+    "image": "asset/mm-vet/merge/v2_369.png"
+  },
+  "180": {
+    "question": "Imagine that you are a robot operating a computer. Like how humans operate the computer, you can move the mouse, click an icon with the mouse, or type some texts with the keyboard. \nBelow is what you see on the computer screen. Describe the image and predict your next move. If the action involves moving the mouse, describe the location as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_481_0.png"
+  },
+  "181": {
+    "question": "What is the original price for pork belly before discount?",
+    "image": "asset/mm-vet/images/v2_15_0.png"
+  },
+  "182": {
+    "question": "This is the original image:<IMG>I want to make this image look like graphic novel cover. The prompt should be a single sentence in less than 15 words with descriptive words. For example: “have it look like a graphic novel”.\nBased on the above prompt examples and the original image, help me to write a better prompt to an image editing model.",
+    "image": "asset/mm-vet/images/v2_449_0.png"
+  },
+  "183": {
+    "question": "Imagine that you are a home robot, and is asked to go to the kitchen to fetch something from the fridge.\nAt the previous turn, you were at the position shown in the below image:<IMG>The action taken in previous turn is: turn right and move forward towards the kitchen.\nNow you are at the kitchen, this is what you can see from there. Can you see the fridge from here? What is your next action?",
+    "image": "asset/mm-vet/merge/v2_455.png"
+  },
+  "184": {
+    "question": "Can you give a short introduction to this painting?",
+    "image": "asset/mm-vet/images/v2_187_0.jpg"
+  },
+  "185": {
+    "question": "What is this disease (give short introduction) and how to treat it?",
+    "image": "asset/mm-vet/images/v2_191_0.jpg"
+  },
+  "186": {
+    "question": "Describe the image",
+    "image": "asset/mm-vet/images/v2_244_0.png"
+  },
+  "187": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_91_0.jpg"
+  },
+  "188": {
+    "question": "I am getting two margherita pizza and one calzone. How much should I pay in total?",
+    "image": "asset/mm-vet/images/v2_13_0.jpg"
+  },
+  "189": {
+    "question": "Tell me about the video content, given the frames below.",
+    "image": "asset/mm-vet/merge/v2_483.png"
+  },
+  "190": {
+    "question": "Imagine that you are a home robot, and is asked to go to the kitchen to fetch something from the fridge.\nAt the previous turn, you were at the position shown in the below image:<IMG>The action taken in previous turn is: turn right and move forward towards the hallway.\nNow you are at the hallway, this is what you can see from there. Can you see the kitchen from here? What is your next action?",
+    "image": "asset/mm-vet/merge/v2_454.png"
+  },
+  "191": {
+    "question": "Imagine that you are a robot operating a computer. Like how humans operate the computer, you can move the mouse, click an icon with the mouse, or type some texts with the keyboard. \nYou are asked to find what’s in the news today.\nPrevious action: \"My next move would be to move the mouse to the Google Chrome icon located on the left side of the screen, approximately 1/3 of the way down from the top. I would then click on the icon to open the web browser and search for news websites to find out what's in the news today. \"\nYou have now opened the web browser. Below is what you see on the computer screen, what is your immediate next step? If the action involves moving the mouse, describe the location as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_458_0.png"
+  },
+  "192": {
+    "question": "Imagine that you are a robot operating a phone. Like how humans operate the phone, you can move your finger to an icon, click an icon with your finger, scroll down a screen, or type some texts with the keyboard.\nYou are asked to shop for an ergonomic keyboard, your budget is between $50 and $100.\nPrevious action: \"My next move would be to move my finger to the Amazon icon, which is located in the third row and third column of the screen. I would then click on the icon to open the app and search for an ergonomic keyboard within my budget of $50. \"\nYou have now opened the Amazon app. Below is what you see on the phone screen. What will you do next? If the action involves moving your finger to an icon, describe the location of that icon as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_471_0.png"
+  },
+  "193": {
+    "question": "What place is pictured?",
+    "image": "asset/mm-vet/images/v2_116_0.jpg"
+  },
+  "194": {
+    "question": "The first image is a chest x-ray scan the patient took last time. The previous diagnoses mention pleural effusion.",
+    "image": "asset/mm-vet/merge/v2_429.png"
+  },
+  "195": {
+    "question": "Please read the text in this image and return the information in the following JSON format (note xxx is placeholder, if the information is not available in the image, put \"N/A\" instead).\n{\"class\": xxx, \"DLN\": xxx, \"DOB\": xxx, \"Name\": xxx, \"Address\": xxx, \"EXP\": xxx, \"ISS\": xxx, \"SEX\": xxx, \"HGT\": xxx, \"WGT\": xxx, \"EYES\": xxx, \"HAIR\": xxx, \"DONOR\": xxx}",
+    "image": "asset/mm-vet/images/v2_229_0.png"
+  },
+  "196": {
+    "question": "Describe both the image and logo in details",
+    "image": "asset/mm-vet/images/v2_266_0.jpg"
+  },
+  "197": {
+    "question": "Can you give a short introduction to this painting?",
+    "image": "asset/mm-vet/images/v2_183_0.jpg"
+  },
+  "198": {
+    "question": "Can you give a short introduction to this person?",
+    "image": "asset/mm-vet/images/v2_203_0.jpg"
+  },
+  "199": {
+    "question": "Please follow the instructions\n1. Tell me the size of the input image;\n2. Localize each person in the image using bounding box;\n3. Recognize each person;\n4. Generate detailed caption for each bounding box.",
+    "image": "asset/mm-vet/images/v2_284_0.jpg"
+  },
+  "200": {
+    "question": "I am getting one funghi pizza and one prosciutto pizza. How much should I pay in total?",
+    "image": "asset/mm-vet/images/v2_13_0.jpg"
+  },
+  "201": {
+    "question": "Décrire l’image",
+    "image": "asset/mm-vet/images/v2_316_0.jpg"
+  },
+  "202": {
+    "question": "What is this banknote?",
+    "image": "asset/mm-vet/images/v2_80_0.jpg"
+  },
+  "203": {
+    "question": "Compare the average kinetic energies of the particles in each sample. The diagrams below show two pure samples of gas in identical closed, rigid containers. Each colored ball represents one gas particle. Both samples have the same number of particles. Which sample has the higher temperature? Sample A or sample B?",
+    "image": "asset/mm-vet/images/v2_100_0.png"
+  },
+  "204": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_301_0.jpg"
+  },
+  "205": {
+    "question": "Where is this happening? Answer it and give the rationale.",
+    "image": "asset/mm-vet/images/v2_141_0.jpg"
+  },
+  "206": {
+    "question": "Is the trash empty or full?",
+    "image": "asset/mm-vet/images/v2_109_0.jpg"
+  },
+  "207": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_303_0.jpg"
+  },
+  "208": {
+    "question": "Analyze the images and decide what the next steps should be.",
+    "image": "asset/mm-vet/merge/v2_375.png"
+  },
+  "209": {
+    "question": "Is the plate of the table both dirty and silver?",
+    "image": "asset/mm-vet/images/v2_121_0.jpg"
+  },
+  "210": {
+    "question": "How many feet do these animals have in total?",
+    "image": "asset/mm-vet/images/v2_495_0.jpg"
+  },
+  "211": {
+    "question": "How to cook this dish?",
+    "image": "asset/mm-vet/images/v2_161_0.jpg"
+  },
+  "212": {
+    "question": "How to cook this dish?",
+    "image": "asset/mm-vet/images/v2_167_0.jpg"
+  },
+  "213": {
+    "question": "Can you give a short introduction to this movie?",
+    "image": "asset/mm-vet/images/v2_175_0.jpg"
+  },
+  "214": {
+    "question": "What’s wrong?",
+    "image": "asset/mm-vet/images/v2_262_0.png"
+  },
+  "215": {
+    "question": "Please read the text in this image and return the information in the following JSON format (note xxx is placeholder, if the information is not available in the image, put \"N/A\" instead).\n{\"class\": xxx, \"DLN\": xxx, \"DOB\": xxx, \"Name\": xxx, \"Address\": xxx, \"EXP\": xxx, \"ISS\": xxx, \"SEX\": xxx, \"HGT\": xxx, \"WGT\": xxx, \"EYES\": xxx, \"HAIR\": xxx, \"DONOR\": xxx}",
+    "image": "asset/mm-vet/images/v2_228_0.png"
+  },
+  "216": {
+    "question": "Can you give a short introduction to this movie?",
+    "image": "asset/mm-vet/images/v2_173_0.jpg"
+  },
+  "217": {
+    "question": "What is the name of this dish?",
+    "image": "asset/mm-vet/images/v2_70_0.png"
+  },
+  "218": {
+    "question": "Imagine that you are a robot operating a phone. Like how humans operate the phone, you can move your finger to an icon, click an icon with your finger, scroll down a screen, or type some texts with the keyboard. \nYou are asked to shop for an ergonomic keyboard, your budget is between $50 and $100.\nPrevious action: \" My next move would be to scroll down the screen to view more details about the \"Kensington Pro Fit Ergonomic Wireless Keyboard - Black\" product. I would then move my finger to the \"Buy New\" button, which is located below the product image and above the \"Get a $8 bonus when you reload $100 or more to your gift card balance\" section. I would then click on the \"Buy New\" button to proceed with the purchase. \"\nYou have now completed the previous action as described above. Below is what you see on the phone screen. What will you do next? If the action involves moving your finger to an icon, describe the location of that icon as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_477_0.png"
+  },
+  "219": {
+    "question": "Where is this photo taken?",
+    "image": "asset/mm-vet/images/v2_104_0.png"
+  },
+  "220": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_298_0.png"
+  },
+  "221": {
+    "question": "Which car is on the parking spot 33?",
+    "image": "asset/mm-vet/images/v2_21_0.jpg"
+  },
+  "222": {
+    "question": "How are those visual parts related, and can they be combined to form a single object such as a boy? If so, how to arrange them?",
+    "image": "asset/mm-vet/merge/v2_383.png"
+  },
+  "223": {
+    "question": "Describe the landmark in the image.",
+    "image": "asset/mm-vet/images/v2_249_0.jpg"
+  },
+  "224": {
+    "question": "Describe the two pointed objects in the image.",
+    "image": "asset/mm-vet/images/v2_355_0.png"
+  },
+  "225": {
+    "question": "Imagine that you are an expert in evaluating the car damage from car accident for auto insurance reporting. Please evaluate the damage seen in the image below.",
+    "image": "asset/mm-vet/images/v2_432_0.png"
+  },
+  "226": {
+    "question": "Count the number of people in the image.",
+    "image": "asset/mm-vet/images/v2_285_0.jpg"
+  },
+  "227": {
+    "question": "What is this disease (give short introduction) and how to treat it?",
+    "image": "asset/mm-vet/images/v2_193_0.jpg"
+  },
+  "228": {
+    "question": "Can you give a short introduction to this person?",
+    "image": "asset/mm-vet/images/v2_201_0.jpg"
+  },
+  "229": {
+    "question": "Where might I be able to take this photo?",
+    "image": "asset/mm-vet/images/v2_496_0.jpg"
+  },
+  "230": {
+    "question": "Which department is the person who has the highest salary from?",
+    "image": "asset/mm-vet/images/v2_58_0.png"
+  },
+  "231": {
+    "question": "Which spot is the red car parking on?",
+    "image": "asset/mm-vet/images/v2_21_0.jpg"
+  },
+  "232": {
+    "question": "Is there any reflection of zebra in water?",
+    "image": "asset/mm-vet/images/v2_111_0.jpg"
+  },
+  "233": {
+    "question": "Generate python code to draw similar curves.",
+    "image": "asset/mm-vet/images/v2_489_0.png"
+  },
+  "234": {
+    "question": "Imagine that you are an expert in evaluating the car damage from car accident for auto insurance reporting. Please evaluate the damage seen in the image below",
+    "image": "asset/mm-vet/images/v2_434_0.png"
+  },
+  "235": {
+    "question": "Can you give a short introduction to this person?",
+    "image": "asset/mm-vet/images/v2_205_0.jpg"
+  },
+  "236": {
+    "question": "Describe the pointed region in the image.",
+    "image": "asset/mm-vet/images/v2_233_0.png"
+  },
+  "237": {
+    "question": "What is happening in the image? From scale 1 to 10, decide how similar the image is to the text prompt “a cake on the table with word “Azure Research” written on it\"?",
+    "image": "asset/mm-vet/images/v2_446_0.png"
+  },
+  "238": {
+    "question": "I am playing as the black pieces, and it's my turn. What move should I execute to achieve checkmate in one move?",
+    "image": "asset/mm-vet/images/v2_494_0.png"
+  },
+  "239": {
+    "question": "Answer questions in the following figure. Provide intermediate steps.",
+    "image": "asset/mm-vet/images/v2_363_0.png"
+  },
+  "240": {
+    "question": "What is happening in the image? From scale 1 to 10, decide how similar the image is to the text prompt \"a parrot driving a car\"?",
+    "image": "asset/mm-vet/images/v2_442_0.png"
+  },
+  "241": {
+    "question": "What does this factory make?",
+    "image": "asset/mm-vet/images/v2_74_0.jpg"
+  },
+  "242": {
+    "question": "Compare Image 1 and image 2, tell me about 3 differences between image 1 and image 2.\nImage 1<IMG>Image 2",
+    "image": "asset/mm-vet/merge/v2_406.png"
+  },
+  "243": {
+    "question": "Do the persons live in this house? Answer it and give the rationale.",
+    "image": "asset/mm-vet/images/v2_146_0.jpg"
+  },
+  "244": {
+    "question": "Please read the text in this image and return the information in the following JSON format (note xxx is placeholder, if the information is not available in the image, put \"N/A\" instead).\n{\"Surname\": xxx, \"Given Name\": xxx, \"USCIS #\": xxx, \"Category\": xxx, \"Country of Birth\": xxx, \"Date of Birth\": xxx, \"SEX\": xxx, \"Card Expires\": xxx, \"Resident Since\": xxx}",
+    "image": "asset/mm-vet/images/v2_230_0.png"
+  },
+  "245": {
+    "question": "How many people are wearing helmets?",
+    "image": "asset/mm-vet/images/v2_419_0.png"
+  },
+  "246": {
+    "question": "Describe the image in both English and the local language corresponding to the geolocation depicted in the image.",
+    "image": "asset/mm-vet/images/v2_339_0.png"
+  },
+  "247": {
+    "question": "Describe the landmark in the image.",
+    "image": "asset/mm-vet/images/v2_252_0.jpg"
+  },
+  "248": {
+    "question": "What is this disease (give short introduction) and how to treat it?",
+    "image": "asset/mm-vet/images/v2_192_0.jpg"
+  },
+  "249": {
+    "question": "Locate the region based on given coordinates and describe the contents in the region. Regions are represented by (x1,y1,x2,y2) coordinates. x1 x2 are the left and right most positions, normalized into 0 to 1, where 0 is the left and 1 is the right. y1 y2 are the top and bottom most positions, normalized into 0 to 1, where 0 is the top and 1 is the bottom. Describe the relative position of region (0.47, 0.48, 0.55, 0.87) in the image. Describe the contents in that relative position. No need to mention contents in other part of the image.",
+    "image": "asset/mm-vet/images/v2_219_0.png"
+  },
+  "250": {
+    "question": "What should we add in the third step?",
+    "image": "asset/mm-vet/images/v2_36_0.jpg"
+  },
+  "251": {
+    "question": "Imagine that you are a robot operating a computer. Like how humans operate the computer, you can move the mouse, click an icon with the mouse, or type some texts with the keyboard. \nYou are asked to find a detailed recipe of Mapo Tofu.\nPrevious action: “I would move the mouse to the first search result under the \"Recipes\" section, which is titled \"Mapo Tofu Recipe - The Woks of Life\". I would then click on the link to open the webpage and view the detailed recipe.\"\nYou have now completed the previous action as described above. Below is what you see on the computer screen. Based on the image below, what will you do next? If the action involves moving the mouse, describe the location as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_460_0.png"
+  },
+  "252": {
+    "question": "What is happening in the image? From scale 1 to 10, decide how similar the image is to the text prompt \"a parrot driving a car\"?",
+    "image": "asset/mm-vet/images/v2_441_0.png"
+  },
+  "253": {
+    "question": "Is the person bigger than the car?",
+    "image": "asset/mm-vet/images/v2_31_0.png"
+  },
+  "254": {
+    "question": "What should kids do after snap fingers?",
+    "image": "asset/mm-vet/images/v2_37_0.jpg"
+  },
+  "255": {
+    "question": "Is the woman in red going to be mad at the man, for looking at the woman in dress? Answer it and give the rationale.",
+    "image": "asset/mm-vet/images/v2_143_0.jpg"
+  },
+  "256": {
+    "question": "Which are producers in this food web?",
+    "image": "asset/mm-vet/images/v2_99_0.png"
+  },
+  "257": {
+    "question": "Imagine that you are a robot operating a phone. Like how humans operate the phone, you can move your finger to an icon, click an icon with your finger, scroll down a screen, or type some texts with the keyboard.\nYou are asked to shop for an ergonomic keyboard, your budget is between $50 and $100.\nPrevious action: \"My immediate next move would be to move my finger to the \"Filters\" button, which is located at the top right corner of the screen, next to the \"Windows\" button. I would then click on the \"Filters\" button to open the filter options and narrow down my search results to only show ergonomic keyboards within my budget range of $50 to $100. \"\nYou have now completed the previous action as described above. Below is what you see on the phone screen. Please predict your immediate next move. If the action involves moving your finger to an icon, describe the location of that icon as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_473_0.png"
+  },
+  "258": {
+    "question": "Tell me about the video content, given the frames below. Please include as many details as possible.",
+    "image": "asset/mm-vet/merge/v2_487.png"
+  },
+  "259": {
+    "question": "What are all the Chinese scene text in the image?",
+    "image": "asset/mm-vet/images/v2_97_0.jpg"
+  },
+  "260": {
+    "question": "Chorleywood is a village near London whose population has increased steadily since the middle of the nineteenth century. The map below shows the development of the village.\n\nWrite a report for a university lecturer describing the development of the village. \n\nYou should write at least 150 words.",
+    "image": "asset/mm-vet/images/v2_215_0.jpg"
+  },
+  "261": {
+    "question": "Describe both the image and logo in details",
+    "image": "asset/mm-vet/images/v2_270_0.jpg"
+  },
+  "262": {
+    "question": "How to cook this dish?",
+    "image": "asset/mm-vet/images/v2_158_0.jpg"
+  },
+  "263": {
+    "question": "If the image is presented in a language other than English, translate the content to English.",
+    "image": "asset/mm-vet/images/v2_333_0.png"
+  },
+  "264": {
+    "question": "Write a radiology report for this image as an expert radiologist.",
+    "image": "asset/mm-vet/images/v2_426_0.png"
+  },
+  "265": {
+    "question": "What is the cost of three bottles of Moet champagne?",
+    "image": "asset/mm-vet/images/v2_11_0.jpg"
+  },
+  "266": {
+    "question": "Compare Image 1 and image 2, tell me about the differences between image 1 and image 2.\nImage 1<IMG>Image 2",
+    "image": "asset/mm-vet/merge/v2_403.png"
+  },
+  "267": {
+    "question": "Why are the persons wearing black clothes? Answer it and give the rationale.",
+    "image": "asset/mm-vet/images/v2_139_0.jpg"
+  },
+  "268": {
+    "question": "Suppose you are a teacher, please use the figure to explain the distinction between evaporation and evapotranspiration.",
+    "image": "asset/mm-vet/images/v2_293_0.jpg"
+  },
+  "269": {
+    "question": "Describe the image",
+    "image": "asset/mm-vet/images/v2_273_0.png"
+  },
+  "270": {
+    "question": "How many tomatoes are there?",
+    "image": "asset/mm-vet/images/v2_86_0.jpg"
+  },
+  "271": {
+    "question": "This is the original image:<IMG>The prompt I used to edit this image is “have it look like a graphic novel”.\nThe edited image I got is:<IMG>Tell me how I should change my prompt to make the edited image better.",
+    "image": "asset/mm-vet/merge/v2_450.png"
+  },
+  "272": {
+    "question": "Find out the pattern in the first column and use it to infer the missing figure in the second column.",
+    "image": "asset/mm-vet/images/v2_386_0.png"
+  },
+  "273": {
+    "question": "Can you give a short introduction to this person?",
+    "image": "asset/mm-vet/images/v2_198_0.jpg"
+  },
+  "274": {
+    "question": "What is SE and how to compute to get its values in the image?",
+    "image": "asset/mm-vet/images/v2_492_0.jpg"
+  },
+  "275": {
+    "question": "What is the icon used for?",
+    "image": "asset/mm-vet/images/v2_364_0.png"
+  },
+  "276": {
+    "question": "Which step in the flowchart is drawn with a diamond shape?",
+    "image": "asset/mm-vet/images/v2_53_0.png"
+  },
+  "277": {
+    "question": "Imagine that you are a robot operating a computer. Like how humans operate the computer, you can move the mouse, click an icon with the mouse, or type some texts with the keyboard.\nYou are asked to find what’s in the news today.\nBelow is what you see on the computer screen, predict your next move. If the action involves moving the mouse, describe the location as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_457_0.png"
+  },
+  "278": {
+    "question": "Read the article shown in the images below and summarize it.",
+    "image": "asset/mm-vet/merge/v2_469.png"
+  },
+  "279": {
+    "question": "What is the read of the speed meter? To read this speed meter, observe the needle on the outer edge of the dial which points to your current speed represented in miles per hour. Yellow is the color of the needle.",
+    "image": "asset/mm-vet/images/v2_238_0.png"
+  },
+  "280": {
+    "question": "What is happening in the image? From scale 1 to 10, decide how similar the image is to the text prompt “a cake on the table with word “Azure Research” written on it\"?",
+    "image": "asset/mm-vet/images/v2_445_0.png"
+  },
+  "281": {
+    "question": "Can you give a short introduction to this movie?",
+    "image": "asset/mm-vet/images/v2_176_0.jpg"
+  },
+  "282": {
+    "question": "Which bottle contains more water, the left or the right?",
+    "image": "asset/mm-vet/images/v2_515_0.jpg"
+  },
+  "283": {
+    "question": "Summarize the activities of the person.",
+    "image": "asset/mm-vet/merge/v2_378.png"
+  },
+  "284": {
+    "question": "Is it summertime in the scene? Answer it and give the rationale.",
+    "image": "asset/mm-vet/images/v2_142_0.jpg"
+  },
+  "285": {
+    "question": "What is funny about this image?",
+    "image": "asset/mm-vet/images/v2_154_0.png"
+  },
+  "286": {
+    "question": "Here are the photos of my family members.\nLinda<IMG>Cotton<IMG>Max<IMG>Sam<IMG>Emma<IMG>Please describe the image with as many details as possible, using my family members’ names.",
+    "image": "asset/mm-vet/merge/v2_438.png"
+  },
+  "287": {
+    "question": "Is the spoon made of the same material as the chopsticks?",
+    "image": "asset/mm-vet/images/v2_134_0.jpg"
+  },
+  "288": {
+    "question": "The graph below shows the long-term international migration, UK, 1999-2008.\n\nSummarize the information by selecting and reporting the main features, and make comparisons where relevant.\n\nYou should write at least 150 words.",
+    "image": "asset/mm-vet/images/v2_208_0.png"
+  },
+  "289": {
+    "question": "Based on the table, how much is Wilkins earning?",
+    "image": "asset/mm-vet/images/v2_58_0.png"
+  },
+  "290": {
+    "question": "Are there wisdom teeth that needs to be removed in this x-ray image?",
+    "image": "asset/mm-vet/images/v2_259_0.png"
+  },
+  "291": {
+    "question": "The table below gives information on consumer spending on different items in five different countries in 2002.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nYou should write at least 150 words.",
+    "image": "asset/mm-vet/images/v2_213_0.jpg"
+  },
+  "292": {
+    "question": "Which one is unsweetened?",
+    "image": "asset/mm-vet/images/v2_67_0.png"
+  },
+  "293": {
+    "question": "The table below gives information about the underground railway systems in six cities.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nYou should write at least 150 words.",
+    "image": "asset/mm-vet/images/v2_212_0.png"
+  },
+  "294": {
+    "question": "What is the step after using probe to spread tire puncture?",
+    "image": "asset/mm-vet/images/v2_39_0.jpg"
+  },
+  "295": {
+    "question": "Describe the image with a sentence consisting of six words.",
+    "image": "asset/mm-vet/images/v2_219_0.png"
+  },
+  "296": {
+    "question": "Is the surfer to the left or to the right of the surfboard?",
+    "image": "asset/mm-vet/images/v2_131_0.jpg"
+  },
+  "297": {
+    "question": "Imagine that you are a robot operating a phone. Like how humans operate the phone, you can move your finger to an icon, click an icon with your finger, scroll down a screen, or type some texts with the keyboard. \nYou are asked to shop for an ergonomic keyboard, your budget is between $50 and $100.\nPrevious action: \" My immediate next move would be to move my finger to the \"Price & Deals\" filter option, which is located under the \"Colors\" filter option and above the \"Sort by\" filter option. I would then click on the \"Price & Deals\" filter option to open the price range filter and set my minimum price to $50 and my maximum price to $100. This would further narrow down my search results to only show ergonomic keyboards within my budget range. \"\nYou have now completed the previous action as described above. Below is what you see on the phone screen. What will you do next? If the action involves moving your finger to an icon, describe the location of that icon as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_474_0.png"
+  },
+  "298": {
+    "question": "What are [person1] and [person2] doing?",
+    "image": "asset/mm-vet/images/v2_295_0.png"
+  },
+  "299": {
+    "question": "Localize each car in the image using bounding box. What is the image size of the input image?",
+    "image": "asset/mm-vet/images/v2_287_0.jpg"
+  },
+  "300": {
+    "question": "Can you give a short introduction to this person?",
+    "image": "asset/mm-vet/images/v2_207_0.jpg"
+  },
+  "301": {
+    "question": "Describe the landmark in the image.",
+    "image": "asset/mm-vet/images/v2_254_0.jpg"
+  },
+  "302": {
+    "question": "Locate the region based on given coordinates and describe the contents in the region. Regions are represented by (x1,y1,x2,y2) coordinates. x1 x2 are the left and right most positions, normalized into 0 to 1, where 0 is the left and 1 is the right. y1 y2 are the top and bottom most positions, normalized into 0 to 1, where 0 is the top and 1 is the bottom. Describe the relative position of region (0.01, 0.09, 0.29, 0.21) in the image. Describe the contents in that relative position. No need to mention contents in other part of the image.",
+    "image": "asset/mm-vet/images/v2_219_0.png"
+  },
+  "303": {
+    "question": "Should I add sugar when mixing egg and milk?",
+    "image": "asset/mm-vet/images/v2_33_0.png"
+  },
+  "304": {
+    "question": "What occasions would someone use this meme?",
+    "image": "asset/mm-vet/images/v2_157_0.jpg"
+  },
+  "305": {
+    "question": "Please determine whether the person in the image wears a helmet or not. And summarize how many people are wearing helmets.\nImage 1<IMG>Image 2<IMG>Image 3<IMG>Image 4<IMG>Image 5<IMG>Image 6<IMG>Image 7<IMG>Image 8",
+    "image": "asset/mm-vet/merge/v2_420.png"
+  },
+  "306": {
+    "question": "Generate python code to draw similar curves.",
+    "image": "asset/mm-vet/images/v2_348_0.png"
+  },
+  "307": {
+    "question": "Which one of the five is least like the other four?\na.<IMG>b.<IMG>c.<IMG>d.<IMG>e.",
+    "image": "asset/mm-vet/merge/v2_384.png"
+  },
+  "308": {
+    "question": "Given image 1, tell me if there are any defects seen on the object in image 2?\nImage 1<IMG>Image 2",
+    "image": "asset/mm-vet/merge/v2_418.png"
+  },
+  "309": {
+    "question": "What is the read of the speed meter?<IMG>The yellow pointer is  at the long tick between 20 and 40 mph. The long tick at the middle between 20 and 40 is 30. The speed is around 29 mph, as the pointer is close to 30 mph but not quite 30 yet.",
+    "image": "asset/mm-vet/merge/v2_241.png"
+  },
+  "310": {
+    "question": "Why does the woman have both of her hands in the air? Answer it and give the rationale.",
+    "image": "asset/mm-vet/images/v2_144_0.jpg"
+  },
+  "311": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_326_0.jpg"
+  },
+  "312": {
+    "question": "I am playing as the red pieces, and it's my turn. Which piece should I move to achieve checkmate in one move?",
+    "image": "asset/mm-vet/images/v2_493_0.jpg"
+  },
+  "313": {
+    "question": "Describe the pointed region in the image.",
+    "image": "asset/mm-vet/images/v2_354_0.png"
+  },
+  "314": {
+    "question": "What is the name of this dish?",
+    "image": "asset/mm-vet/images/v2_72_0.png"
+  },
+  "315": {
+    "question": "Imagine that you are a robot operating a computer. Like how humans operate the computer, you can move the mouse, click an icon with the mouse, or type some texts with the keyboard. \nYou are asked to find what’s in the news today.\nPrevious action: \"My immediate next step would be to move the mouse to the search bar located in the center of the screen, approximately 1/2 of the way down from the top. I would then click on the search bar and type in \"news\" and press the enter key on the keyboard to search for news websites. \"\nYou have now completed the previous action. Below is what you see on the computer screen. Based on the image below, what is your immediate next step? If the action involves moving the mouse, describe the location as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_465_0.png"
+  },
+  "316": {
+    "question": "What is the difference in metric tonnes between the amount of plastic produced and the amount discarded?",
+    "image": "asset/mm-vet/images/v2_44_0.png"
+  },
+  "317": {
+    "question": "If the image is presented in a language other than English, translate the content to English.",
+    "image": "asset/mm-vet/images/v2_336_0.png"
+  },
+  "318": {
+    "question": "What is the color of the fence made of metal?",
+    "image": "asset/mm-vet/images/v2_119_0.jpg"
+  },
+  "319": {
+    "question": "Can you give a short introduction to this painting?",
+    "image": "asset/mm-vet/images/v2_185_0.jpg"
+  },
+  "320": {
+    "question": "Is it possible for the car to move with magnetic force according to the Physical laws?",
+    "image": "asset/mm-vet/images/v2_504_0.jpg"
+  },
+  "321": {
+    "question": "Is it rabbit or duck?",
+    "image": "asset/mm-vet/images/v2_513_0.jpg"
+  },
+  "322": {
+    "question": "Can you give a short introduction to this movie?",
+    "image": "asset/mm-vet/images/v2_172_0.jpg"
+  },
+  "323": {
+    "question": "Describe the landmark in the image.",
+    "image": "asset/mm-vet/images/v2_248_0.jpg"
+  },
+  "324": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_90_0.jpg"
+  },
+  "325": {
+    "question": "Generate latex code",
+    "image": "asset/mm-vet/images/v2_345_0.png"
+  },
+  "326": {
+    "question": "In the graph, which year has the highest average gas price for the month of June?",
+    "image": "asset/mm-vet/images/v2_243_0.png"
+  },
+  "327": {
+    "question": "Given Image 1, tell me what is wrong in image 2.\nImage 1<IMG>Image 2",
+    "image": "asset/mm-vet/merge/v2_416.png"
+  },
+  "328": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_325_0.jpg"
+  },
+  "329": {
+    "question": "Describe the landmark in the image.",
+    "image": "asset/mm-vet/images/v2_247_0.jpg"
+  },
+  "330": {
+    "question": "A tangram is a geometric puzzle that consists of seven flat pieces to form shapes. Here are ten abstract tangram. Which one best illustrates a flying goose? What do other figures look like?\n1.<IMG>2.<IMG>3.<IMG>4.<IMG>5.<IMG>6.<IMG>7.<IMG>8.<IMG>9.<IMG>10.",
+    "image": "asset/mm-vet/merge/v2_379.png"
+  },
+  "331": {
+    "question": "What type of currency does this banknote represent?",
+    "image": "asset/mm-vet/images/v2_81_0.jpg"
+  },
+  "332": {
+    "question": "Can you give a short introduction to this person?",
+    "image": "asset/mm-vet/images/v2_199_0.jpg"
+  },
+  "333": {
+    "question": "What is in the right most bottle?",
+    "image": "asset/mm-vet/images/v2_18_0.jpg"
+  },
+  "334": {
+    "question": "How many people are sitting down?",
+    "image": "asset/mm-vet/images/v2_108_0.jpg"
+  },
+  "335": {
+    "question": "Write python codes to generate similar figures.",
+    "image": "asset/mm-vet/images/v2_349_0.png"
+  },
+  "336": {
+    "question": "Analyze the images and decide the correct order in which they should be displayed.\na<IMG>b<IMG>c<IMG>d<IMG>e",
+    "image": "asset/mm-vet/merge/v2_371.png"
+  },
+  "337": {
+    "question": "What is happening in the image? From scale 1 to 10, decide how similar the image is to the text prompt “a cake on the table with word “Azure Research” written on it\"?",
+    "image": "asset/mm-vet/images/v2_447_0.png"
+  },
+  "338": {
+    "question": "Describe the pointed region in the image.",
+    "image": "asset/mm-vet/images/v2_351_0.png"
+  },
+  "339": {
+    "question": "Describe the image in both English and the local language corresponding to the geolocation depicted in the image.",
+    "image": "asset/mm-vet/images/v2_338_0.png"
+  },
+  "340": {
+    "question": "What is in the circled glass? Object 1 or object 2?\nDescribe what is Object 1 and object 2. Then check what is in the circled glass.",
+    "image": "asset/mm-vet/images/v2_234_0.png"
+  },
+  "341": {
+    "question": "Where is the bathroom for the second bedroom?",
+    "image": "asset/mm-vet/images/v2_311_0.png"
+  },
+  "342": {
+    "question": "The first image is a chest x-ray scan the patient took last time. The previous diagnoses mention pleural effusion.",
+    "image": "asset/mm-vet/merge/v2_430.png"
+  },
+  "343": {
+    "question": "Describe the image below as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_462_0.png"
+  },
+  "344": {
+    "question": "On the right desk, what is to the left of the laptop?",
+    "image": "asset/mm-vet/images/v2_129_0.jpg"
+  },
+  "345": {
+    "question": "Is there a computer in this photo?",
+    "image": "asset/mm-vet/images/v2_123_0.jpg"
+  },
+  "346": {
+    "question": "What is the second step suggested?",
+    "image": "asset/mm-vet/images/v2_40_0.png"
+  },
+  "347": {
+    "question": "Aesthetics reflects the perceived beauty or visual appeal of an object, design, or piece of art by human.\nAmong the images provided below, based on societal standards and norms, which one more people will consider having a higher aesthetics?",
+    "image": "asset/mm-vet/merge/v2_397.png"
+  },
+  "348": {
+    "question": "Imagine that you are an expert in evaluating the car damage from car accident for auto insurance reporting. Please evaluate the damage seen in the image below.",
+    "image": "asset/mm-vet/images/v2_431_0.png"
+  },
+  "349": {
+    "question": "Summarize the info in 20 languages.",
+    "image": "asset/mm-vet/images/v2_337_0.png"
+  },
+  "350": {
+    "question": "Find the pattern of how the \"X\" operator is redefined, and answer the given equation in the image.",
+    "image": "asset/mm-vet/images/v2_7_0.png"
+  },
+  "351": {
+    "question": "Write python code to generate similar figure.",
+    "image": "asset/mm-vet/images/v2_490_0.png"
+  },
+  "352": {
+    "question": "how many ducks are there in the image?",
+    "image": "asset/mm-vet/images/v2_501_0.jpg"
+  },
+  "353": {
+    "question": "Describe the pointed region in the image.",
+    "image": "asset/mm-vet/images/v2_232_0.png"
+  },
+  "354": {
+    "question": "Can you give a short introduction to this painting?",
+    "image": "asset/mm-vet/images/v2_182_0.jpg"
+  },
+  "355": {
+    "question": "Write a radiology report for this image as an expert radiologist.",
+    "image": "asset/mm-vet/images/v2_423_0.png"
+  },
+  "356": {
+    "question": "If the image is presented in a language other than English, translate the content to English.",
+    "image": "asset/mm-vet/images/v2_332_0.png"
+  },
+  "357": {
+    "question": "What is the answer to the bottom left equation?",
+    "image": "asset/mm-vet/images/v2_3_0.png"
+  },
+  "358": {
+    "question": "How to cook this dish?",
+    "image": "asset/mm-vet/images/v2_162_0.jpg"
+  },
+  "359": {
+    "question": "Find out the pattern in the first column, and use it to infer the missing figure in the second column. <IMG>For example,<IMG>Therefore, adds a line to image 2<IMG>will be a diamond with a line through it. 1.<IMG>2.<IMG>3.<IMG>4. Here are three sub images arranged in a 2-by-2 matrix. What is the pattern between image 3 and image 1? What would be the next image to complete the matrix? a.<IMG>b.<IMG>c.<IMG>d.<IMG>e.<IMG>f.",
+    "image": "asset/mm-vet/merge/v2_237.png"
+  },
+  "360": {
+    "question": "Describe both the image and logo in details",
+    "image": "asset/mm-vet/images/v2_271_0.jpg"
+  },
+  "361": {
+    "question": "Can you give a short introduction to this painting?",
+    "image": "asset/mm-vet/images/v2_179_0.jpg"
+  },
+  "362": {
+    "question": "Can you give a short introduction to this person?",
+    "image": "asset/mm-vet/images/v2_204_0.jpg"
+  },
+  "363": {
+    "question": "What is wrong with the object in the image?",
+    "image": "asset/mm-vet/images/v2_414_0.png"
+  },
+  "364": {
+    "question": "In which month is the highest income generated?",
+    "image": "asset/mm-vet/images/v2_62_0.png"
+  },
+  "365": {
+    "question": "Imagine that you are an expert in evaluating the car damage from car accident for auto insurance reporting. Please evaluate the damage seen in the image below.",
+    "image": "asset/mm-vet/images/v2_433_0.png"
+  },
+  "366": {
+    "question": "Which chest xray disease can be found? (Options include: Atelectasis; Cardiomegaly; Effusion; Infiltration; Mass; Nodule; Pneumonia; Pneumothorax; Consolidation; Edema; Emphysema; Fibrosis; Pleural Thickening; Hernia.)",
+    "image": "asset/mm-vet/images/v2_82_0.png"
+  },
+  "367": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_304_0.png"
+  },
+  "368": {
+    "question": "Please read the table in this image and return a latex-style reconstructed table in text.",
+    "image": "asset/mm-vet/images/v2_346_0.png"
+  },
+  "369": {
+    "question": "What is the make of the car on the left?",
+    "image": "asset/mm-vet/images/v2_73_0.jpg"
+  },
+  "370": {
+    "question": "Can you explain this meme?",
+    "image": "asset/mm-vet/images/v2_149_0.jpg"
+  },
+  "371": {
+    "question": "The diagram below shows how the Australian Bureau of Meteorology collects up-to-the-minute information on the weather in order to produce reliable forecasts.\n\nWrite a report for a university lecturer describing the information shown below. \n\nYou should write at least 150 words.",
+    "image": "asset/mm-vet/images/v2_217_0.png"
+  },
+  "372": {
+    "question": "How to cook this dish?",
+    "image": "asset/mm-vet/images/v2_166_0.jpg"
+  },
+  "373": {
+    "question": "What is the estimated average standing charge for the year 2023?",
+    "image": "asset/mm-vet/images/v2_46_0.png"
+  },
+  "374": {
+    "question": "Can you give a short introduction to this person?",
+    "image": "asset/mm-vet/images/v2_202_0.jpg"
+  },
+  "375": {
+    "question": "How to cook this dish?",
+    "image": "asset/mm-vet/images/v2_165_0.jpg"
+  },
+  "376": {
+    "question": "Please read the table in this image and return a markdown-style reconstructed table in text.",
+    "image": "asset/mm-vet/images/v2_346_0.png"
+  },
+  "377": {
+    "question": "What is wrong with the object in the image?",
+    "image": "asset/mm-vet/images/v2_411_0.png"
+  },
+  "378": {
+    "question": "Do all these people have the same gender?",
+    "image": "asset/mm-vet/images/v2_136_0.jpg"
+  },
+  "379": {
+    "question": "Describe the image in a humorous way.",
+    "image": "asset/mm-vet/images/v2_399_0.jpg"
+  },
+  "380": {
+    "question": "What is this disease (give short introduction) and how to treat it?",
+    "image": "asset/mm-vet/images/v2_195_0.jpg"
+  },
+  "381": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_323_0.jpg"
+  },
+  "382": {
+    "question": "Can you explain this meme?",
+    "image": "asset/mm-vet/images/v2_151_0.jpg"
+  },
+  "383": {
+    "question": "Tell me about the video content, given the frames below. Please include as many details as possible.",
+    "image": "asset/mm-vet/merge/v2_486.png"
+  },
+  "384": {
+    "question": "Describe the objects below with as many details as possible, Reference to the content shown in the context image but focus on describing each object below.\nObject 1<IMG>Object 2<IMG>Object 3<IMG>Object 4<IMG>Context image",
+    "image": "asset/mm-vet/merge/v2_439.png"
+  },
+  "385": {
+    "question": "First, read the operating menu below for coffee machine buttons.\nMenu:<IMG>Now, let's look at the operating panel of the coffee machine in the image below, which button should I use for a 8 OZ coffee: left, right, top or bottom button?",
+    "image": "asset/mm-vet/merge/v2_451.png"
+  },
+  "386": {
+    "question": "In which frame does the player kick the ball? Did the goalkeeper block the ball?\na<IMG>b<IMG>c<IMG>d<IMG>e<IMG>f",
+    "image": "asset/mm-vet/merge/v2_376.png"
+  },
+  "387": {
+    "question": "What is the gasoline price?",
+    "image": "asset/mm-vet/images/v2_16_0.jpg"
+  },
+  "388": {
+    "question": "Compare Image 1 and image 2, tell me about the 3 differences between image 1 and image 2.\nImage 1<IMG>Image 2",
+    "image": "asset/mm-vet/merge/v2_405.png"
+  },
+  "389": {
+    "question": "What is happening in the image? From scale 1 to 10, decide how similar the image is to the text prompt “a cake on the table with word “Azure Research” written on it\"?",
+    "image": "asset/mm-vet/images/v2_448_0.png"
+  },
+  "390": {
+    "question": "Why is the woman wearing a robe? Answer it and give the rationale.",
+    "image": "asset/mm-vet/images/v2_140_0.jpg"
+  },
+  "391": {
+    "question": "Why are the man and woman in white so close to each other? Answer it and give the rationale.",
+    "image": "asset/mm-vet/images/v2_147_0.jpg"
+  },
+  "392": {
+    "question": "In which direction does the living room window face?",
+    "image": "asset/mm-vet/images/v2_48_0.jpg"
+  },
+  "393": {
+    "question": "Count the number of boats in the image.",
+    "image": "asset/mm-vet/images/v2_491_0.png"
+  },
+  "394": {
+    "question": "Is the man going to fall down?",
+    "image": "asset/mm-vet/images/v2_115_0.jpg"
+  },
+  "395": {
+    "question": "Here is an abstract figure. Can you identify how many characters are there, and the cartoon from which they originate?",
+    "image": "asset/mm-vet/images/v2_380_0.png"
+  },
+  "396": {
+    "question": "A tangram is a geometric puzzle that consists of seven flat pieces to form shapes. Locate the referred object and represent the location of the region. Regions are represented by (x1,y1,x2,y2) coordinates. x1 x2 are the left and right most positions, normalized into 0 to 1, where 0 is the left and 1 is the right. y1 y2 are the top and bottom most positions, normalized into 0 to 1, where 0 is the top and 1 is the bottom. For example, the (x1,y1,x2,y2) coordinates for that region with the beer bottle is (0.47, 0.48, 0.55, 0.87).<IMG>The image below that shows a flying goose. Which part represents the head of the bird? What is the (x1,y1,x2,y2) coordinates for the region with the head of the bird?",
+    "image": "asset/mm-vet/merge/v2_381.png"
+  },
+  "397": {
+    "question": "Identify and read emotions of people from their faces as shown in the image below.",
+    "image": "asset/mm-vet/images/v2_390_0.png"
+  },
+  "398": {
+    "question": "Imagine that you are a robot operating a phone. Like how humans operate the phone, you can move your finger to an icon, click an icon with your finger, scroll down a screen, or type some texts with the keyboard. \nYou are asked to shop for an ergonomic keyboard, your budget is between $50 and $100.\nPrevious action: \" My next move would be to scroll down the screen to view the different options for ergonomic keyboards within my budget range. I would then move my finger to the \"Kensington Pro Fit Ergonomic Wireless Keyboard - Black\" option, which is located below the \"Explore Related Brands\" section and above the \"VIVO\" option. I would then click on the \"Kensington Pro Fit Ergonomic Wireless Keyboard - Black\" option to view more details about the product and potentially make a purchase. \"\nYou have now completed the previous action as described above. Below is what you see on the phone screen. What will you do next? If the action involves moving your finger to an icon, describe the location of that icon as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_476_0.png"
+  },
+  "399": {
+    "question": "Compare the average kinetic energies of the particles in each sample. The diagrams below show two pure samples of gas in identical closed, rigid containers. Each colored ball represents one gas particle. Both samples have the same number of particles. Which sample has the higher temperature? Sample A or sample B?",
+    "image": "asset/mm-vet/images/v2_290_0.png"
+  },
+  "400": {
+    "question": "Localize each person in the image using bounding box. The image size is (width, height) = (512,403)",
+    "image": "asset/mm-vet/images/v2_286_0.png"
+  },
+  "401": {
+    "question": "What is the answer to the second equation on the right?",
+    "image": "asset/mm-vet/images/v2_3_0.png"
+  },
+  "402": {
+    "question": "Neglecting air buoyancy (vacuum), which side will go down, iron or cotton?",
+    "image": "asset/mm-vet/images/v2_512_0.jpg"
+  },
+  "403": {
+    "question": "Which ball is bigger, A or B?",
+    "image": "asset/mm-vet/images/v2_499_0.jpg"
+  },
+  "404": {
+    "question": "What is Japan's gdp in 2012?",
+    "image": "asset/mm-vet/images/v2_56_0.png"
+  },
+  "405": {
+    "question": "Describe both the image and logo in details",
+    "image": "asset/mm-vet/images/v2_267_0.jpg"
+  },
+  "406": {
+    "question": "Imagine that you are a robot operating a phone. Like how humans operate the phone, you can move your finger to an icon, click an icon with your finger, scroll down a screen, or type some texts with the keyboard. \nYou are asked to shop for an ergonomic keyboard, your budget is between $50 and $100.\nPrevious action: \" My next move would be to move my finger to the \"Show 1,987 results\" button, which is located at the bottom of the screen, below the \"Clear Filters\" button and above the navigation bar. I would then click on the \"Show 1,987 results\" button to view the search results for ergonomic keyboards within my budget range. \"\nYou have now completed the previous action as described above. Below is what you see on the phone screen. What will you do next? If the action involves moving your finger to an icon, describe the location of that icon as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_475_0.png"
+  },
+  "407": {
+    "question": "What is this disease (give short introduction) and how to treat it?",
+    "image": "asset/mm-vet/images/v2_196_0.jpg"
+  },
+  "408": {
+    "question": "Which of these highlighted cities is the farthest north?",
+    "image": "asset/mm-vet/images/v2_101_0.png"
+  },
+  "409": {
+    "question": "Describe the pointed region in the image.",
+    "image": "asset/mm-vet/images/v2_352_0.png"
+  },
+  "410": {
+    "question": "Describe the image to make people feel relax and comforting.",
+    "image": "asset/mm-vet/images/v2_400_0.jpg"
+  },
+  "411": {
+    "question": "The chart below shows the amount spent on six consumer goods in four European countries.\n\nWrite a report for a university lecturer describing the information shown below.\n\nYou should write at least 150 words.",
+    "image": "asset/mm-vet/images/v2_211_0.png"
+  },
+  "412": {
+    "question": "The map below is of the town of Garlsdon. A new supermarket (S) is planned for the town. The map shows two possible sites for the supermarket.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant. \n\nYou should write at least 150 words.",
+    "image": "asset/mm-vet/images/v2_216_0.png"
+  },
+  "413": {
+    "question": "Describir la imagen en 20 idiomas diferentes",
+    "image": "asset/mm-vet/images/v2_322_0.jpg"
+  },
+  "414": {
+    "question": "After seeing the below image, how people might emotionally feel and react?",
+    "image": "asset/mm-vet/images/v2_395_0.jpg"
+  },
+  "415": {
+    "question": "Can you see the bright blue feathers on the bird's wing?",
+    "image": "asset/mm-vet/images/v2_275_0.png"
+  },
+  "416": {
+    "question": "What is happening in the image? From scale 1 to 10, decide how similar the image is to the text prompt \"a parrot driving a car\"?",
+    "image": "asset/mm-vet/images/v2_440_0.png"
+  },
+  "417": {
+    "question": "Is that wine in the background?",
+    "image": "asset/mm-vet/images/v2_114_0.jpg"
+  },
+  "418": {
+    "question": "1.<IMG>2.<IMG>3.<IMG>4.Here are three sub images arranged in a 2-by-2 matrix. Figure out which figure of a to f that should logically replace the missing figure. What would be the next image to complete the matrix?\na.<IMG>b.<IMG>c.<IMG>d.<IMG>e.<IMG>f.<IMG>The first image in the first column, image 1, is a triangle. The first image in the second column, image 3, is a triangle with a line through it. The second image in the first column, image 2, is a diamond. Therefore, the second image in the second column, image 4 should continue this pattern and be a diamond with a line through it. Option b is the only image that fits this pattern, as it is a diamond with a line through it. Therefore, the correct answer is b.\n1.<IMG>2.<IMG>3.<IMG>4. Here are three sub images arranged in a 2-by-2 matrix. Figure out which figure of a to f that should logically replace the missing figure. What would be the next image to complete the matrix?a.<IMG>b.<IMG>c.<IMG>d.<IMG>e.<IMG>f.",
+    "image": "asset/mm-vet/merge/v2_388.png"
+  },
+  "419": {
+    "question": "What is wrong with the object in the image?",
+    "image": "asset/mm-vet/images/v2_409_0.png"
+  },
+  "420": {
+    "question": "Find out the pattern in the first column, and use it to infer the missing figure in the second column.<IMG>For example, the circled region in the first left column shows the pattern of adding a line through it. Therefore, the answer is a figure of a diamond<IMG>with a line through it, looking like<IMG>. Answer the question in the following figure.",
+    "image": "asset/mm-vet/merge/v2_236.png"
+  },
+  "421": {
+    "question": "Who is the person in the image?",
+    "image": "asset/mm-vet/images/v2_65_0.png"
+  },
+  "422": {
+    "question": "Which category did the worst job in plastic recycling, considering the amount of plastic made and thrown out?",
+    "image": "asset/mm-vet/images/v2_44_0.png"
+  },
+  "423": {
+    "question": "Which circled line shows a different comparison trend? Provide intermediate steps.",
+    "image": "asset/mm-vet/images/v2_362_0.png"
+  },
+  "424": {
+    "question": "Compare Image 1 and image 2, tell me about 3 differences between image 1 and image 2.\nImage 1<IMG>Image 2",
+    "image": "asset/mm-vet/merge/v2_404.png"
+  },
+  "425": {
+    "question": "Can we make sure the cat is alive before we open the box?",
+    "image": "asset/mm-vet/images/v2_506_0.jpg"
+  },
+  "426": {
+    "question": "Which wisdom tooth is hardest to remove?",
+    "image": "asset/mm-vet/images/v2_259_0.png"
+  },
+  "427": {
+    "question": "Imagine that you are a home robot, and is asked to go to the kitchen to fetch something from the fridge.\nAt the previous turn, you were at the position shown in the below image:<IMG>The action taken in previous turn is: move forward and turn slightly to the right to approach the fridge.\nNow this is what you can see from there. What is your next action?",
+    "image": "asset/mm-vet/merge/v2_456.png"
+  },
+  "428": {
+    "question": "Are there both plates and forks in this picture?",
+    "image": "asset/mm-vet/images/v2_126_0.jpg"
+  },
+  "429": {
+    "question": "After seeing the below image, how people might emotionally feel and react?",
+    "image": "asset/mm-vet/images/v2_396_0.jpg"
+  },
+  "430": {
+    "question": "What is the average total fueling cost excluding the Ford F150?",
+    "image": "asset/mm-vet/images/v2_42_0.png"
+  },
+  "431": {
+    "question": "What should I do after kneading the dough, before dividing it into pieces?",
+    "image": "asset/mm-vet/images/v2_32_0.png"
+  },
+  "432": {
+    "question": "What is located to the right of the shampoo?",
+    "image": "asset/mm-vet/images/v2_18_0.jpg"
+  },
+  "433": {
+    "question": "What does the pointed news talk about?",
+    "image": "asset/mm-vet/images/v2_365_0.png"
+  },
+  "434": {
+    "question": "If the image is presented in a language other than English, translate the content to English.",
+    "image": "asset/mm-vet/images/v2_331_0.png"
+  },
+  "435": {
+    "question": "Can you give a short introduction to this painting?",
+    "image": "asset/mm-vet/images/v2_178_0.jpg"
+  },
+  "436": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_302_0.png"
+  },
+  "437": {
+    "question": "The graph and table below give information about water use worldwide and water consumption in two different countries.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nYou should write at least 150 words.",
+    "image": "asset/mm-vet/images/v2_209_0.png"
+  },
+  "438": {
+    "question": "For closing a door, decide the correct order in which they should be displayed.\na<IMG>b<IMG>c",
+    "image": "asset/mm-vet/merge/v2_373.png"
+  },
+  "439": {
+    "question": "Transcribe the video content, given the frames below.",
+    "image": "asset/mm-vet/merge/v2_484.png"
+  },
+  "440": {
+    "question": "Is this airplane taking off or landing?",
+    "image": "asset/mm-vet/images/v2_107_0.jpg"
+  },
+  "441": {
+    "question": "Describe the image to make people feel uneasy and anxious.",
+    "image": "asset/mm-vet/images/v2_400_0.jpg"
+  },
+  "442": {
+    "question": "What is the license plate number?",
+    "image": "asset/mm-vet/images/v2_95_0.jpg"
+  },
+  "443": {
+    "question": "Imagine that you are a robot operating a computer. Like how humans operate the computer, you can move the mouse, click an icon with the mouse, or type some texts with the keyboard. \nYou are asked to find what’s in the news today.\nPrevious action: \"My immediate next step would be to move the mouse to the top right corner of the screen, where I can see the \"X\" icon to close the current tab. I would then click on the \"X\" icon to close the tab and return to the previous page to continue browsing for more news articles. \"\nYou have now returned to the previous page after reading the first article “State Department doubles down on Zelensky slams”. Below is what you see on the computer screen. Based on the image below, what is your immediate next step? If the action involves moving the mouse, describe the location as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_465_0.png"
+  },
+  "444": {
+    "question": "What is the spatial relation between the frisbee and the man?",
+    "image": "asset/mm-vet/images/v2_20_0.jpg"
+  },
+  "445": {
+    "question": "Can you find the blue lighting fixture mounted to the ceiling?",
+    "image": "asset/mm-vet/images/v2_279_0.png"
+  },
+  "446": {
+    "question": "The charts below give information about USA marriage and divorce rates between 1970 and 2000, and the marital status of adult Americans in two of the years.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nYou should write at least 150 words.",
+    "image": "asset/mm-vet/images/v2_210_0.png"
+  },
+  "447": {
+    "question": "Write a radiology report as an expert radiologist for the following case:\nCase:\nA 32-year-old woman presented with a complaint of pain in her right wrist. The patient reported that she fell on her outstretched hand while playing basketball. An X-ray of the right wrist was performed.",
+    "image": "asset/mm-vet/images/v2_425_0.png"
+  },
+  "448": {
+    "question": "After seeing the below image, how people might emotionally feel and react?",
+    "image": "asset/mm-vet/images/v2_393_0.jpg"
+  },
+  "449": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_92_0.jpg"
+  },
+  "450": {
+    "question": "Here is a list of reference images:\nShrimp<IMG>Crab dip<IMG>Smoked Ham<IMG>Banana<IMG>Apple<IMG>Bread<IMG>Cheese<IMG>Strawberries<IMG>Pink Tulips<IMG>For below image, find what products are presented in the basket according to reference image above. Only tell me products that are exactly same type of reference images.",
+    "image": "asset/mm-vet/merge/v2_422.png"
+  },
+  "451": {
+    "question": "Describe the image",
+    "image": "asset/mm-vet/images/v2_272_0.png"
+  },
+  "452": {
+    "question": "In which country was this photo taken?",
+    "image": "asset/mm-vet/images/v2_105_0.png"
+  },
+  "453": {
+    "question": "Identify and read emotions of people from their faces as shown in the image below.",
+    "image": "asset/mm-vet/images/v2_392_0.png"
+  },
+  "454": {
+    "question": "What is wrong with the object in the image?",
+    "image": "asset/mm-vet/images/v2_413_0.png"
+  },
+  "455": {
+    "question": "Which country has the highest profit margin?",
+    "image": "asset/mm-vet/images/v2_60_0.png"
+  },
+  "456": {
+    "question": "Imagine that you are a robot operating a computer. Like how humans operate the computer, you can move the mouse, click an icon with the mouse, or type some texts with the keyboard. \nYou are asked to find what’s in the news today.\nPrevious action: \"My immediate next step would be to move the mouse to the first search result, which is \"State Department doubles down on Zelensky slams\" located approximately 1/4 of the way down from the top of the screen and 1/8 of the way from the left side of the screen. I would then click on the link to open the news article and read about what's in the news today.\"\nYou have now completed reading “State Department doubles down on Zelensky slams”. What is your immediate next step? If the action involves moving the mouse, describe the location as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_467_0.png"
+  },
+  "457": {
+    "question": "What should be drawn in the fourth step?",
+    "image": "asset/mm-vet/images/v2_38_0.jpg"
+  },
+  "458": {
+    "question": "How many dwarfs are there near Snow White in the image?",
+    "image": "asset/mm-vet/images/v2_514_0.jpg"
+  },
+  "459": {
+    "question": "Can you find the baseball player wearing a blue shirt?",
+    "image": "asset/mm-vet/images/v2_277_0.png"
+  },
+  "460": {
+    "question": "Can you give a short introduction to this painting?",
+    "image": "asset/mm-vet/images/v2_184_0.jpg"
+  },
+  "461": {
+    "question": "Imagine that you are a robot operating a computer. Like how humans operate the computer, you can move the mouse, click an icon with the mouse, or type some texts with the keyboard. \nYou are asked to find a detailed recipe of Mapo Tofu.\nPrevious action: \"I would move the mouse to the Google Chrome icon located on the left side of the screen, approximately 1/3 of the way down from the top. I would then click on the icon to open the web browser. \"\nYou have now opened the web browser. Below is what you see on the computer screen. What will you do next? If the action involves moving the mouse, describe the location as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_458_0.png"
+  },
+  "462": {
+    "question": "What earth's interior structure does number 2 indicate?",
+    "image": "asset/mm-vet/images/v2_27_0.png"
+  },
+  "463": {
+    "question": "What is the lamp on, a side table or a nightstand?",
+    "image": "asset/mm-vet/images/v2_132_0.jpg"
+  },
+  "464": {
+    "question": "Who is the person on the left?",
+    "image": "asset/mm-vet/images/v2_64_0.png"
+  },
+  "465": {
+    "question": "Describe both the image and logo in details",
+    "image": "asset/mm-vet/images/v2_269_0.jpg"
+  },
+  "466": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_328_0.png"
+  },
+  "467": {
+    "question": "Can you give a short introduction to this person?",
+    "image": "asset/mm-vet/images/v2_206_0.jpg"
+  },
+  "468": {
+    "question": "Describe the image",
+    "image": "asset/mm-vet/images/v2_264_0.png"
+  },
+  "469": {
+    "question": "What is funny about this image?",
+    "image": "asset/mm-vet/images/v2_153_0.jpg"
+  },
+  "470": {
+    "question": "Which chest xray disease can be found? (Options include: Atelectasis; Cardiomegaly; Effusion; Infiltration; Mass; Nodule; Pneumonia; Pneumothorax; Consolidation; Edema; Emphysema; Fibrosis; Pleural Thickening; Hernia.)",
+    "image": "asset/mm-vet/images/v2_83_0.png"
+  },
+  "471": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_299_0.png"
+  },
+  "472": {
+    "question": "Is it outdoors?",
+    "image": "asset/mm-vet/images/v2_117_0.jpg"
+  },
+  "473": {
+    "question": "What is the brand of this device?",
+    "image": "asset/mm-vet/images/v2_94_0.jpg"
+  },
+  "474": {
+    "question": "Describe the landmark in the image.",
+    "image": "asset/mm-vet/images/v2_250_0.jpg"
+  },
+  "475": {
+    "question": "Imagine that you are a robot operating a phone. Like how humans operate the phone, you can move your finger to an icon, click an icon with your finger, scroll down a screen, or type some texts with the keyboard.\nYou are asked to shop for an ergonomic keyboard, your budget is between $50 and $100.\nBelow is what you see on the phone  screen, predict your next move. If the action involves moving your finger to an icon, describe the location of that icon as detailed as possible.",
+    "image": "asset/mm-vet/images/v2_470_0.png"
+  },
+  "476": {
+    "question": "Describe the image in both English and the local language corresponding to the geolocation depicted in the image.",
+    "image": "asset/mm-vet/images/v2_340_0.png"
+  },
+  "477": {
+    "question": "What is the color of the hat worn by the person in the front left?",
+    "image": "asset/mm-vet/images/v2_17_0.jpg"
+  },
+  "478": {
+    "question": "What is the value of x in the image?",
+    "image": "asset/mm-vet/images/v2_306_0.png"
+  },
+  "479": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_329_0.jpg"
+  },
+  "480": {
+    "question": "From location A to location B, is it faster to go east or west?",
+    "image": "asset/mm-vet/images/v2_508_0.jpg"
+  },
+  "481": {
+    "question": "Describe the image with a sentence consisting of three words.",
+    "image": "asset/mm-vet/images/v2_219_0.png"
+  },
+  "482": {
+    "question": "What is wrong with the object in the image?",
+    "image": "asset/mm-vet/images/v2_407_0.png"
+  },
+  "483": {
+    "question": "Can you give a short introduction to this movie?",
+    "image": "asset/mm-vet/images/v2_170_0.jpg"
+  },
+  "484": {
+    "question": "Explain the story shown in the images below.",
+    "image": "asset/mm-vet/merge/v2_482.png"
+  },
+  "485": {
+    "question": "How to cook this dish?",
+    "image": "asset/mm-vet/images/v2_163_0.jpg"
+  },
+  "486": {
+    "question": "Who is the person in the bottom right?",
+    "image": "asset/mm-vet/images/v2_66_0.jpg"
+  },
+  "487": {
+    "question": "Read the article shown in the images below and summarize it.",
+    "image": "asset/mm-vet/merge/v2_466.png"
+  },
+  "488": {
+    "question": "How many feet do these animals have in total?",
+    "image": "asset/mm-vet/images/v2_500_0.jpg"
+  },
+  "489": {
+    "question": "Which of these states is farthest north?",
+    "image": "asset/mm-vet/images/v2_291_0.png"
+  },
+  "490": {
+    "question": "How many feet does this elephant have in the image, 4 or 5?",
+    "image": "asset/mm-vet/images/v2_516_0.jpg"
+  },
+  "491": {
+    "question": "Count the number of apples in the image.",
+    "image": "asset/mm-vet/images/v2_231_0.png"
+  },
+  "492": {
+    "question": "What is the price difference between diesel and regular gasoline?",
+    "image": "asset/mm-vet/images/v2_9_0.png"
+  },
+  "493": {
+    "question": "Are the trees taller than the giraffes?",
+    "image": "asset/mm-vet/images/v2_106_0.jpg"
+  },
+  "494": {
+    "question": "Generate latex code",
+    "image": "asset/mm-vet/images/v2_343_0.jpg"
+  },
+  "495": {
+    "question": "Generate latex code",
+    "image": "asset/mm-vet/images/v2_342_0.jpg"
+  },
+  "496": {
+    "question": "Is the man happy?",
+    "image": "asset/mm-vet/images/v2_112_0.jpg"
+  },
+  "497": {
+    "question": "Does the person to the left of the man appear to be sitting?",
+    "image": "asset/mm-vet/images/v2_120_0.jpg"
+  },
+  "498": {
+    "question": "Describe the name of the dish.",
+    "image": "asset/mm-vet/images/v2_257_0.jpg"
+  },
+  "499": {
+    "question": "What are all the scene text in the image?",
+    "image": "asset/mm-vet/images/v2_330_0.jpg"
+  },
+  "500": {
+    "question": "What is the estimated total cost for the year 2023?",
+    "image": "asset/mm-vet/images/v2_46_0.png"
+  },
+  "501": {
+    "question": "Is this apple organic?",
+    "image": "asset/mm-vet/images/v2_68_0.png"
+  },
+  "502": {
+    "question": "What occasions would someone use this meme?",
+    "image": "asset/mm-vet/images/v2_155_0.png"
+  },
+  "503": {
+    "question": "How many gallons of supreme gasoline can I get with $50?",
+    "image": "asset/mm-vet/images/v2_9_0.png"
+  },
+  "504": {
+    "question": "Imagine that you are an expert in evaluating the car damage from car accident for auto insurance reporting. Please fill the incident report for the accident shown in image below, with the following format in JSON (note xxx is placeholder, if you cannot determine that based on the image, put \"N/A\" instead).\n{\"make\": xxx, \"model\": xxx, \"license plate\": xxx, \"damage description\": xxx, \"estimated cost of repair\": xxx}",
+    "image": "asset/mm-vet/images/v2_435_0.png"
+  },
+  "505": {
+    "question": "Does the shirt have a different color than the kite?",
+    "image": "asset/mm-vet/images/v2_135_0.jpg"
+  },
+  "506": {
+    "question": "Aesthetics reflects the perceived beauty or visual appeal of an object, design, or piece of art by human.\nAmong the images provided below, based on societal standards and norms, which one more people will consider having a higher aesthetics?",
+    "image": "asset/mm-vet/merge/v2_398.png"
+  },
+  "507": {
+    "question": "Which room is bigger, the double garage or the living room?",
+    "image": "asset/mm-vet/images/v2_50_0.jpg"
+  },
+  "508": {
+    "question": "What is wrong with the object in the image?",
+    "image": "asset/mm-vet/images/v2_412_0.png"
+  },
+  "509": {
+    "question": "Explain the images and the action the person is taking.",
+    "image": "asset/mm-vet/merge/v2_370.png"
+  },
+  "510": {
+    "question": "Describe and summarize what the circled person doing?",
+    "image": "asset/mm-vet/merge/v2_377.png"
+  },
+  "511": {
+    "question": "What is in the circled glass? Object 1 or 2?\nDescribe what is Object 1 and object 2. Then check what is in the circled glass.",
+    "image": "asset/mm-vet/images/v2_234_0.png"
+  },
+  "512": {
+    "question": "What is x in the equation?",
+    "image": "asset/mm-vet/images/v2_1_0.png"
+  },
+  "513": {
+    "question": "Describe the image in both English and the local language corresponding to the geolocation depicted in the image.",
+    "image": "asset/mm-vet/images/v2_341_0.png"
+  },
+  "514": {
+    "question": "Write a sentence for the image consisting only of words starting with the letter 'T'.",
+    "image": "asset/mm-vet/images/v2_219_0.png"
+  },
+  "515": {
+    "question": "The pie charts below show units of electricity production by fuel source in Australia and France in 1980 and 2000.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nYou should write at least 150 words.",
+    "image": "asset/mm-vet/images/v2_214_0.png"
+  },
+  "516": {
+    "question": "Can you give a short introduction to this movie?",
+    "image": "asset/mm-vet/images/v2_168_0.jpg"
+  }
+}

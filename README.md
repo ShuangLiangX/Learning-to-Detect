@@ -134,6 +134,6 @@ The included HarmBench DirectRequest subset contains **320** image–request pai
 
 ### Evaluation benchmarks
 
-The attack images and benchmark metadata are available on [ModelScope: detecpolo/Learning-to-Detect](https://modelscope.cn/datasets/detecpolo/Learning-to-Detect). Copy the downloaded `asset/` and `Benchmarks/` directories into the repository root.
+Download the evaluation images from [ModelScope: detecpolo/Learning-to-Detect](https://modelscope.cn/datasets/detecpolo/Learning-to-Detect) and copy the downloaded `asset/` directory into the repository root. The matching benchmark JSON files are provided in this repository under `Benchmarks/`.
 
 Please refer to Section 4.1 and the appendices of our paper for dataset sources, attack construction, and experimental settings.
